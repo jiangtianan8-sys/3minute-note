@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bcbebe8d9ff0283a",
+        "id": "d5986412486679f8",
         "type": "tabs",
         "children": [
           {
-            "id": "5d9c38a735d6aea7",
+            "id": "62b2fc3d1e7891ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/在macOS上安装&配置PostgreSQL.md",
+                "file": "数据库/PostgreSQL/00.入门教程/PostgreSQL - pgAdmin4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "在macOS上安装&配置PostgreSQL"
+              "title": "PostgreSQL - pgAdmin4"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/在macOS上安装&配置PostgreSQL.md",
+                "file": "数据库/PostgreSQL/00.入门教程/PostgreSQL - pgAdmin4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "在macOS上安装&配置PostgreSQL 的反向链接列表"
+              "title": "PostgreSQL - pgAdmin4 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/在macOS上安装&配置PostgreSQL.md",
+                "file": "数据库/PostgreSQL/00.入门教程/PostgreSQL - pgAdmin4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "在macOS上安装&配置PostgreSQL 的出链列表"
+              "title": "PostgreSQL - pgAdmin4 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/在macOS上安装&配置PostgreSQL.md",
+                "file": "数据库/PostgreSQL/00.入门教程/PostgreSQL - pgAdmin4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "在macOS上安装&配置PostgreSQL 的大纲"
+              "title": "PostgreSQL - pgAdmin4 的大纲"
             }
           },
           {
@@ -194,17 +194,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d9c38a735d6aea7",
+  "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
+    "数据库/PostgreSQL/00.入门教程/PostgreSQL Get Started.md",
+    "数据库/PostgreSQL/00.入门教程/PostgreSQL - pgAdmin4.md",
+    "().md",
     "数据库/PostgreSQL/00.入门教程/在macOS上安装&配置PostgreSQL.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
     "数据库",
     "assets/test/file-20251116143348760.png",
     "test.md",
-    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(1)：ls命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令-ls命令-美化版.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(2)：cd命令.md",
