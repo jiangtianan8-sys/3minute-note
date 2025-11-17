@@ -1,0 +1,255 @@
+## 一、前言
+
+### 1、本文主要内容
+
+- PostgreSQL 安装([Homebrew](https://brew.sh/)&dmg安装包)
+- PostgreSQL 基础配置与常用命令
+- PostgreSQL 远程访问配置
+- PostgreSQL 基础管理
+
+### 2、本文环境信息
+
+|工具|本文环境|适用环境|
+|---|---|---|
+|macOS|macOS (Ventura) 13.2|macOS 10.14+|
+|PostgreSQL|PostgreSQL 15|PostgreSQL 12+|
+
+### 3、前置依赖
+
+安装[Oh My Zsh](https://ohmyz.sh/)
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+## 二、PostgreSQL安装
+
+### 1、安装方式说明
+
+Homebrew以及dmg安装包安装都可以，不过Homebrew跟dmg包图形化安装还是有些区别，根据自己习惯任选其一即可，不过为了方便理解后续的操作，还是简单介绍下两种安装方式的区别
+
+|PostgreSQL|Homebrew安装|dmg安装包安装|
+|---|---|---|
+|安装目录|/opt/homebrew/Cellar/postgresql[@15](https://github.com/15 "@15")|/Library/PostgreSQL/15|
+|数据目录|默认为：/opt/homebrew/var/postgresql[@15](https://github.com/15 "@15")|默认为：/Library/PostgreSQL/15/data|
+|用户要求|无|需要创建postgres用户|
+|默认用户|与执行安装的用户同名|postgres|
+|psql工具/命令行|需要使用-d参数指定数据库进入|需要使用-U参数指定用户进入，且需要输入密码|
+
+> 不同Homebrew版本产生的安装以及数据目录可能会有差异~
+
+### 2、Homebrew安装
+
+2.1、安装Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2.2、查找PostgreSQL安装包
+
+```bash
+# 查找postgresql可用版本
+brew search postgresql
+
+# 输出示例
+==> Formulae
+postgresql@10             postgresql@12             postgresql@14             postgresql@9.4            qt-postgresql
+postgresql@11             postgresql@13             postgresql@15             postgresql@9.5            postgrest
+```
+
+2.3、安装PostgreSQL
+
+```bash
+# 安装指定版本（推荐）
+brew install postgresql@15
+
+# 安装默认版本
+brew install postgresql
+```
+
+2.4、配置并启动PostgreSQL服务
+
+```bash
+brew services start postgresql@15
+```
+
+2.5、添加环境变量
+
+```bash
+echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### 3、dmg安装包安装
+
+3.1、创建用户  
+使用dmg安装包安装时，如果没有postgres账户，可能会出现安装失败的情况  
+使用dscl命令创建
+
+```bash
+# 创建用户并指定Shell
+sudo dscl . -create /Users/postgres UserShell /bin/bash
+
+# 设置用户ID（需要唯一）、显示名称
+sudo dscl . -create /Users/postgres UniqueID "5001"
+sudo dscl . -create /Users/postgres RealName "postgres"
+
+# 将用户设置为管理员
+sudo dscl . -create /Users/postgres PrimaryGroupID 80
+
+# 修改密码
+sudo dscl . -passwd /Users/postgres 1024
+```
+
+如果你习惯使用图形化界面操作，可以通过菜单：系统设置->用户与群租->添加账户，添加postgres账户  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-adduser-kbrb.png)
+
+3.2、下载PostgreSQL  
+访问 [https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) 下载对应的版本即可  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-download-kbrb.png)  
+3.3、开始安装  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-01-kbrb.png)  
+3.4、选择安装位置及内容  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-02-kbrb.png)  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-03-kbrb.png)  
+如果有通用的数据管理工具，这里pgAdmin根据自己情况选择即可  
+后续根据安装引导，选择数据目录、设置密码、设置端口等等即可  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-04-kbrb.png)  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-05-kbrb.png)  
+![image.png](https://img.ken.io/blog/db/postgresql/install-mac/postgresql-install-06-kbrb.png)  
+3.5、添加环境变量
+
+```bash
+echo 'export PATH="/Library/PostgreSQL/15/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+## 三、PostgreSQL基础使用
+
+PostgreSQL提供了在命令行下运行的数据库连接工具psql，我们可以通过psql命令行执行内部命令管理数据库，也可以执行SQL，做用户管理增删改查等操作
+
+```bash
+# 指定用户连接PostgreSQL
+psql -U postgres
+
+# 指定数据库连接PostgreSQL
+psql -d postgres
+
+# 参数参考
+psql -h 127.0.0.1 -p 5432 -U ken -d postgres
+```
+
+### 1、常用psql命令
+
+```bash
+# 查看所有用户
+\du
+
+# 查看所有数据库
+\l
+
+# 切换当前数据库
+\c {dbname}
+
+# 查看当前库下所有的表
+\dt
+
+# 查看指定表
+\d {tablename}
+
+# 查看数据目录
+SHOW data_directory;
+
+# 退出psql
+\q
+```
+
+### 2、常用SQL命令
+
+```bash
+# 创建数据库
+CREATE DATABASE test;
+
+# 创建表(记得使用\c命令切换数据库)
+CREATE TABLE t1(id int,body varchar(100));
+
+# 创建用户
+CREATE USER test WITH PASSWORD 'Test#1357';
+
+# 修改密码
+ALTER USER test WITH PASSWORD 'Test#2468';
+
+# 指定用户添加指定角色
+ALTER USER test createdb;
+
+# 赋予指定账户指定数据库所有权限
+GRANT ALL PRIVILEGES ON DATABASE test TO test;
+
+# 移除指定账户指定数据库所有权限
+REVOKE ALL PRIVILEGES ON DATABASE test TO test;
+```
+
+## 四、PostgreSQL远程访问
+
+### 1、账户与数据目录
+
+PostgreSQL程序文件以及数据文件默认属于postgres账户/brew安装时的账户，使用其他账户无操作权限，需要切换到对应账户，才能执行修改配置的相关操作
+
+```bash
+# 切换账户（图形化界面安装需要此步骤）
+su postgres
+
+# 进入PostgreSQL数据目录（brew）
+cd /opt/homebrew/var/postgresql@15/
+
+# 进入PostgreSQL数据目录（dmg）
+cd /Library/PostgreSQL/15/data/
+```
+
+### 2、修改监听地址
+
+PostgreSQL默认监听的localhost，可以通过修改postgresql.conf，放开监听限制
+
+```bash
+# 修改postgresql.conf
+vi postgresql.conf 
+
+# 修改监听地址
+listen_addresses= '*'
+
+# 查看配置情况
+cat postgresql.conf | grep "listen_addresses"
+```
+
+### 2、放开客户端限制
+
+修改pg_hba.conf，开放给所有客户端访问
+
+```bash
+# 修改pg_hba.conf  
+vi pg_hba.conf  
+
+# 追加配置（md5指的加密方式，也可以选择scram-sha-256等）
+host  all  all 0.0.0.0/0 md5
+
+# 查看配置情况
+cat  pg_hba.conf | grep "host"
+```
+
+### 3、重启PostgreSQL服务
+
+```bash
+# 重启服务（brew安装）
+brew services restart postgresql@15
+
+# 重启服务（dmg安装，通过-D指定数据目录）
+pg_ctl restart -D /Library/PostgreSQL/15/data
+```
+
+## 五、备注
+
+### 1、相关阅读
+
+[https://wiki.postgresql.org/wiki/Homebrew](https://wiki.postgresql.org/wiki/Homebrew)  
+[https://tomcam.github.io/postgres/](https://tomcam.github.io/postgres/)
