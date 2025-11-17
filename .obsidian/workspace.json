@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
+                "file": "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04.PostgreSQL Create Table"
+              "title": "05.PostgreSQL Insert Data"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
+                "file": "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "04.PostgreSQL Create Table 的反向链接列表"
+              "title": "05.PostgreSQL Insert Data 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
+                "file": "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "04.PostgreSQL Create Table 的出链列表"
+              "title": "05.PostgreSQL Insert Data 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
+                "file": "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "04.PostgreSQL Create Table 的大纲"
+              "title": "05.PostgreSQL Insert Data 的大纲"
             }
           },
           {
@@ -194,12 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
+    "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
+    "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
     "数据库/PostgreSQL/00.入门教程/03.PostgreSQL - pgAdmin4.md",
     "数据库/PostgreSQL/00.入门教程/02.PostgreSQL Get Started.md",
     "数据库/PostgreSQL/00.入门教程/01.在macOS上安装&配置PostgreSQL.md",
-    "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
     "().md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
