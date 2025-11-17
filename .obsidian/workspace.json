@@ -196,8 +196,9 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/11.PostgreSQL DELETE.md",
+    "().md",
     "数据库/PostgreSQL/00.入门教程/12.PostgreSQL DROP TABLE.md",
+    "数据库/PostgreSQL/00.入门教程/11.PostgreSQL DELETE.md",
     "数据库/PostgreSQL/00.入门教程/10.PostgreSQL DROP COLUMN.md",
     "数据库/PostgreSQL/00.入门教程/09.PostgreSQL ALTER COLUMN.md",
     "数据库/PostgreSQL/00.入门教程/08.PostgreSQL UPDATE.md",
@@ -208,7 +209,6 @@
     "数据库/PostgreSQL/00.入门教程/03.PostgreSQL - pgAdmin4.md",
     "数据库/PostgreSQL/00.入门教程/02.PostgreSQL Get Started.md",
     "数据库/PostgreSQL/00.入门教程/01.在macOS上安装&配置PostgreSQL.md",
-    "().md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
     "数据库/PostgreSQL/00.入门教程",
