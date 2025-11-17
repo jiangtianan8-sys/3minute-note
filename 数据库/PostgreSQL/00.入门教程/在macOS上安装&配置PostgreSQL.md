@@ -9,10 +9,10 @@
 
 ### 2、本文环境信息
 
-|工具|本文环境|适用环境|
-|---|---|---|
-|macOS|macOS (Ventura) 13.2|macOS 10.14+|
-|PostgreSQL|PostgreSQL 15|PostgreSQL 12+|
+| 工具         | 本文环境                 | 适用环境           |
+| ---------- | -------------------- | -------------- |
+| macOS      | macOS (Ventura) 13.2 | macOS 10.14+   |
+| PostgreSQL | PostgreSQL 15        | PostgreSQL 12+ |
 
 ### 3、前置依赖
 
