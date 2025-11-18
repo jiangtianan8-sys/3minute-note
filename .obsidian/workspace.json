@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
+                "file": "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27.PostgreSQL AS"
+              "title": "28.PostgreSQL JOINS"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
+                "file": "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "27.PostgreSQL AS 的反向链接列表"
+              "title": "28.PostgreSQL JOINS 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
+                "file": "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "27.PostgreSQL AS 的出链列表"
+              "title": "28.PostgreSQL JOINS 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
+                "file": "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "27.PostgreSQL AS 的大纲"
+              "title": "28.PostgreSQL JOINS 的大纲"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/26.PostgreSQL BETWEEN Operator.md",
     "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
+    "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
+    "数据库/PostgreSQL/00.入门教程/26.PostgreSQL BETWEEN Operator.md",
     "数据库/PostgreSQL/00.入门教程/25.PostgreSQL IN Operator.md",
     "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
     "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
@@ -222,7 +223,6 @@
     "数据库/PostgreSQL/00.入门教程/09.PostgreSQL ALTER COLUMN.md",
     "数据库/PostgreSQL/00.入门教程/08.PostgreSQL UPDATE.md",
     "数据库/PostgreSQL/00.入门教程/07.PostgreSQL ADD COLUMN.md",
-    "数据库/PostgreSQL/00.入门教程/06.PostgreSQL Select Data.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
