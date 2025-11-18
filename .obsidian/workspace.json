@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
+                "file": "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15.PostgreSQL Select Data"
+              "title": "18.PostgreSQL ORDER BY"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
+                "file": "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "15.PostgreSQL Select Data 的反向链接列表"
+              "title": "18.PostgreSQL ORDER BY 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
+                "file": "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "15.PostgreSQL Select Data 的出链列表"
+              "title": "18.PostgreSQL ORDER BY 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
+                "file": "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "15.PostgreSQL Select Data 的大纲"
+              "title": "18.PostgreSQL ORDER BY 的大纲"
             }
           },
           {
@@ -197,8 +197,11 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+    "数据库/PostgreSQL/00.入门教程/17.PostgreSQL WHERE - Filter Data.md",
+    "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
+    "数据库/PostgreSQL/00.入门教程/16.PostgreSQL SELECT DISTINCT.md",
     "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
+    "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
     "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
@@ -225,7 +228,6 @@
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(1)：ls命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令-ls命令-美化版.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(2)：cd命令.md",
-    "linux/00.每天一个linux命令/1)文件目录操作命令/beautified_每天一个linux命令(2)：cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.base",
     "linux/00.每天一个linux命令/1)文件目录操作命令",
     "linux/00.每天一个linux命令",
