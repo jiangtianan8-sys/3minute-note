@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
+                "file": "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23.PostgreSQL AVG Function"
+              "title": "24.PostgreSQL LIKE Operator"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
+                "file": "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "23.PostgreSQL AVG Function 的反向链接列表"
+              "title": "24.PostgreSQL LIKE Operator 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
+                "file": "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "23.PostgreSQL AVG Function 的出链列表"
+              "title": "24.PostgreSQL LIKE Operator 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
+                "file": "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "23.PostgreSQL AVG Function 的大纲"
+              "title": "24.PostgreSQL LIKE Operator 的大纲"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/22.PostgreSQL SUM Function.md",
     "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
+    "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
+    "数据库/PostgreSQL/00.入门教程/22.PostgreSQL SUM Function.md",
     "数据库/PostgreSQL/00.入门教程/21.PostgreSQL COUNT Function.md",
     "数据库/PostgreSQL/00.入门教程/20.PostgreSQL MIN and MAX Functions.md",
     "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
@@ -222,7 +223,6 @@
     "数据库/PostgreSQL/00.入门教程/05.PostgreSQL Insert Data.md",
     "数据库/PostgreSQL/00.入门教程/04.PostgreSQL Create Table.md",
     "数据库/PostgreSQL/00.入门教程/03.PostgreSQL - pgAdmin4.md",
-    "数据库/PostgreSQL/00.入门教程/02.PostgreSQL Get Started.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
