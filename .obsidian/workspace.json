@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
+                "file": "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "34.PostgreSQL UNION Operator"
+              "title": "36.PostgreSQL HAVING Clause"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
+                "file": "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "34.PostgreSQL UNION Operator 的反向链接列表"
+              "title": "36.PostgreSQL HAVING Clause 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
+                "file": "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "34.PostgreSQL UNION Operator 的出链列表"
+              "title": "36.PostgreSQL HAVING Clause 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
+                "file": "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "34.PostgreSQL UNION Operator 的大纲"
+              "title": "36.PostgreSQL HAVING Clause 的大纲"
             }
           },
           {
@@ -197,8 +197,10 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/33.PostgreSQL CROSS JOIN.md",
+    "数据库/PostgreSQL/00.入门教程/35.PostgreSQL GROUP BY Clause.md",
+    "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
     "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
+    "数据库/PostgreSQL/00.入门教程/33.PostgreSQL CROSS JOIN.md",
     "数据库/PostgreSQL/00.入门教程/32.PostgreSQL FULL JOIN.md",
     "数据库/PostgreSQL/00.入门教程/31.PostgreSQL RIGHT JOIN.md",
     "数据库/PostgreSQL/00.入门教程/30.PostgreSQL LEFT JOIN.md",
@@ -221,8 +223,6 @@
     "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
     "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
-    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
-    "数据库/PostgreSQL/00.入门教程/12.PostgreSQL DROP TABLE.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
