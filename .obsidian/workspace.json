@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14.PostgreSQL Operators"
+              "title": "未命名"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "14.PostgreSQL Operators 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "14.PostgreSQL Operators 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "14.PostgreSQL Operators 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "62b2fc3d1e7891ca",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
     "数据库/PostgreSQL/00.入门教程/14.PostgreSQL Operators.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/未命名.md",
+    "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
     "数据库/PostgreSQL/00.入门教程/12.PostgreSQL DROP TABLE.md",
