@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d5986412486679f8",
+        "id": "8cb9ac11585404c7",
         "type": "tabs",
         "children": [
           {
-            "id": "62b2fc3d1e7891ca",
+            "id": "367a4c7ca8c4854c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "40.PostgreSQL CASE Expression"
+              "title": "每天一个Linux命令(2)-cd命令"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "40.PostgreSQL CASE Expression 的反向链接列表"
+              "title": "每天一个Linux命令(2)-cd命令 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "40.PostgreSQL CASE Expression 的出链列表"
+              "title": "每天一个Linux命令(2)-cd命令 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "40.PostgreSQL CASE Expression 的大纲"
+              "title": "每天一个Linux命令(2)-cd命令 的大纲"
             }
           },
           {
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,13 +191,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "62b2fc3d1e7891ca",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/39.PostgreSQL ALL Operator.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
+    "数据库/PostgreSQL/00.入门教程/21.PostgreSQL COUNT Function.md",
+    "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
+    "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
+    "数据库/PostgreSQL/00.入门教程/10.PostgreSQL DROP COLUMN.md",
     "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+    "数据库/PostgreSQL/00.入门教程/39.PostgreSQL ALL Operator.md",
     "数据库/PostgreSQL/00.入门教程/38.PostgreSQL ANY Operator.md",
     "数据库/PostgreSQL/00.入门教程/37.PostgreSQL EXISTS Operator.md",
     "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
@@ -216,13 +222,7 @@
     "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
     "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
     "数据库/PostgreSQL/00.入门教程/22.PostgreSQL SUM Function.md",
-    "数据库/PostgreSQL/00.入门教程/21.PostgreSQL COUNT Function.md",
     "数据库/PostgreSQL/00.入门教程/20.PostgreSQL MIN and MAX Functions.md",
-    "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
-    "数据库/PostgreSQL/00.入门教程/19.PostgreSQL LIMIT.md",
-    "数据库/PostgreSQL/00.入门教程/17.PostgreSQL WHERE - Filter Data.md",
-    "数据库/PostgreSQL/00.入门教程/16.PostgreSQL SELECT DISTINCT.md",
-    "数据库/PostgreSQL/00.入门教程/15.PostgreSQL Select Data.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",

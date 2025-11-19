@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-custom-attachment-location",
-  "obsidian-plugin-prettier"
+  "obsidian-plugin-prettier",
+  "templater-obsidian",
+  "obsidian-linter"
 ]
