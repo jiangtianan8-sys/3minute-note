@@ -195,9 +195,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
+    "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
+    "数据库/PostgreSQL/00.入门教程/02.PostgreSQL Get Started.md",
+    "数据库/PostgreSQL/00.入门教程/01.在macOS上安装&配置PostgreSQL.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "数据库/PostgreSQL/00.入门教程/21.PostgreSQL COUNT Function.md",
     "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
@@ -207,7 +210,6 @@
     "数据库/PostgreSQL/00.入门教程/39.PostgreSQL ALL Operator.md",
     "数据库/PostgreSQL/00.入门教程/38.PostgreSQL ANY Operator.md",
     "数据库/PostgreSQL/00.入门教程/37.PostgreSQL EXISTS Operator.md",
-    "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
     "数据库/PostgreSQL/00.入门教程/35.PostgreSQL GROUP BY Clause.md",
     "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
     "数据库/PostgreSQL/00.入门教程/33.PostgreSQL CROSS JOIN.md",
@@ -221,8 +223,6 @@
     "数据库/PostgreSQL/00.入门教程/25.PostgreSQL IN Operator.md",
     "数据库/PostgreSQL/00.入门教程/24.PostgreSQL LIKE Operator.md",
     "数据库/PostgreSQL/00.入门教程/23.PostgreSQL AVG Function.md",
-    "数据库/PostgreSQL/00.入门教程/22.PostgreSQL SUM Function.md",
-    "数据库/PostgreSQL/00.入门教程/20.PostgreSQL MIN and MAX Functions.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
