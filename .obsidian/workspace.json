@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(16)-which命令.md",
+                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(19)-find 命令概览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天一个linux命令(16)-which命令"
+              "title": "每天一个linux命令(19)-find 命令概览"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(16)-which命令.md",
+                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(19)-find 命令概览.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "每天一个linux命令(16)-which命令 的反向链接列表"
+              "title": "每天一个linux命令(19)-find 命令概览 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(16)-which命令.md",
+                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(19)-find 命令概览.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "每天一个linux命令(16)-which命令 的出链列表"
+              "title": "每天一个linux命令(19)-find 命令概览 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(16)-which命令.md",
+                "file": "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(19)-find 命令概览.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每天一个linux命令(16)-which命令 的大纲"
+              "title": "每天一个linux命令(19)-find 命令概览 的大纲"
             }
           },
           {
@@ -197,8 +197,11 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
-    "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
+    "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(18)-locate 命令.md",
+    "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(19)-find 命令概览.md",
+    "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(17)-whereis 命令.md",
     "linux/00.每天一个linux命令/2)文件查找命令/每天一个linux命令(16)-which命令.md",
+    "数据库/PostgreSQL/00.入门教程/40.PostgreSQL CASE Expression.md",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令/file-20251119202316665.png",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令",
     "linux/00.每天一个linux命令/2)文件查找命令/assets",
@@ -224,8 +227,6 @@
     "数据库/PostgreSQL/00.入门教程/21.PostgreSQL COUNT Function.md",
     "数据库/PostgreSQL/00.入门教程/18.PostgreSQL ORDER BY.md",
     "数据库/PostgreSQL/00.入门教程/13.Create Demo Database.md",
-    "数据库/PostgreSQL/00.入门教程/10.PostgreSQL DROP COLUMN.md",
-    "数据库/PostgreSQL/00.入门教程/39.PostgreSQL ALL Operator.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",

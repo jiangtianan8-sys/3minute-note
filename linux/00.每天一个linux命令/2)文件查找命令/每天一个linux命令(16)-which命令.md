@@ -82,6 +82,6 @@ alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot  -
 
 ![](assets/每天一个linux命令(16)-which命令/file-20251119202316665.png)
 
-       说明：
+说明：
 
 cd 这个常用的命令竟然找不到啊！为什么呢？这是因为 cd 是 bash 内建的命令！ 但是 which 默认是找 PATH 内所规范的目录，所以当然一定找不到的！
