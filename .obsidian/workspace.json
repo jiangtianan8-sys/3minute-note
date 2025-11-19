@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(4)-mkdir命令.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(11)-nl命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天一个linux命令(4)-mkdir命令"
+              "title": "每天一个linux命令(11)-nl命令"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(4)-mkdir命令.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(11)-nl命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "每天一个linux命令(4)-mkdir命令 的反向链接列表"
+              "title": "每天一个linux命令(11)-nl命令 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(4)-mkdir命令.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(11)-nl命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "每天一个linux命令(4)-mkdir命令 的出链列表"
+              "title": "每天一个linux命令(11)-nl命令 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(4)-mkdir命令.md",
+                "file": "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(11)-nl命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每天一个linux命令(4)-mkdir命令 的大纲"
+              "title": "每天一个linux命令(11)-nl命令 的大纲"
             }
           },
           {
@@ -197,8 +197,15 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
-    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(3)-pwd命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(10)-cat 命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(11)-nl命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(9)-touch 命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(8)-cp 命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(7)-mv命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(6)-rmdir 命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(5)-rm 命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(4)-mkdir命令.md",
+    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(3)-pwd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(2)-cd命令.md",
     "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个Linux命令(1)-ls命令.md",
     "数据库/PostgreSQL/00.入门教程/36.PostgreSQL HAVING Clause.md",
@@ -216,13 +223,6 @@
     "数据库/PostgreSQL/00.入门教程/34.PostgreSQL UNION Operator.md",
     "数据库/PostgreSQL/00.入门教程/33.PostgreSQL CROSS JOIN.md",
     "数据库/PostgreSQL/00.入门教程/32.PostgreSQL FULL JOIN.md",
-    "数据库/PostgreSQL/00.入门教程/31.PostgreSQL RIGHT JOIN.md",
-    "数据库/PostgreSQL/00.入门教程/30.PostgreSQL LEFT JOIN.md",
-    "数据库/PostgreSQL/00.入门教程/29.PostgreSQL INNER JOIN.md",
-    "数据库/PostgreSQL/00.入门教程/28.PostgreSQL JOINS.md",
-    "数据库/PostgreSQL/00.入门教程/27.PostgreSQL AS.md",
-    "数据库/PostgreSQL/00.入门教程/26.PostgreSQL BETWEEN Operator.md",
-    "数据库/PostgreSQL/00.入门教程/25.PostgreSQL IN Operator.md",
     "数据库/PostgreSQL/00.入门教程",
     "数据库/PostgreSQL",
     "未命名",
