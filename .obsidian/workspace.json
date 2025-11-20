@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/d)5分钟系列/《chkconfig命令》－linux命令五分钟系列之四.md",
+                "file": "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "《chkconfig命令》－linux命令五分钟系列之四"
+              "title": "《uname命令》－linux命令五分钟系列之五"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/d)5分钟系列/《chkconfig命令》－linux命令五分钟系列之四.md",
+                "file": "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "《chkconfig命令》－linux命令五分钟系列之四 的反向链接列表"
+              "title": "《uname命令》－linux命令五分钟系列之五 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/d)5分钟系列/《chkconfig命令》－linux命令五分钟系列之四.md",
+                "file": "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "《chkconfig命令》－linux命令五分钟系列之四 的出链列表"
+              "title": "《uname命令》－linux命令五分钟系列之五 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/d)5分钟系列/《chkconfig命令》－linux命令五分钟系列之四.md",
+                "file": "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "《chkconfig命令》－linux命令五分钟系列之四 的大纲"
+              "title": "《uname命令》－linux命令五分钟系列之五 的大纲"
             }
           },
           {
@@ -198,8 +198,13 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
-    "linux/00.每天一个linux命令/d)5分钟系列/ssh 免密码登录.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/《ssh-copy-id帮你建立信任》–linux命令五分钟系列之四十一.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/《service》-“linux命令五分钟系列”之二.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/《find技巧》-“linux命令五分系列”之一.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/《du命令》－linux命令五分钟系列之三.md",
     "linux/00.每天一个linux命令/d)5分钟系列/《chkconfig命令》－linux命令五分钟系列之四.md",
+    "linux/00.每天一个linux命令/d)5分钟系列/ssh 免密码登录.md",
     "linux/00.每天一个linux命令/c)shell/6.Bash变量-环境变量.md",
     "linux/00.每天一个linux命令/d)5分钟系列",
     "linux/00.每天一个linux命令/c)shell/5.通配符和其他特殊符号.md",
@@ -228,11 +233,6 @@
     "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(52)-ifconfig命令.md",
     "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(51)-lsof命令.md",
     "linux/00.每天一个linux命令/8)网络命令",
-    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
-    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(46)-vmstat命令.md",
-    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(45)-free 命令.md",
-    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(44)-top命令.md",
-    "linux/00.每天一个linux命令/6)磁盘存储相关/每天一个linux命令(34)-du 命令.md",
     "linux/00.每天一个linux命令/7)性能监控和优化命令",
     "linux/00.每天一个linux命令/6)磁盘存储相关/assets/每天一个linux命令(34)-du 命令/file-20251120104025843.png",
     "linux/00.每天一个linux命令/6)磁盘存储相关/assets/每天一个linux命令(34)-du 命令",
