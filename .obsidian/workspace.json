@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/e)内存相关/未命名.md",
+                "file": "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "每天一个linux命令（61）：wget命令"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/e)内存相关/未命名.md",
+                "file": "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "每天一个linux命令（61）：wget命令 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/e)内存相关/未命名.md",
+                "file": "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "每天一个linux命令（61）：wget命令 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/e)内存相关/未命名.md",
+                "file": "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "每天一个linux命令（61）：wget命令 的大纲"
             }
           },
           {
@@ -198,8 +198,30 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（50）：crontab命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（49）：at命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（48）：watch命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（43）：killall命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（42）：kill命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（41）：ps命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（40）：wc命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（39）：grep 命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（38）：cal 命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（37）：date命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（36）：diff 命令.md",
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（35）：ln 命令.md",
+    "linux/00.每天一个linux命令/e)内存相关/meminfo.md",
+    "linux/00.每天一个linux命令/z)其他命令",
+    "linux/00.每天一个linux命令/e)内存相关/assets/meminfo/file-20251120142935522.png",
+    "linux/00.每天一个linux命令/e)内存相关/assets/meminfo",
+    "linux/00.每天一个linux命令/e)内存相关/linux性能调试之vmstat分析.md",
+    "linux/00.每天一个linux命令/e)内存相关/free.md",
+    "linux/00.每天一个linux命令/e)内存相关/assets/free/file-20251120142811647.png",
+    "linux/00.每天一个linux命令/e)内存相关/assets/free/file-20251120142758357.png",
+    "linux/00.每天一个linux命令/e)内存相关/assets/free",
+    "linux/00.每天一个linux命令/e)内存相关/assets",
     "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
-    "linux/00.每天一个linux命令/e)内存相关/未命名.md",
     "linux/00.每天一个linux命令/e)内存相关",
     "linux/00.每天一个linux命令/d)5分钟系列/《ssh-copy-id帮你建立信任》–linux命令五分钟系列之四十一.md",
     "linux/00.每天一个linux命令/d)5分钟系列/《service》-“linux命令五分钟系列”之二.md",
@@ -211,30 +233,11 @@
     "linux/00.每天一个linux命令/d)5分钟系列",
     "linux/00.每天一个linux命令/c)shell/5.通配符和其他特殊符号.md",
     "linux/00.每天一个linux命令/c)shell/4.多命令顺序执行与管道符.md",
-    "linux/00.每天一个linux命令/c)shell/3.Bash基本功能-输入输出重定向.md",
-    "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
-    "linux/00.每天一个linux命令/c)shell/1.Bash基本功能-历史命令与补全.md",
-    "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
     "linux/00.每天一个linux命令/c)shell",
     "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim/file-20251120135040247.png",
     "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim",
     "linux/00.每天一个linux命令/b)vim/assets",
-    "linux/00.每天一个linux命令/a)关机重启命令/linux 关机命令总结.md",
     "linux/00.每天一个linux命令/b)vim",
-    "linux/00.每天一个linux命令/9)用户管理命令/linux命令详解之useradd命令使用方法.md",
-    "linux/00.每天一个linux命令/a)关机重启命令",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
-    "linux/00.每天一个linux命令/9)用户管理命令",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(59)-rcp命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(58)-telnet命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(57)-ss命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(56)-netstat命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(55)-traceroute命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(54)-ping命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(53)-route命令.md",
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(52)-ifconfig命令.md",
-    "linux/00.每天一个linux命令/8)网络命令",
-    "linux/00.每天一个linux命令/7)性能监控和优化命令",
     "linux/00.每天一个linux命令/6)磁盘存储相关/assets/每天一个linux命令(34)-du 命令/file-20251120104025843.png",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令/file-20251119202316665.png",
     "assets/test/file-20251116143348760.png",
