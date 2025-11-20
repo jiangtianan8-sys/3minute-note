@@ -195,8 +195,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5392c7c50f49ba79",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "Github/github骚操作",
+    "Github",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/linux权限之su和sudo的区别.md",
     "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151239409.png",
@@ -240,8 +242,6 @@
     "linux/00.每天一个linux命令/e)内存相关/linux性能调试之vmstat分析.md",
     "linux/00.每天一个linux命令/e)内存相关/free.md",
     "linux/00.每天一个linux命令/e)内存相关/assets/free/file-20251120142811647.png",
-    "linux/00.每天一个linux命令/e)内存相关/assets/free",
-    "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md",
-    "linux/00.每天一个linux命令/d)5分钟系列/《ssh-copy-id帮你建立信任》–linux命令五分钟系列之四十一.md"
+    "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md"
   ]
 }
