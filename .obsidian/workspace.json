@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/01.linux常用命令/Linux之sed.md",
+                "file": "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux之sed"
+              "title": "GitHub骚操作之star和fork范围搜索"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/01.linux常用命令/Linux之sed.md",
+                "file": "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Linux之sed 的反向链接列表"
+              "title": "GitHub骚操作之star和fork范围搜索 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/01.linux常用命令/Linux之sed.md",
+                "file": "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux之sed 的出链列表"
+              "title": "GitHub骚操作之star和fork范围搜索 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/01.linux常用命令/Linux之sed.md",
+                "file": "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux之sed 的大纲"
+              "title": "GitHub骚操作之star和fork范围搜索 的大纲"
             }
           },
           {
@@ -195,8 +195,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
+    "Github/github骚操作/GitHub骚操作之搜索区域活跃用户.md",
+    "Github/github骚操作/GitHub骚操作之#L数字.md",
+    "Github/github骚操作/GitHub骚操作之awesome搜索.md",
+    "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
+    "Github/github骚操作/GitHub骚操作之T搜索.md",
+    "Github/Github 高级搜索功能.md",
+    "linux/01.linux常用命令/Linux之sed.md",
     "Github/github骚操作",
     "Github",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
@@ -215,7 +222,6 @@
     "linux/99. 未分类/Linux中rz命令和sz命令使用详解大全.md",
     "linux/99. 未分类/Linux用户与用户组详解.md",
     "linux/99. 未分类/Linux 下man 命令的使用.md",
-    "linux/01.linux常用命令/Linux之sed.md",
     "linux/01.linux常用命令/Linux常用命令回顾.md",
     "linux/99. 未分类",
     "linux/01.linux常用命令/assets/Linux常用命令回顾/file-20251120145603615.ppt",
@@ -234,14 +240,8 @@
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（38）：cal 命令.md",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（37）：date命令.md",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（36）：diff 命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（35）：ln 命令.md",
-    "linux/00.每天一个linux命令/e)内存相关/meminfo.md",
     "linux/00.每天一个linux命令/z)其他命令",
     "linux/00.每天一个linux命令/e)内存相关/assets/meminfo/file-20251120142935522.png",
-    "linux/00.每天一个linux命令/e)内存相关/assets/meminfo",
-    "linux/00.每天一个linux命令/e)内存相关/linux性能调试之vmstat分析.md",
-    "linux/00.每天一个linux命令/e)内存相关/free.md",
-    "linux/00.每天一个linux命令/e)内存相关/assets/free/file-20251120142811647.png",
-    "linux/00.每天一个linux命令/d)5分钟系列/《uname命令》－linux命令五分钟系列之五.md"
+    "linux/00.每天一个linux命令/e)内存相关/assets/free/file-20251120142811647.png"
   ]
 }
