@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
+                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天一个linux命令(60)-scp命令"
+              "title": "Linux vi vim"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
+                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "每天一个linux命令(60)-scp命令 的反向链接列表"
+              "title": "Linux vi vim 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
+                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "每天一个linux命令(60)-scp命令 的出链列表"
+              "title": "Linux vi vim 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
+                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每天一个linux命令(60)-scp命令 的大纲"
+              "title": "Linux vi vim 的大纲"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +198,17 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
-    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(59)-rcp命令.md",
+    "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim/file-20251120135040247.png",
+    "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim",
+    "linux/00.每天一个linux命令/b)vim/assets",
+    "linux/00.每天一个linux命令/a)关机重启命令/linux 关机命令总结.md",
+    "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+    "linux/00.每天一个linux命令/b)vim",
+    "linux/00.每天一个linux命令/9)用户管理命令/linux命令详解之useradd命令使用方法.md",
+    "linux/00.每天一个linux命令/a)关机重启命令",
     "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(60)-scp命令.md",
+    "linux/00.每天一个linux命令/9)用户管理命令",
+    "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(59)-rcp命令.md",
     "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(58)-telnet命令.md",
     "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(57)-ss命令.md",
     "linux/00.每天一个linux命令/8)网络命令/每天一个linux命令(56)-netstat命令.md",
@@ -225,16 +235,7 @@
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(29)-chgrp命令.md",
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(27)-linux chmod命令.md",
     "linux/00.每天一个linux命令/4)压缩解压命令/每天一个linux命令(32)-gzip命令.md",
-    "linux/00.每天一个linux命令/5)文件权限设置命令",
-    "linux/00.每天一个linux命令/4)压缩解压命令/每天一个linux命令(28)-tar命令.md",
-    "linux/00.每天一个linux命令/4)压缩解压命令/每天一个linux命令(26)-用SecureCRT来上传和下载文件.md",
-    "linux/00.每天一个linux命令/3)文件和目录属性/每天一个linux命令(23)-Linux 目录结构.md",
-    "linux/00.每天一个linux命令/4)压缩解压命令",
-    "linux/00.每天一个linux命令/3)文件和目录属性/每天一个linux命令(24)-Linux文件类型与扩展名.md",
-    "linux/00.每天一个linux命令/3)文件和目录属性",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令/file-20251119202316665.png",
-    "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令",
-    "linux/00.每天一个linux命令/2)文件查找命令/assets",
     "assets/test/file-20251116143348760.png",
     "Pasted image 20251116142806.png"
   ]
