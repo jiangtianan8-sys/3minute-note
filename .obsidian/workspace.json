@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+                "file": "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux vi vim"
+              "title": "2.Bash基本功能-别名与快捷键"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+                "file": "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Linux vi vim 的反向链接列表"
+              "title": "2.Bash基本功能-别名与快捷键 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+                "file": "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Linux vi vim 的出链列表"
+              "title": "2.Bash基本功能-别名与快捷键 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+                "file": "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux vi vim 的大纲"
+              "title": "2.Bash基本功能-别名与快捷键 的大纲"
             }
           },
           {
@@ -198,11 +198,14 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
+    "linux/00.每天一个linux命令/c)shell/1.Bash基本功能-历史命令与补全.md",
+    "linux/00.每天一个linux命令/c)shell/2.Bash基本功能-别名与快捷键.md",
+    "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
+    "linux/00.每天一个linux命令/c)shell",
     "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim/file-20251120135040247.png",
     "linux/00.每天一个linux命令/b)vim/assets/Linux vi vim",
     "linux/00.每天一个linux命令/b)vim/assets",
     "linux/00.每天一个linux命令/a)关机重启命令/linux 关机命令总结.md",
-    "linux/00.每天一个linux命令/b)vim/Linux vi vim.md",
     "linux/00.每天一个linux命令/b)vim",
     "linux/00.每天一个linux命令/9)用户管理命令/linux命令详解之useradd命令使用方法.md",
     "linux/00.每天一个linux命令/a)关机重启命令",
@@ -229,12 +232,10 @@
     "linux/00.每天一个linux命令/6)磁盘存储相关/assets",
     "linux/00.每天一个linux命令/6)磁盘存储相关/每天一个linux命令(33)-df 命令.md",
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(31)-etc group文件详解.md",
-    "linux/00.每天一个linux命令/6)磁盘存储相关",
     "linux/00.每天一个linux命令/6)磁盘存储相关.md",
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(30)-chown命令.md",
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(29)-chgrp命令.md",
     "linux/00.每天一个linux命令/5)文件权限设置命令/每天一个linux命令(27)-linux chmod命令.md",
-    "linux/00.每天一个linux命令/4)压缩解压命令/每天一个linux命令(32)-gzip命令.md",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令/file-20251119202316665.png",
     "assets/test/file-20251116143348760.png",
     "Pasted image 20251116142806.png"
