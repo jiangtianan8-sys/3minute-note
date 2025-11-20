@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
+                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令（51）：lsof命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天一个linux命令(47)-iostat命令"
+              "title": "每天一个linux命令（51）：lsof命令"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
+                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令（51）：lsof命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "每天一个linux命令(47)-iostat命令 的反向链接列表"
+              "title": "每天一个linux命令（51）：lsof命令 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
+                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令（51）：lsof命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "每天一个linux命令(47)-iostat命令 的出链列表"
+              "title": "每天一个linux命令（51）：lsof命令 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
+                "file": "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令（51）：lsof命令.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "每天一个linux命令(47)-iostat命令 的大纲"
+              "title": "每天一个linux命令（51）：lsof命令 的大纲"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "367a4c7ca8c4854c",
   "lastOpenFiles": [
-    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(46)-vmstat命令.md",
     "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(47)-iostat命令.md",
+    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令（51）：lsof命令.md",
+    "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(46)-vmstat命令.md",
     "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(45)-free 命令.md",
     "linux/00.每天一个linux命令/7)性能监控和优化命令/每天一个linux命令(44)-top命令.md",
     "linux/00.每天一个linux命令/6)磁盘存储相关/每天一个linux命令(34)-du 命令.md",
@@ -233,7 +234,6 @@
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令/file-20251119202316665.png",
     "linux/00.每天一个linux命令/2)文件查找命令/assets/每天一个linux命令(16)-which命令",
     "linux/00.每天一个linux命令/2)文件查找命令/assets",
-    "linux/00.每天一个linux命令/1)文件目录操作命令/每天一个linux命令(15)-tail 命令.md",
     "linux/00.每天一个linux命令/2)文件查找命令",
     "assets/test/file-20251116143348760.png",
     "Pasted image 20251116142806.png"
