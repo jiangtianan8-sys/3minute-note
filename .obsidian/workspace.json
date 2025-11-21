@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git 撤销commit(reset).md",
+                "file": "git/git commit message 规范.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git 撤销commit(reset)"
+              "title": "git commit message 规范"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git 撤销commit(reset).md",
+                "file": "git/git commit message 规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "git 撤销commit(reset) 的反向链接列表"
+              "title": "git commit message 规范 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git 撤销commit(reset).md",
+                "file": "git/git commit message 规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "git 撤销commit(reset) 的出链列表"
+              "title": "git commit message 规范 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git 撤销commit(reset).md",
+                "file": "git/git commit message 规范.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "git 撤销commit(reset) 的大纲"
+              "title": "git commit message 规范 的大纲"
             }
           },
           {
@@ -198,10 +198,11 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "git/创建标签.md",
-    "git/git 撤销commit(reset).md",
-    "git/操作标签.md",
     "git/Git merge 合并分区详解.md",
+    "git/git commit message 规范.md",
+    "git/git 撤销commit(reset).md",
+    "git/创建标签.md",
+    "git/操作标签.md",
     "git/Git，GitHub与GitLab.md",
     "git/Git Stash用法.md",
     "工具/finalshell/比Xshel更好用的 FinalShell.md",
@@ -242,7 +243,6 @@
     "linux/01.linux常用命令/Linux之sed.md",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/linux权限之su和sudo的区别.md",
-    "linux/99. 未分类/管道.md",
-    "linux/99. 未分类/Linux中rz命令和sz命令使用详解大全.md"
+    "linux/99. 未分类/管道.md"
   ]
 }
