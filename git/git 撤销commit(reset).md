@@ -70,9 +70,9 @@
 |---|---|
 |2||
 
-|   |   |
-|---|---|
-|3|git push origin HEAD --force|
+|     |                              |
+| --- | ---------------------------- |
+| 3   | git push origin HEAD --force |
 
 其他:
 
