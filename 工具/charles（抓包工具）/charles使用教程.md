@@ -196,7 +196,7 @@ Rewrite 功能功能适合对某一类网络请求进行一些正则替换，以
 
 例如，我们的客户端有一个 API 请求是获得用户昵称，而我当前的昵称是 “tangqiaoboy”，如下所示：
 
-![0](https://note.youdao.com/yws/res/22445/920234E1876E41C68D31A95C76A2200F)
+![](assets/charles使用教程/file-20251121095035560.png)
 
 我们想试着直接修改网络返回值，将 tangqiaoboy 换成成 iosboy。于是我们启用 Rewrite 功能，然后设置如下的规则：
 
