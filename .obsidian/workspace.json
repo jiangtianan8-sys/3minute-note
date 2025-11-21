@@ -198,10 +198,12 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "工具/maven/01.网上资料/maven profile实现多环境配置.md",
-    "工具/maven/01.网上资料/mvn -N和-U的用法.md",
-    "工具/maven/01.网上资料/maven 常用插件解析.md",
     "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+    "工具/maven/01.网上资料/mvn -N和-U的用法.md",
+    "工具/maven/01.网上资料/assets/mvn -N和-U的用法/file-20251121144631601.png",
+    "工具/maven/01.网上资料/assets/mvn -N和-U的用法",
+    "工具/maven/01.网上资料/maven profile实现多环境配置.md",
+    "工具/maven/01.网上资料/maven 常用插件解析.md",
     "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用/file-20251121142800570.png",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用",
@@ -229,11 +231,9 @@
     "未命名",
     "工具/jdk/在Linux上安装JDK8-教程.md",
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
-    "工具/jdk/assets/在Linux上安装JDK8-教程/file-20251121135812260.png",
     "工具/jdk/assets/在Linux上安装JDK8-教程",
     "工具/jdk/assets",
     "git/解决 fatal  refusing to merge unrelated histories.md",
-    "工具/jdk",
     "git/git文件重命名之git mv命令.md",
     "git/git打tag.md",
     "git/git rebase简介(基本篇).md",
@@ -242,7 +242,6 @@
     "git/git commit之后，想撤销commit.md",
     "git/git commit简介.md",
     "git/git commit message 规范.md",
-    "git/git 撤销commit(reset).md",
-    "git/创建标签.md"
+    "git/git 撤销commit(reset).md"
   ]
 }
