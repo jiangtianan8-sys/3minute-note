@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maven中maven-source-plugin,maven-javadoc-plugin插件的使用"
+              "title": "maven 常用插件解析"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Maven中maven-source-plugin,maven-javadoc-plugin插件的使用 的反向链接列表"
+              "title": "maven 常用插件解析 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Maven中maven-source-plugin,maven-javadoc-plugin插件的使用 的出链列表"
+              "title": "maven 常用插件解析 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Maven中maven-source-plugin,maven-javadoc-plugin插件的使用 的大纲"
+              "title": "maven 常用插件解析 的大纲"
             }
           },
           {
@@ -198,8 +198,9 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
     "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+    "工具/maven/01.网上资料/maven 常用插件解析.md",
+    "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用/file-20251121142800570.png",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用",
     "工具/maven/00.工作用maven/pom.xml.md",
