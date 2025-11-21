@@ -220,11 +220,29 @@ http://stamen.iteye.com/blog/1933452
 
 输入：mvn jetty:run。这将在端口为8080的Jetty服务器上启动你的项目。Jetty将持续运行，直到插件是明确停止。例如，按下，或使用mvn jetty:stop命令。
 
-![0](https://note.youdao.com/yws/res/2225/868CEE68C5B64E6AA5992D28C2C65F25)
-
-<build> <finalName>rop-samplefinalName> <plugins> <plugin> <groupId>org.mortbay.jettygroupId> <artifactId>maven-jetty-pluginartifactId> <version>6.1.5version> <configuration> <webAppSourceDirectory>src/main/webappwebAppSourceDirectory> <scanIntervalSeconds>3scanIntervalSeconds> <contextPath>/contextPath> <connectors> <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector"> <port>8088port> connector> connectors> configuration> plugin> plugins> build>
-
-![0](https://note.youdao.com/yws/res/2210/F9582F2702674F17B9432451337AFB3E)
+```
+<build>
+        <finalName>rop-sample</finalName>
+        <plugins>
+            <!-- jetty插件 -->
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.5</version>
+                <configuration>
+                    <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
+                    <scanIntervalSeconds>3</scanIntervalSeconds>
+                    <contextPath>/</contextPath>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8088</port>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+```
 
 ② maven-compiler-plugin 编译源代码
 
