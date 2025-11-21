@@ -196,8 +196,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5392c7c50f49ba79",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "工具/maven/01.网上资料",
     "工具/maven/00.工作用maven/setting.xml.md",
     "工具/maven/00.工作用maven/pom.xml.md",
     "工具/maven/00.工作用maven/mvn repository.md",
@@ -242,7 +243,6 @@
     "git/Git，GitHub与GitLab.md",
     "git/Git Stash用法.md",
     "工具/finalshell/比Xshel更好用的 FinalShell.md",
-    "git",
-    "工具/charles（抓包工具）/charles使用教程.md"
+    "git"
   ]
 }
