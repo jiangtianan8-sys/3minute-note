@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/maven/00.工作用maven/pom.xml.md",
+                "file": "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pom.xml"
+              "title": "Maven学习 (六) 搭建多模块企业级项目"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/maven/00.工作用maven/pom.xml.md",
+                "file": "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "pom.xml 的反向链接列表"
+              "title": "Maven学习 (六) 搭建多模块企业级项目 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/maven/00.工作用maven/pom.xml.md",
+                "file": "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "pom.xml 的出链列表"
+              "title": "Maven学习 (六) 搭建多模块企业级项目 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/maven/00.工作用maven/pom.xml.md",
+                "file": "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "pom.xml 的大纲"
+              "title": "Maven学习 (六) 搭建多模块企业级项目 的大纲"
             }
           },
           {
@@ -196,11 +196,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
+    "工具/maven/01.网上资料/assets/Maven学习 (六) 搭建多模块企业级项目/file-20251121142104051.png",
+    "工具/maven/01.网上资料/assets/Maven学习 (六) 搭建多模块企业级项目/file-20251121142014862.png",
+    "工具/maven/01.网上资料/assets/Maven学习 (六) 搭建多模块企业级项目/file-20251121141959921.png",
+    "工具/maven/01.网上资料/assets/Maven学习 (六) 搭建多模块企业级项目/file-20251121141945974.png",
+    "工具/maven/01.网上资料/assets/Maven学习 (六) 搭建多模块企业级项目",
+    "工具/maven/01.网上资料/assets",
+    "工具/maven/00.工作用maven/pom.xml.md",
+    "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
     "工具/maven/01.网上资料",
     "工具/maven/00.工作用maven/setting.xml.md",
-    "工具/maven/00.工作用maven/pom.xml.md",
     "工具/maven/00.工作用maven/mvn repository.md",
     "工具/maven/00.工作用maven/常用pom依赖.md",
     "工具/maven/00.工作用maven/常用pom.md",
@@ -228,11 +235,6 @@
     "git/git打tag.md",
     "git/git rebase简介(基本篇).md",
     "git/Git merge 合并分区详解.md",
-    "git/assets/git rebase简介(基本篇)/file-20251121113034515.png",
-    "git/assets/git rebase简介(基本篇)/file-20251121113024973.png",
-    "git/assets/git rebase简介(基本篇)/file-20251121113014241.png",
-    "git/assets/git rebase简介(基本篇)",
-    "git/assets",
     "git/git 分支 合并.md",
     "git/git commit之后，想撤销commit.md",
     "git/git commit简介.md",
@@ -241,8 +243,6 @@
     "git/创建标签.md",
     "git/操作标签.md",
     "git/Git，GitHub与GitLab.md",
-    "git/Git Stash用法.md",
-    "工具/finalshell/比Xshel更好用的 FinalShell.md",
-    "git"
+    "git/Git Stash用法.md"
   ]
 }
