@@ -122,7 +122,7 @@ iPhone 上的设置
 
 如果我们需要在 iOS 或 Android 机器上截取 Https 协议的通讯内容，还需要在手机上安装相应的证书。点击 Charles 的顶部菜单，选择 “Help” –> “SSL Proxying” –> “Install Charles Root Certificate on a Mobile Device or Remote Browser”，然后就可以看到 Charles 弹出的简单的安装教程。如下图所示：
 
-![0](https://note.youdao.com/yws/res/22459/481E5BCBEDFF4573BDF490259097DD1A)
+![](assets/charles使用教程/file-20251121095351864.png)
 
 按照我们之前说的教程，在设备上设置好 Charles 为代理后，在手机浏览器中访问地址：[http://charlesproxy.com/getssl](http://charlesproxy.com/getssl)，即可打开证书安装的界面，安装完证书后，就可以截取手机上的 Https 通讯内容了。不过同样需要注意，默认情况下 Charles 并不做截取，你还需要在要截取的网络请求上右击，选择 SSL proxy 菜单项。
 
@@ -132,7 +132,7 @@ iPhone 上的设置
 
 在 Charles 的菜单上，选择 “Proxy”–>“Throttle Setting” 项，在之后弹出的对话框中，我们可以勾选上 “Enable Throttling”，并且可以设置 Throttle Preset 的类型。如下图所示：
 
-![0](https://note.youdao.com/yws/res/22449/E44FF31153374FEE9B676FC60C9273DA)
+![](assets/charles使用教程/file-20251121095335505.png)
 
 如果我们只想模拟指定网站的慢速网络，可以再勾选上图中的 “Only for selected hosts” 项，然后在对话框的下半部分设置中增加指定的 hosts 项即可。
 
@@ -140,11 +140,11 @@ iPhone 上的设置
 
 有些时候为了调试服务器的接口，我们需要反复尝试不同参数的网络请求。Charles 可以方便地提供网络请求的修改和重发功能。只需要在以往的网络请求上点击右键，选择 “Edit”，即可创建一个可编辑的网络请求。如下所示：
 
-![0](https://note.youdao.com/yws/res/22457/D5CF8D6D2A334DC0B111658C68032640)
+![](assets/charles使用教程/file-20251121095318234.png)
 
 我们可以修改该请求的任何信息，包括 URL 地址、端口、参数等，之后点击 “Execute” 即可发送该修改后的网络请求（如下图所示）。Charles 支持我们多次修改和发送该请求，这对于我们和服务器端调试接口非常方便，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22452/B2B3B474932D472B9F9E3B548AE7656F)
+![](assets/charles使用教程/file-20251121095307108.png)
 
 给服务器做[压力测试](https://so.csdn.net/so/search?q=%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95&spm=1001.2101.3001.7020)
 
@@ -152,11 +152,11 @@ iPhone 上的设置
 
 我们在想打压的网络请求上（POST 或 GET 请求均可）右击，然后选择 「Repeat Advanced」菜单项，如下所示：
 
-![0](https://note.youdao.com/yws/res/22468/EE964A8BCF134E7789DDABC1B6C91307)
+![](assets/charles使用教程/file-20251121095255902.png)
 
 接着我们就可以在弹出的对话框中，选择打压的并发线程数以及打压次数，确定之后，即可开始打压。
 
-![0](https://note.youdao.com/yws/res/22460/130CCA08A17342FBA586D1C16959D726)
+![](assets/charles使用教程/file-20251121095244763.png)
 
 悄悄说一句，一些写得很弱的投票网站，也可以用这个办法来快速投票。当然，我也拿 Charles 的 Repeat 功能给一些诈骗的钓鱼网站喂了不少垃圾数据，上次不小心还把一个钓鱼网站的数据库打挂了，嗯，请叫我雷锋。
 
@@ -176,19 +176,19 @@ Charles 的 Map 功能分 Map Remote 和 Map Local 两种，顾名思义，Map R
 
 在 Charles 的菜单中，选择 “Tools”–>“Map Remote” 或 “Map Local” 即可进入到相应功能的设置页面。
 
-![0](https://note.youdao.com/yws/res/22454/57C7CA13A960431FA67B37B564A889F0)
+![](assets/charles使用教程/file-20251121095229071.png)
 
 对于 Map Remote 功能，我们需要分别填写网络重定向的源地址和目的地址，对于不需要限制的条件，可以留空。下图是一个示例，我将所有 ytk1.yuanku.ws（测试服务器）的请求重定向到了 www.yuantiku.com（线上服务器）。
 
-![0](https://note.youdao.com/yws/res/22451/9C64FD29CFB944E2847F2D107A5A261E)
+![](assets/charles使用教程/file-20251121095218043.png)
 
 对于 Map Local 功能，我们需要填写的重定向的源地址和本地的目标文件。对于有一些复杂的网络请求结果，我们可以先使用 Charles 提供的 “Save Response…” 功能，将请求结果保存到本地（如下图所示），然后稍加修改，成为我们的目标映射文件。
 
-![0](https://note.youdao.com/yws/res/22461/FED042598712489098D62BC86CB26F4E)
+![](assets/charles使用教程/file-20251121095158775.png)
 
 下图是一个示例，我将一个指定的网络请求通过 Map Local 功能映射到了本地的一个经过修改的文件中。
 
-![0](https://note.youdao.com/yws/res/22464/1243FED5E19344618BD4121BE6A38215)
+![](assets/charles使用教程/file-20251121095134983.png)
 
 Rewrite 功能
 
@@ -200,7 +200,7 @@ Rewrite 功能功能适合对某一类网络请求进行一些正则替换，以
 
 我们想试着直接修改网络返回值，将 tangqiaoboy 换成成 iosboy。于是我们启用 Rewrite 功能，然后设置如下的规则：
 
-![](assets/charles使用教程/file-20251121094934710.png)
+![](assets/charles使用教程/file-20251121095105366.png)
 
 完成设置之后，我们就可以从 Charles 中看到，之后的 API 获得的昵称被自动 Rewrite 成了 iosboy，如下图所示：
 
