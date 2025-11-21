@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2b2ef5c42d8f3312",
+        "id": "15c40c6aa2945e9a",
         "type": "tabs",
         "children": [
           {
@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/操作标签.md",
+                "file": "git/git 撤销commit(reset).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "操作标签"
-            }
-          }
-        ]
-      },
-      {
-        "id": "15c40c6aa2945e9a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "50f504858dd3d855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git/操作标签.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "操作标签"
+              "title": "git 撤销commit(reset)"
             }
           }
         ]
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/操作标签.md",
+                "file": "git/git 撤销commit(reset).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "操作标签 的反向链接列表"
+              "title": "git 撤销commit(reset) 的反向链接列表"
             }
           },
           {
@@ -133,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/操作标签.md",
+                "file": "git/git 撤销commit(reset).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "操作标签 的出链列表"
+              "title": "git 撤销commit(reset) 的出链列表"
             }
           },
           {
@@ -176,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/操作标签.md",
+                "file": "git/git 撤销commit(reset).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操作标签 的大纲"
+              "title": "git 撤销commit(reset) 的大纲"
             }
           },
           {
@@ -218,8 +198,10 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "git/Git merge 合并分区详解.md",
+    "git/创建标签.md",
+    "git/git 撤销commit(reset).md",
     "git/操作标签.md",
+    "git/Git merge 合并分区详解.md",
     "git/Git，GitHub与GitLab.md",
     "git/Git Stash用法.md",
     "工具/finalshell/比Xshel更好用的 FinalShell.md",
@@ -261,8 +243,6 @@
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/linux权限之su和sudo的区别.md",
     "linux/99. 未分类/管道.md",
-    "linux/99. 未分类/Linux中rz命令和sz命令使用详解大全.md",
-    "linux/99. 未分类/Linux用户与用户组详解.md",
-    "linux/99. 未分类/Linux 下man 命令的使用.md"
+    "linux/99. 未分类/Linux中rz命令和sz命令使用详解大全.md"
   ]
 }
