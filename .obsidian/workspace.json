@@ -195,8 +195,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5392c7c50f49ba79",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "工具/beyond compare",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合/file-20251121093643543.png",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合/file-20251121093632733.png",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合",
@@ -241,7 +242,6 @@
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（42）：kill命令.md",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（41）：ps命令.md",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（40）：wc命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（39）：grep 命令.md",
-    "linux/00.每天一个linux命令/e)内存相关/assets/meminfo/file-20251120142935522.png"
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（39）：grep 命令.md"
   ]
 }
