@@ -16,7 +16,7 @@
 
 这里就不重复说创建项目了，创建好的目录结构在eclipse中如下：
 
-![](assets/Maven学习%20(六)%20搭建多模块企业级项目/file-20251121142104051.png)%20搭建多模块企业级项目/file-20251121142104051.png)
+![](assets/Maven学习%20(六)%20搭建多模块企业级项目/file-20251121142104051.png)
 
 说明一下这些项目具体都是干嘛的：
 
@@ -34,11 +34,11 @@ easyframework-web :这个就是整个项目的web层了，页面的显示以及�
 
 打开easyframework-root的pom.xml文件，你会看到模块化是这样的：
 
-![0](https://note.youdao.com/yws/res/2404/434FCC0DB226406A9C6F987A0A9E9B0C)
+![](assets/Maven学习%20(六)%20搭建多模块企业级项目/file-20251121142135425.png)
 
 接下来是配置各个模块的依赖关系，我个人认为的项目是这样依赖的，不知道对不对，呵呵....
 
-![0](https://note.youdao.com/yws/res/2405/31545FB69DF54DEC901EF8FB7CA427B9)
+![](assets/Maven学习%20(六)%20搭建多模块企业级项目/file-20251121142151761.png)
 
 举个例子easyframework-web这个项目依赖easyframework-core(业务核心)和easyframework-model(实体类)，easyframework-utils(公共的工具类)这个三个模块。
 
