@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
+                "file": "工具/charles（抓包工具）/charles使用教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "新手必看！sublime text 3快捷键大集合"
+              "title": "charles使用教程"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
+                "file": "工具/charles（抓包工具）/charles使用教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "新手必看！sublime text 3快捷键大集合 的反向链接列表"
+              "title": "charles使用教程 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
+                "file": "工具/charles（抓包工具）/charles使用教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "新手必看！sublime text 3快捷键大集合 的出链列表"
+              "title": "charles使用教程 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
+                "file": "工具/charles（抓包工具）/charles使用教程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "新手必看！sublime text 3快捷键大集合 的大纲"
+              "title": "charles使用教程 的大纲"
             }
           },
           {
@@ -195,15 +195,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
+    "工具/charles（抓包工具）/assets/charles使用教程/file-20251121094751935.png",
+    "工具/charles（抓包工具）/assets/charles使用教程/file-20251121094729674.png",
+    "工具/charles（抓包工具）/assets/charles使用教程/file-20251121094718938.png",
+    "工具/charles（抓包工具）/assets/charles使用教程/file-20251121094645045.png",
+    "工具/charles（抓包工具）/assets/charles使用教程",
+    "工具/charles（抓包工具）/安装抓包工具 Charles，并分析如何获取 Https 密文（抓JD-APP数据）.md",
+    "工具/charles（抓包工具）/charles使用教程.md",
+    "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！/file-20251121094511381.png",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！/file-20251121094501086.png",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！/file-20251121094429240.png",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！/file-20251121094405602.png",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！/file-20251121094347648.png",
+    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！",
+    "工具/charles（抓包工具）/assets",
+    "工具/beyond compare/如何解决Beyond Compare “这个授权密钥已被吊销”的办法.md",
+    "工具/charles（抓包工具）",
+    "工具/beyond compare/mac版本Beyond Compare如何一直试用.md",
+    "工具/beyond compare/beyond compare4安装包+注册码.md",
+    "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "工具/beyond compare",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合/file-20251121093643543.png",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合/file-20251121093632733.png",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合",
     "工具/Sublimetext/assets",
     "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
-    "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
     "工具/Sublimetext",
     "工具",
@@ -214,34 +233,15 @@
     "Github/Github 高级搜索功能.md",
     "linux/01.linux常用命令/Linux之sed.md",
     "Github/github骚操作",
-    "Github",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/linux权限之su和sudo的区别.md",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151239409.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151227517.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151204239.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151144005.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151103614.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151025952.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151012511.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别/file-20251120151000675.png",
-    "linux/99. 未分类/assets/linux权限之su和sudo的区别",
-    "linux/99. 未分类/assets",
     "linux/99. 未分类/管道.md",
     "linux/99. 未分类/Linux中rz命令和sz命令使用详解大全.md",
     "linux/99. 未分类/Linux用户与用户组详解.md",
     "linux/99. 未分类/Linux 下man 命令的使用.md",
     "linux/01.linux常用命令/Linux常用命令回顾.md",
-    "linux/99. 未分类",
-    "linux/01.linux常用命令/assets/Linux常用命令回顾/file-20251120145603615.ppt",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（61）：wget命令.md",
     "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（50）：crontab命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（49）：at命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（48）：watch命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（43）：killall命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（42）：kill命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（41）：ps命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（40）：wc命令.md",
-    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（39）：grep 命令.md"
+    "linux/00.每天一个linux命令/z)其他命令/每天一个linux命令（49）：at命令.md"
   ]
 }
