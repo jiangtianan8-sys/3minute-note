@@ -248,51 +248,89 @@ http://stamen.iteye.com/blog/1933452
 
 在Maven项目下，我们需要配置"maven-compiler-plugin"的"encoding"参数
 
-![0](https://note.youdao.com/yws/res/2213/D21399F83D344BF4B94DFAB67CCB7390)
-
-<plugins> <plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-compiler-pluginartifactId> <version>3.1version> <configuration> <encoding>UTF8encoding> configuration> plugin> plugins>
-
-![0](https://note.youdao.com/yws/res/2220/A38FB70180984BA887935A71D89FBA86)
+```
+<plugins> 
+         <plugin> 
+            <groupId>org.apache.maven.plugins</groupId> 
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version> 
+            <configuration>
+                <encoding>UTF8</encoding> 
+            </configuration> 
+         </plugin> 
+    </plugins>
+```
 
 需要在编译和生成的时候使用不同的jdk版本
 
-![0](https://note.youdao.com/yws/res/2217/AD989063D5074B209236F98BE32B1B5E)
-
-<plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-compiler-pluginartifactId> <version>3.5.1version> <configuration> <source>1.6source> <target>1.7target> configuration> plugin>
-
-![0](https://note.youdao.com/yws/res/2226/7DEB2BDAB7CA4AB9B737CDAA062C0461)
+```
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+```
 
 ③ maven-war-plugin 
 
 打包war项目的时候排除某些web资源文件，这时就应该配置maven-war-plugin如下：
 
-![0](https://note.youdao.com/yws/res/2229/4364556AE33D47E19C515B3475A55F1A)
-
-　<plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-war-pluginartifactId> <version>2.1.1version> <configuration> <webResources> <resource> <directory>src/main/webappdirectory> <excludes> <exclude>**/*.jpgexclude> excludes> resource> webResources> configuration> plugin>
-
-![0](https://note.youdao.com/yws/res/2211/E2DBF415E7B34C1CA3891A433A8BF67F)
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.1.1</version>
+    <configuration>
+      <webResources>
+        <resource>
+          <directory>src/main/webapp</directory>
+          <excludes>
+            <exclude>**/*.jpg</exclude>
+          </excludes>
+        </resource>
+      </webResources>
+    </configuration>
+  </plugin>
+```
 
 ④ maven-source-plugin 生成源码包
-
-![0](https://note.youdao.com/yws/res/2224/90F5AD7C7D814934B3B7A4114EBA785A)
-
-<plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-source-pluginartifactId> <version>2.1.2version> <executions> <execution> <id>attach-sourcesid> <phase>verifyphase> <goals> <goal>jar-no-forkgoal> goals> execution> executions> plugin>
-
-![0](https://note.youdao.com/yws/res/2230/7BC3ACD7268D42A7ADDC2B2C8413E2F1)
-
-![0](https://note.youdao.com/yws/res/2222/9359CF10176C436B93EDB17D93D00105)
-
-<plugin> <artifactId>maven-source-pluginartifactId> <version>2.1version> <configuration> <attach>trueattach> <encoding>${project.build.sourceEncoding}encoding> configuration> <executions> <execution> <phase>compilephase> <goals> <goal>jargoal> goals> execution> executions> plugin>
-
-![0](https://note.youdao.com/yws/res/2221/A590AD5DE1544E4E86D734DFC67B0AC7)
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-source-plugin</artifactId>
+    <version>2.1.2</version>
+    <executions>
+      <execution>
+        <id>attach-sources</id>
+        <phase>verify</phase>
+        <goals>
+          <goal>jar-no-fork</goal>
+        </goals>
+      </execution>
+    </executions>
+  </plugin>
+```
 
 ⑤  maven-javadoc-plugin 生成javadoc包
-
-![0](https://note.youdao.com/yws/res/2209/E9425B0BCB2B45A59D6DE0CBBBCFE705)
-
-<plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-javadoc-pluginartifactId> <version>2.7version> <executions> <execution> <id>attach-javadocsid> <goals> <goal>jargoal> goals> execution> executions> plugin>
-
-![0](https://note.youdao.com/yws/res/2219/9CDB922613DE4AECA262B840EEDEBF8B)
+```
+<plugin>          
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>2.7</version>
+    <executions>
+      <execution>
+        <id>attach-javadocs</id>
+          <goals>
+            <goal>jar</goal>
+          </goals>
+      </execution>
+    </executions>
+  </plugin>
+```
 
 ⑥ maven-assembly-plugin 
 
