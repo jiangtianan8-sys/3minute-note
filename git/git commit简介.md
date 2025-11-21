@@ -1,28 +1,28 @@
-在用git来进行版本控制时，我需要执行git commit命令，将索引内容添加到仓库中。
+在用 git 来进行版本控制时，我需要执行 git commit 命令，将索引内容添加到仓库中。
 
-示例1：
+示例 1：
 
-<span style="color:red">git commit  -m "提交的描述信息"</span>
+<span style="color:red">git commit  -m " 提交的描述信息 "</span>
 
-如果我们这里不用-m参数的话，git将调到一个文本编译器（通常是vim）来让你输入提交的描述信息
+如果我们这里不用 -m 参数的话，git 将调到一个文本编译器（通常是 vim）来让你输入提交的描述信息
 
 可能一天下来，你对工作树中的许多文档都进行了更新（文档添加、修改、删除），但是我忘记了它们的名字，此时若将所做的全部更新添加到索引中，比较轻省的做法就是：
 
-<span style="color:red">git commit -a -m "提交的描述信息"</span>
+<span style="color:red">git commit -a -m " 提交的描述信息 "</span>
 
-<span style="color:red">git commit -a -m "TAPD ID:56504839 【理财-后台】增加债权转让功能"</span>
+<span style="color:red">git commit -a -m "TAPD ID:56504839 【理财 - 后台】增加债权转让功能 "</span>
 
-git commit 命令的-a 选项可只将所有被修改或者已删除的且已经被git管理的文档提交倒仓库中。如果只是修改或者删除了已被Git 管理的文档，是没必要使用git add 命令的。
+git commit 命令的 -a 选项可只将所有被修改或者已删除的且已经被 git 管理的文档提交倒仓库中。如果只是修改或者删除了已被 Git 管理的文档，是没必要使用 git add 命令的。
 
 git add .命令除了能够判断出当前目录（包括其子目录）所有被修改或者已删除的文档，还能判断用户所添加的新文档，并将其信息追加到索引中。
 
 git commit --amend 对于已经修改提交过的注释，如果需要修改，可以借助 git commit --amend 来进行。
 
-  例如 在framework/base 里最新的提交就是 resolving the roaming problem，我现在需要将其改为 resolving the roaming problem for fixing bug 7732
+  例如 在 framework/base 里最新的提交就是 resolving the roaming problem，我现在需要将其改为 resolving the roaming problem for fixing bug 7732
 
-  在 framework/base 下 输入 git commit --amend,就会进入一个文本编辑界面（如下），在注释的地方修改 ，保存然后退出，这样注释就修改了，再重新push.
+  在 framework/base 下 输入 git commit --amend,就会进入一个文本编辑界面（如下），在注释的地方修改 ，保存然后退出，这样注释就修改了，再重新 push.
 
-另外，要注意的问题是，Git 不会主动记录你对文档进行的更新，除非你对它发号施令（比如通过git add命令）
+另外，要注意的问题是，Git 不会主动记录你对文档进行的更新，除非你对它发号施令（比如通过 git add 命令）
 
 语法
 

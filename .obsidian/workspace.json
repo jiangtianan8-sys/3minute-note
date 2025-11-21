@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git commit简介.md",
+                "file": "git/git rebase简介(基本篇).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git commit简介"
+              "title": "git rebase简介(基本篇)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git commit简介.md",
+                "file": "git/git rebase简介(基本篇).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "git commit简介 的反向链接列表"
+              "title": "git rebase简介(基本篇) 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git commit简介.md",
+                "file": "git/git rebase简介(基本篇).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "git commit简介 的出链列表"
+              "title": "git rebase简介(基本篇) 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git commit简介.md",
+                "file": "git/git rebase简介(基本篇).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "git commit简介 的大纲"
+              "title": "git rebase简介(基本篇) 的大纲"
             }
           },
           {
@@ -198,8 +198,14 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "git/git commit message 规范.md",
+    "git/assets/git rebase简介(基本篇)/file-20251121112816280.png",
+    "git/assets/git rebase简介(基本篇)",
+    "git/assets",
+    "git/git 分支 合并.md",
+    "git/git rebase简介(基本篇).md",
+    "git/git commit之后，想撤销commit.md",
     "git/git commit简介.md",
+    "git/git commit message 规范.md",
     "git/Git merge 合并分区详解.md",
     "git/git 撤销commit(reset).md",
     "git/创建标签.md",
@@ -232,17 +238,11 @@
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "工具/beyond compare",
     "工具/Sublimetext/assets/新手必看！sublime text 3快捷键大集合",
-    "工具/Sublimetext/assets",
     "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
     "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md",
-    "工具/Sublimetext",
     "Github/github骚操作/GitHub骚操作之搜索区域活跃用户.md",
     "Github/github骚操作/GitHub骚操作之#L数字.md",
     "Github/github骚操作/GitHub骚操作之awesome搜索.md",
-    "Github/github骚操作/GitHub骚操作之T搜索.md",
-    "Github/Github 高级搜索功能.md",
-    "linux/01.linux常用命令/Linux之sed.md",
-    "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
-    "linux/99. 未分类/linux权限之su和sudo的区别.md"
+    "Github/github骚操作/GitHub骚操作之T搜索.md"
   ]
 }
