@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +196,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5392c7c50f49ba79",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
+    "工具/charles（抓包工具）/charles使用教程.md",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095548913.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095538870.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095521338.png",
@@ -207,11 +210,8 @@
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095402076.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095351864.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095335505.png",
-    "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095318234.png",
     "工具/charles（抓包工具）/assets/charles使用教程",
     "工具/charles（抓包工具）/安装抓包工具 Charles，并分析如何获取 Https 密文（抓JD-APP数据）.md",
-    "工具/charles（抓包工具）/charles使用教程.md",
-    "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
     "工具/charles（抓包工具）/assets/Charles乱码？不存在的！",
     "工具/charles（抓包工具）/assets",
     "工具/beyond compare/如何解决Beyond Compare “这个授权密钥已被吊销”的办法.md",

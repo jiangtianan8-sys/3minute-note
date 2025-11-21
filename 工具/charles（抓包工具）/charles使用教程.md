@@ -146,7 +146,7 @@ iPhone 上的设置
 
 ![](assets/charles使用教程/file-20251121095307108.png)
 
-给服务器做[压力测试](https://so.csdn.net/so/search?q=%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95&spm=1001.2101.3001.7020)
+给服务器做 [压力测试](https://so.csdn.net/so/search?q=%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95&spm=1001.2101.3001.7020)
 
 我们可以使用 Charles 的 Repeat 功能来简单地测试服务器的并发处理能力，方法如下。
 
