@@ -200,11 +200,11 @@ Rewrite 功能功能适合对某一类网络请求进行一些正则替换，以
 
 我们想试着直接修改网络返回值，将 tangqiaoboy 换成成 iosboy。于是我们启用 Rewrite 功能，然后设置如下的规则：
 
-![0](https://note.youdao.com/yws/res/22469/2B7B0FE2EA0C4726A7E61CFC5F23F3B3)
+![](assets/charles使用教程/file-20251121094934710.png)
 
 完成设置之后，我们就可以从 Charles 中看到，之后的 API 获得的昵称被自动 Rewrite 成了 iosboy，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22456/BB73187DE7A849E19588B97CC819D878)
+![](assets/charles使用教程/file-20251121094920758.png)
 
 Breakpoints 功能
 
@@ -214,6 +214,6 @@ Breakpoints 功能类似我们在 Xcode 中设置的断点一样，当指定的�
 
 下图是我们临时修改获取用户信息的 API，将用户的昵称进行了更改，修改完成后点击 “Execute” 则可以让网络请求继续进行。
 
-![0](https://note.youdao.com/yws/res/22465/F3CAE3AE5B6D468AA1D282D3A138C734)
+![](assets/charles使用教程/file-20251121094859820.png)
 
 需要注意的是，使用 Breakpoints 功能将网络请求截获并修改过程中，整个网络请求的计时并不会暂停，所以长时间的暂停可能导致客户端的请求超时。
