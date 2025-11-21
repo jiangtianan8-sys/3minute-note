@@ -68,13 +68,13 @@ Charles 主要提供两种查看封包的视图，分别名为 “Structure” �
 
 方法二：在 Charles 的菜单栏选择 “Proxy”–>“Recording Settings”，然后选择 Include 栏，选择添加一个项目，然后填入需要监控的协议，主机地址，端口号。这样就可以只截取目标网站的封包了。如下图所示：
 
-![0](https://note.youdao.com/yws/res/22446/4D2E33B677284172AAE94E0CAAD11FF4)
+![](assets/charles使用教程/file-20251121095548913.png)
 
 通常情况下，我们使用方法一做一些临时性的封包过滤，使用方法二做一些经常性的封包过滤。
 
 方法三：在想过滤的网络请求上右击，选择 “Focus”，之后在 Filter 一栏勾选上 Focussed 一项，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22458/7BBA1B54CEE5408787BD6CE2BF51ACCF)
+![](assets/charles使用教程/file-20251121095538870.png)
 
 这种方式可以临时性的，快速地过滤出一些没有通过关键字的一类网络请求。
 
@@ -86,21 +86,21 @@ Charles 上的设置
 
 要截取 iPhone 上的网络请求，我们首先需要将 Charles 的代理功能打开。在 Charles 的菜单栏上选择 “Proxy”–>“Proxy Settings”，填入代理端口 8888，并且勾上 “Enable transparent HTTP proxying” 就完成了在 Charles 上的设置。如下图所示:
 
-![](assets/charles使用教程/file-20251121094751935.png)
+![](assets/charles使用教程/file-20251121095521338.png)
 
 iPhone 上的设置
 
 首先我们需要获取 Charles 运行所在电脑的 IP 地址，Charles 的顶部菜单的 “Help”–>“Local IP Address”，即可在弹出的对话框中看到 IP 地址，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22455/5A9F01DA6F2F4591B41E3A32060D07AD)
+![](assets/charles使用教程/file-20251121095451821.png)
 
 在 iPhone 的 “ 设置 ”–>“ 无线局域网 ” 中，可以看到当前连接的 wifi 名，通过点击右边的详情键，可以看到当前连接上的 wifi 的详细信息，包括 IP 地址，子网掩码等信息。在其最底部有「HTTP 代理」一项，我们将其切换成手动，然后填上 Charles 运行所在的电脑的 IP，以及端口号 8888，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22450/0065C3495F1A4FED9FB9E8767CD99109)
+![](assets/charles使用教程/file-20251121095436563.png)
 
 设置好之后，我们打开 iPhone 上的任意需要网络通讯的程序，就可以看到 Charles 弹出 iPhone 请求连接的确认菜单（如下图所示），点击 “Allow” 即可完成设置。
 
-![0](https://note.youdao.com/yws/res/22447/0F86955192D346389C59CD988AF19EC1)
+![](assets/charles使用教程/file-20251121095425101.png)
 
 截取 Https 通讯信息
 
@@ -110,11 +110,11 @@ iPhone 上的设置
 
 首先我们需要在 Mac 电脑上安装证书。点击 Charles 的顶部菜单，选择 “Help” –> “SSL Proxying” –> “Install Charles Root Certificate”，然后输入系统的帐号密码，即可在 KeyChain 看到添加好的证书。如下图所示：
 
-![0](https://note.youdao.com/yws/res/22466/1A37B7F1D3AF4FA799E356144D200672)
+![](assets/charles使用教程/file-20251121095413514.png)
 
 需要注意的是，即使是安装完证书之后，Charles 默认也并不截取 Https 网络通讯的信息，如果你想对截取某个网站上的所有 Https 网络请求，可以在该请求上右击，选择 SSL proxy，如下图所示：
 
-![0](https://note.youdao.com/yws/res/22463/E79D7B0256AE47A9823DDF48E0AE696D)
+![](assets/charles使用教程/file-20251121095402076.png)
 
 这样，对于该 Host 的所有 SSL 请求可以被截取到了。
 
