@@ -25,7 +25,7 @@ printf (“test1″);
 
 printf (“test2″);
 
->>>>>>> issueFix:test.c
+> issueFix:test.c
 
 可以看到 ======= 隔开的上半部分，是 HEAD（即 master 分支，在运行 merge 命令时检出的分支）中的内容，下半部分是在 issueFix 分支中的内容。解决冲突的办法无非是二者选其一或者由你亲自整合到一起。比如你可以通过把这段内容替换为下面这样来解决：
 
