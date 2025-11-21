@@ -196,10 +196,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5392c7c50f49ba79",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
-    "工具/jdk/在Linux上安装JDK8-教程.md",
+    "工具/maven/00.工作用maven",
+    "工具/maven",
+    "工具/maven.md",
+    "未命名",
     "工具/jdk/mac 上查看并切换 jdk 版本.md",
+    "工具/jdk/在Linux上安装JDK8-教程.md",
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "工具/jdk/assets/在Linux上安装JDK8-教程/file-20251121135812260.png",
     "工具/jdk/assets/在Linux上安装JDK8-教程/file-20251121135802457.png",
@@ -236,13 +240,9 @@
     "工具/charles（抓包工具）/charles使用教程.md",
     "工具/finalshell",
     "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
-    "工具/charles（抓包工具）/assets/charles使用教程",
     "工具/charles（抓包工具）/安装抓包工具 Charles，并分析如何获取 Https 密文（抓JD-APP数据）.md",
-    "工具/charles（抓包工具）/assets/Charles乱码？不存在的！",
     "工具/beyond compare/如何解决Beyond Compare “这个授权密钥已被吊销”的办法.md",
     "工具/beyond compare/mac版本Beyond Compare如何一直试用.md",
-    "工具/beyond compare/beyond compare4安装包+注册码.md",
-    "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
-    "Github/github骚操作/GitHub骚操作之star和fork范围搜索.md"
+    "工具/beyond compare/beyond compare4安装包+注册码.md"
   ]
 }
