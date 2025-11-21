@@ -20,7 +20,7 @@ $ git pull --allow-unrelated-histories CONFLICT (add/add): Merge conflict in .gi
 
 我这里由于使用了官方的 .gitignore 自动合并失败，需要手动合并之后再进行 add、commit 即可
 
-如果你是git pull或者git push报fatal: refusing to merge unrelated histories
+如果你是 git pull 或者 git push 报 fatal: refusing to merge unrelated histories
 
 同理：
 
