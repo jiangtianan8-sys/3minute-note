@@ -10,7 +10,7 @@
 
 单模块项目的archetype脚手架项目的结构
 
-![0](https://note.youdao.com/yws/res/6009/F36947F9660F4A5AA59B64D8EAA468CA)
+![](assets/手写Maven的archetype项目脚手架/file-20251121150125839.png)
 
 上图中的各个文件详解：
 
@@ -21,17 +21,138 @@
 
 1.beast-archetype/pom.xml内容如下
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> <modelVersion>4.0.0modelVersion> <groupId>com.thebeastshopgroupId> <artifactId>beast-archetypeartifactId> <version>1.1version> <packaging>jarpackaging> <name>beast-archetypename> <url>http://maven.apache.orgurl> <properties> <project.build.sourceEncoding>UTF-8project.build.sourceEncoding> properties> <dependencies> <dependency> <groupId>junitgroupId> <artifactId>junitartifactId> <version>3.8.1version> <scope>testscope> dependency> dependencies> <build> <finalName>beast-archetypefinalName> build> project>
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.thebeastshop</groupId>
+    <artifactId>beast-archetype</artifactId>
+    <version>1.1</version>
+    <packaging>jar</packaging>
+
+    <name>beast-archetype</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>beast-archetype</finalName>
+    </build>
+</project>
+```
 
 2.src/main/resources/archetype-resources/pom.xml内容如下：
 
-xml version="1.0"?> <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> <modelVersion>4.0.0modelVersion> <groupId>${groupId}groupId> <artifactId>${artifactId}artifactId> <version>${version}version> <name>${artifactId}name> <dependencies> <dependency> <groupId>junitgroupId> <artifactId>junitartifactId> <version>3.8.1version> <scope>testscope> dependency> dependencies> <build> <plugins> <plugin> <artifactId>maven-deploy-pluginartifactId> <configuration> <skip>trueskip> configuration> plugin> plugins> <pluginManagement> <plugins> <plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-archetype-pluginartifactId> <version>2.2version> <configuration> <source>1.7source> <target>1.7target> configuration> plugin> <plugin> <groupId>org.apache.maven.pluginsgroupId> <artifactId>maven-source-pluginartifactId> <configuration> <encoding>UTF-8encoding> configuration> plugin> plugins> pluginManagement> build> project>
+```xml
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+    <name>${artifactId}</name>
+    
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+             <plugin> 
+                 <artifactId>maven-deploy-plugin</artifactId> 
+                 <configuration> 
+                    <skip>true</skip> 
+                 </configuration> 
+             </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <source>1.7</source>
+                        <target>1.7</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
+```
 
 其中：上面${}标识的变量都是通过maven中的命令行传进来的，如：mvn archetype:generate -DgroupId=com.thebeastshop
 
 3.src/main/resources/META-INF/maven/archetype-metadata.xml内容如下：
 
-xml version="1.0" encoding="UTF-8"?> <archetype-descriptor name="beast-archetype" xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"> <requiredProperties> <requiredProperty key="package-name" /> requiredProperties> <fileSets> <fileSet filtered="true" packaged="true" encoding="UTF-8"> <directory>src/main/javadirectory> <includes> <include>**/*.javainclude> includes> fileSet> <fileSet filtered="true" encoding="UTF-8"> <directory>src/main/resourcesdirectory> <includes> <include>**/*.*include> includes> fileSet> <fileSet filtered="true" packaged="true" encoding="UTF-8"> <directory>src/test/javadirectory> <includes> <include>**/*.javainclude> includes> fileSet> <fileSet encoding="UTF-8"> <directory>src/test/resourcesdirectory> <includes> <include>**/*.*include> includes> fileSet> fileSets> archetype-descriptor>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor  name="beast-archetype"
+        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+            http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
+            http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd">
+
+    <requiredProperties>
+        <requiredProperty key="package-name" />
+    </requiredProperties>
+
+    <fileSets>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="true" encoding="UTF-8">
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8">
+            <directory>src/test/resources</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
+```
 
 说明：
 
@@ -40,7 +161,12 @@ xml version="1.0" encoding="UTF-8"?> <archetype-descriptor name="beast-archetype
 
 4.src/main/resources/archetype-resources/src/main/java/Demo.java内容如下：
 
-package ${package}; public class Demo{ public static void main( String[] args ) { System.out.println( "Hello My Archetype!" ); } }
+package ${package}; 
+public class Demo{ 
+    public static void main( String[] args ) { 
+        System.out.println( "Hello My Archetype!" ); 
+    }
+ }
 
 5.这样我们就手写好了一个自定义的maven的archetype骨架项目，我们只需要通过mvn clean install 命令把该jar包安装到本地仓库，然后通过本地仓库中的该jar包来生成一个项目看看效果，使用如下命令：
 
@@ -60,7 +186,8 @@ mvn archetype:generate
 
 1.多模块骨架项目的项目结构
 
-![0](https://note.youdao.com/yws/res/6010/0C31507FAAD047E0858CB8D44D302B12)
+![](assets/手写Maven的archetype项目脚手架/file-20251121150505373.png)
+
 
 这跟单模块项目区别不大，但是有几个概念需要说明：
 
@@ -70,10 +197,197 @@ mvn archetype:generate
 
 2.模板工程定义描述文件：META-INF/maven/archetype-metadata.xml
 
-//maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"> com.thebeastshop test com.thebeastshop.test src/main/java **/*.* src/test/java **/*.* src/main/resources **/*.* src/test/resources **/*.* src/main/java **/*.* src/test/java **/*.* src/main/resources **/*.* src/test/resources **/*.* src/main/java **/*.* src/test/java **/*.* src/main/resources **/*.* mapper src/test/resources **/*.* src/main/java **/*.* src/test/java **/*.* src/main/resources **/*.* src/test/resources **/*.* src/main/assembly **/*.* src/main/bin **/*.* src/main/java **/*.* src/test/java **/*.* src/main/resources **/*.* src/test/resources **/*.*
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor  name="beast-archetype"
+        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+            http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
+            http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd">
+
+    <requiredProperties>
+        <requiredProperty key="groupId">
+            <defaultValue>com.thebeastshop</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="artifactId">
+            <defaultValue>test</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="package">
+            <defaultValue>com.thebeastshop.test</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
+
+    <modules>
+        <module id="${rootArtifactId}-api" name="${rootArtifactId}-api" dir="__rootArtifactId__-api">
+            <fileSets>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="${rootArtifactId}-core" name="${rootArtifactId}-core" dir="__rootArtifactId__-core">
+            <fileSets>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="${rootArtifactId}-dao" name="${rootArtifactId}-dao" dir="__rootArtifactId__-dao">
+            <fileSets>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                        <include>mapper</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="${rootArtifactId}-main" name="${rootArtifactId}-main" dir="__rootArtifactId__-main">
+            <fileSets>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/assembly</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/bin</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+        <module id="${rootArtifactId}-mybatisGen" name="${rootArtifactId}-mybatisGen" dir="__rootArtifactId__-mybatisGen">
+            <fileSets>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8" packaged="true">
+                    <directory>src/test/java</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+                <fileSet encoding="UTF-8">
+                    <directory>src/test/resources</directory>
+                    <includes>
+                        <include>**/*.*</include>
+                    </includes>
+                </fileSet>
+            </fileSets>
+        </module>
+    </modules>
+</archetype-descriptor>
+```
 
 - 属性变量定义
-- <requiredProperties> <requiredProperty key="groupId"> <defaultValue>com.thebeastshopdefaultValue> requiredProperty> <requiredProperty key="artifactId"> <defaultValue>testdefaultValue> requiredProperty> <requiredProperty key="package"> <defaultValue>com.thebeastshop.testdefaultValue> requiredProperty> requiredProperties>
+- <requiredProperties> 
+     <requiredProperty key="groupId"> 
+        <defaultValue>com.thebeastshop</defaultValue> 
+    </requiredProperty> 
+    <requiredProperty key="artifactId"> 
+	    <defaultValue>test</defaultValue>
+	</requiredProperty> 
+	<requiredProperty key="package"> 
+		<defaultValue>com.thebeastshop.test</defaultValue> 
+	<requiredProperty> 
+   </requiredProperties>
 
 这些属性可以在资源元文件里的任意一个文件里通过${var}来引用，所以的元文件最终都可以选择通过velocity引擎来执行替换后生成。
 
@@ -81,8 +395,26 @@ mvn archetype:generate
 
 - 项目子模块定义
 
-<modules> <module id="${rootArtifactId}-api" name="${rootArtifactId}-api" dir="__rootArtifactId__-api"> ... module> <module id="${rootArtifactId}-core" name="${rootArtifactId}-core" dir="__rootArtifactId__-core"> ... module> <module id="${rootArtifactId}-dao" name="${rootArtifactId}-dao" dir="__rootArtifactId__-dao"> ... module> <module id="${rootArtifactId}-main" name="${rootArtifactId}-main" dir="__rootArtifactId__-main"> ... module> <module id="${rootArtifactId}-mybatisGen" name="${rootArtifactId}-mybatisGen" dir="__rootArtifactId__-mybatisGen"> ... module> modules>
+```xml
+<modules>
+    <module id="${rootArtifactId}-api" name="${rootArtifactId}-api" dir="__rootArtifactId__-api">
+        …
+    </module>
+    <module id="${rootArtifactId}-core" name="${rootArtifactId}-core" dir="__rootArtifactId__-core">
+        …
+    </module>
+    <module id="${rootArtifactId}-dao" name="${rootArtifactId}-dao" dir="__rootArtifactId__-dao">
+        …
+    </module>
+    <module id="${rootArtifactId}-main" name="${rootArtifactId}-main" dir="__rootArtifactId__-main">
+        …
+    </module>
+    <module id="${rootArtifactId}-mybatisGen" name="${rootArtifactId}-mybatisGen" dir="__rootArtifactId__-mybatisGen">
+        …
+    </module>
+</modules>
 
+```
 module有三个属性，解释如下：
 
 id     ：定义子模块工程的artifactId.
@@ -93,8 +425,48 @@ name   ：子模块的名字.
 
 3.子模块pom.xml定义如下(以core模块为例)：
 
-xml version="1.0"?> <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> <modelVersion>4.0.0modelVersion> <parent> <groupId>com.thebeastshopgroupId> <artifactId>${rootArtifactId}artifactId> <version>${version}version> parent> <artifactId>${artifactId}artifactId> <name>${artifactId}name> <dependencies> <dependency> <groupId>com.thebeastshopgroupId> <artifactId>${rootArtifactId}-apiartifactId> <version>${api.version}version> dependency> <dependency> <groupId>com.thebeastshopgroupId> <artifactId>${rootArtifactId}-daoartifactId> <version>${project.parent.version}version> dependency> dependencies> <build> <plugins> <plugin> <artifactId>maven-deploy-pluginartifactId> <configuration> <skip>trueskip> configuration> plugin> plugins> build> project>
+```
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.thebeastshop</groupId>
+        <artifactId>${rootArtifactId}</artifactId>
+        <version>${version}</version>
+    </parent>
 
+    <artifactId>${artifactId}</artifactId>
+    <name>${artifactId}</name>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.thebeastshop</groupId>
+            <artifactId>${rootArtifactId}-api</artifactId>
+            <version>${api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thebeastshop</groupId>
+            <artifactId>${rootArtifactId}-dao</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+             <plugin> 
+                 <artifactId>maven-deploy-plugin</artifactId> 
+                 <configuration> 
+                    <skip>true</skip> 
+                 </configuration> 
+             </plugin>
+        </plugins>
+    </build>
+</project>
+
+```
 其中${rootArtifactId}就代表父项目的artifactId.
 
 4.我们和单模块脚手架工程一样，通过mvn clean install命令把该脚手架项目安装到本地maven仓库，然后就可以使用该项目来快速生成新项目结构了，生成命令如下：
@@ -115,7 +487,7 @@ mvn archetype:generate
 
 我们就会看到生成好的项目结构如下：
 
-![0](https://note.youdao.com/yws/res/6011/58D1C78F1D4E4E0FB0B346D7D0A29F40)
+![](assets/手写Maven的archetype项目脚手架/file-20251121151257494.png)
 
 多模块项目脚手架源码：[https://github.com/hafizzhang/beast-archetype](https://github.com/hafizzhang/beast-archetype)
 
