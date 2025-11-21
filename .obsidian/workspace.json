@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/charles（抓包工具）/charles使用教程.md",
+                "file": "工具/finalshell/比Xshel更好用的 FinalShell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "charles使用教程"
+              "title": "比Xshel更好用的 FinalShell"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/charles（抓包工具）/charles使用教程.md",
+                "file": "工具/finalshell/比Xshel更好用的 FinalShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "charles使用教程 的反向链接列表"
+              "title": "比Xshel更好用的 FinalShell 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/charles（抓包工具）/charles使用教程.md",
+                "file": "工具/finalshell/比Xshel更好用的 FinalShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "charles使用教程 的出链列表"
+              "title": "比Xshel更好用的 FinalShell 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/charles（抓包工具）/charles使用教程.md",
+                "file": "工具/finalshell/比Xshel更好用的 FinalShell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "charles使用教程 的大纲"
+              "title": "比Xshel更好用的 FinalShell 的大纲"
             }
           },
           {
@@ -196,10 +196,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
     "工具/charles（抓包工具）/charles使用教程.md",
+    "工具/finalshell/比Xshel更好用的 FinalShell.md",
+    "工具/finalshell",
+    "工具/charles（抓包工具）/Charles乱码？不存在的！.md",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095548913.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095538870.png",
     "工具/charles（抓包工具）/assets/charles使用教程/file-20251121095521338.png",
@@ -232,7 +234,6 @@
     "Github/github骚操作/GitHub骚操作之T搜索.md",
     "Github/Github 高级搜索功能.md",
     "linux/01.linux常用命令/Linux之sed.md",
-    "Github/github骚操作",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/linux权限之su和sudo的区别.md",
     "linux/99. 未分类/管道.md",
