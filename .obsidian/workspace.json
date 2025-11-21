@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
+                "file": "工具/maven/01.网上资料/mvn -N和-U的用法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "maven 常用插件解析"
+              "title": "mvn -N和-U的用法"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
+                "file": "工具/maven/01.网上资料/mvn -N和-U的用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "maven 常用插件解析 的反向链接列表"
+              "title": "mvn -N和-U的用法 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
+                "file": "工具/maven/01.网上资料/mvn -N和-U的用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "maven 常用插件解析 的出链列表"
+              "title": "mvn -N和-U的用法 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/maven/01.网上资料/maven 常用插件解析.md",
+                "file": "工具/maven/01.网上资料/mvn -N和-U的用法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "maven 常用插件解析 的大纲"
+              "title": "mvn -N和-U的用法 的大纲"
             }
           },
           {
@@ -198,8 +198,10 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
-    "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
+    "工具/maven/01.网上资料/maven profile实现多环境配置.md",
+    "工具/maven/01.网上资料/mvn -N和-U的用法.md",
     "工具/maven/01.网上资料/maven 常用插件解析.md",
+    "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
     "工具/maven/01.网上资料/Maven学习 (六) 搭建多模块企业级项目.md",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用/file-20251121142800570.png",
     "工具/maven/01.网上资料/assets/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用",
@@ -241,8 +243,6 @@
     "git/git commit简介.md",
     "git/git commit message 规范.md",
     "git/git 撤销commit(reset).md",
-    "git/创建标签.md",
-    "git/操作标签.md",
-    "git/Git，GitHub与GitLab.md"
+    "git/创建标签.md"
   ]
 }
