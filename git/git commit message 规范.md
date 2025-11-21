@@ -1,10 +1,10 @@
-所有业务代码提交 <span style="color:red">release </span>分支时，如不符合 commit message 规范，将被<span style="color:red">拒绝 push。
+所有业务代码提交 <span style="color:red">release </span>分支时，如不符合 commit message 规范，将被<span style="color:red">拒绝 push</span>。
 
 commit message 规范：
 
 - 首行必须为:
-- “TAPD ID:”前缀 + 对应需求 ID（该 ID 从 TAPD 平台获取），<span style="color:red">且该 ID 必须在本周的发布范围内。
-- “RM ID:”前缀 + 对应需求 ID（该 ID 从 Redmine 平台获取），<span style="color:red">且该 ID 必须在本周的发布范围内 (即 Redmine 中的目标版本)。
+- “TAPD ID:”前缀 + 对应需求 ID（该 ID 从 TAPD 平台获取），<span style="color:red">且该 ID 必须在本周的发布范围内。</span>
+- “RM ID:”前缀 + 对应需求 ID（该 ID 从 Redmine 平台获取），<span style="color:red">且该 ID 必须在本周的发布范围内 (即 Redmine 中的目标版本)。</span>
 
 示例：
 
@@ -12,7 +12,7 @@ TAPD ID: 56496974
 
 RM ID: 734
 
-<span style="color:red">该项由 git hooks: pre-receive 强制检测，意味着一次 push 中包含的若干个 commit，只要有一个不符合则全部 push 失败。
+<span style="color:red">该项由 git hooks: pre-receive 强制检测，意味着一次 push 中包含的若干个 commit，只要有一个不符合则全部 push 失败。</span>
 
 PS：前缀中的“:”为英文半角，多个 TAPD ID 使用英文半角逗号 "," 分割。
 
