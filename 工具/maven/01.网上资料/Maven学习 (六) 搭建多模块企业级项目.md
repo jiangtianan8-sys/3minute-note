@@ -129,6 +129,7 @@ easyframework-web : 这个就是整个项目的 web 层了，页面的显示以�
  34     <dependencies>
 
  35
+
  36         <!-- log4j -->
 
  37         <dependency>
