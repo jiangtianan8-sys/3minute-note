@@ -137,46 +137,33 @@ outputDirectory：指定当前要包含的目录的目的地。
     </descriptors>  
     <outputDirectory>output</outputDirectory>
 </configuration> 
-————————————————
-版权声明：本文为CSDN博主「挖坑埋你」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/liupeifeng3514/article/details/79777976
 ```
 最后会生成一个demo-demo.jar 文件在目录 output 下，其中前一个demo来自finalName，后一个demo来自assembly descriptor中的id，其中的内容和默认的打包出来的jar类似。
 
 如果只想有 finalName，则增加配置：
 
+```xml
 <appendAssemblyId>false</appendAssemblyId>
-一键获取完整项目代码
-
-1
+```
 
 添加文件
 
 上面演示了添加所有编译后的资源，同样的可以增加其他资源，例如想添加当前工程目录下的某个文件 b.txt ，在 assembly descriptor 的 assembly 结点下增加
 
-<files>
-    <file>
-        <source>b.txt</source>
-        <outputDirectory>/</outputDirectory>
-    </file>
+```xml
+<files> 
+	<file> 
+		<source>b.txt</source> 
+		<outputDirectory>/</outputDirectory> 
+	</file> 
 </files>
-一键获取完整项目代码
-xml
-1
-2
-3
-4
-5
-6
-这里用到了 files 元素类型，可以想象 fileSets 下的结点都是针对文件夹的；files 下的结点都是针对文件的。
+```
 
 也可以改变打包后的文件名，例如上面的 b.txt ，希望打包后的名字为 b.txt.bak， 只需要在 file 里添加以下配置 ：
 
+```xml
 <destName>b.txt.bak</destName>
-
-一键获取完整项目代码
-
-1
+```
 
 排除文件
 
@@ -184,22 +171,15 @@ xml
 
 例如要排除某个目录下所有的 txt 文件：
 
-<fileSet>
-    <directory>${project.build.directory}/classes</directory>
-    <outputDirectory>/</outputDirectory>
-    <excludes>
-        <exclude>**/*.txt</exclude>
-    </excludes>
+```xml
+<fileSet>  
+    <directory>${project.build.directory}/classes</directory>  
+    <outputDirectory>/</outputDirectory>  
+    <excludes>  
+        <exclude>**/*.txt</exclude>  
+    </excludes>  
 </fileSet>
-一键获取完整项目代码
-xml
-1
-2
-3
-4
-5
-6
-7
+```
 或者某个目录下只想 .class 文件：
 
 <fileSet>
