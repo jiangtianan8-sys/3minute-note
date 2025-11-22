@@ -94,37 +94,33 @@ distributionManagement包含repository和snapshotRepository子元素，前者表
 
 如果仓库X可以提供仓库Y存储的所有内容，那么就可以认为X是Y的一个镜像。换句话说，任何一个可以从仓库Y获得的构件，都能够从它的镜像中获取。举个例子，[http://maven.oschina.net/content/groups/public/](http://maven.oschina.net/content/groups/public/) 是中央仓库[http://repo1.maven.org/maven2/](http://repo1.maven.org/maven2/) 在中国的镜像，由于地理位置的因素，该镜像往往能够提供比中央仓库更快的服务。因此，可以配置Maven使用该镜像来替代中央仓库。编辑settings.xml，代码如下：
 
-  
+ ```xml
+ <mirrors>
+     <mirror>
+      <id>maven.oschina.net</id>
+      <name>maven mirror in China</name>
+      <url>http://maven.oschina.net/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+</mirrors>
+ ```
 
 该例中，mirrorOf的值为central，表示该配置为中央仓库的镜像，任何对于中央仓库的请求都会转至该镜像，用户也可以使用同样的方法配置其他仓库的镜像。id表示镜像的唯一标识符，name表示镜像的名称，url表示镜像的地址。
 
 关于镜像的一个更为常见的用法是结合私服。由于私服可以代理任何外部的公共仓库(包括中央仓库)，因此，对于组织内部的Maven用户来说，使用一个私服地址就等于使用了所有需要的外部仓库，这可以将配置集中到私服，从而简化Maven本身的配置。在这种情况下，任何需要的构件都可以从私服获得，私服就是所有仓库的镜像。这时，可以配置这样的一个镜像：
 
-       nexus  
-
-       internal nexus repository  
-
-       http://183.238.2.182:8081/nexus/content/groups/public/  
-
-       *  
-
+ ```xml
+ <!--配置私服镜像-->
+<mirrors> 
+    <mirror>  
+        <id>nexus</id>  
+        <name>internal nexus repository</name>  
+        <url>http://183.238.2.182:8081/nexus/content/groups/public/</url>  
+        <mirrorOf>*</mirrorOf>  
+    </mirror>  
+</mirrors>
 1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
+ ```
 
 该例中的值为星号，表示该配置是所有Maven仓库的镜像，任何对于远程仓库的请求都会被转至[http://183.238.2.182:8081/nexus/content/groups/public/](http://183.238.2.182:8081/nexus/content/groups/public/)。如果该镜像仓库需要认证，则配置一个id为nexus的认证信息即可。
 
