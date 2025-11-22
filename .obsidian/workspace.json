@@ -198,6 +198,10 @@
   },
   "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（10）— Maven依赖详解/file-20251122090424198.png",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（10）— Maven依赖详解/file-20251122090413861.png",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（10）— Maven依赖详解/file-20251122090405391.png",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（10）— Maven依赖详解",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（11）— Maven远程仓库的各种配置.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（10）— Maven依赖详解.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（9）— Maven坐标详解.md",
@@ -214,10 +218,8 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（7）— Maven使用的最佳实践.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践/file-20251122083929875.png",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践/file-20251122083914499.png",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（5）— Maven目录结构及常用命令说明.md",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（5）— Maven目录结构及常用命令说明/file-20251122083009844.png",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（5）— Maven目录结构及常用命令说明",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（4）— 新建Maven项目.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（3）— Maven仓库介绍与本地仓库配置.md",
@@ -229,7 +231,6 @@
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（1）— Maven初步了解与认识",
     "工具/maven/02.网上教程/maven学习笔记/assets",
     "工具/maven/02.网上教程/archetype/手写Maven的archetype项目脚手架.md",
-    "工具/maven/02.网上教程/maven学习笔记",
     "工具/maven/01.网上资料/mvn -N和-U的用法.md",
     "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
     "工具/maven/01.网上资料/maven profile实现多环境配置.md",
@@ -242,7 +243,6 @@
     "工具/maven/00.工作用maven/常用pom.md",
     "工具/maven/00.工作用maven/Mac配置maven环境.md",
     "工具/jdk/mac 上查看并切换 jdk 版本.md",
-    "工具/maven.md",
-    "工具/jdk/在Linux上安装JDK8-教程.md"
+    "工具/maven.md"
   ]
 }

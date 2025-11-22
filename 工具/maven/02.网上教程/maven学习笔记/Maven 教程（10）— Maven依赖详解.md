@@ -50,18 +50,18 @@
 3. **provided**：在编译和测试的过程有效，最后生成包时不会加入，运行时自然也没效果。例如：servlet-api，因为servlet-api，tomcat等web服务器已经存在该jar包了，如果再打包可能会有冲突。
 4. **runtime**：在测试、运行的时候依赖，在编译的时候不依赖。例如：JDBC驱动，项目代码只需要jdk提供的jdbc接口，只有在执行测试和运行项目的时候才需要实现jdbc的功能。
 5. **system**：系统依赖范围。该依赖范围与provided所表示的依赖范围一致，对于编译和测试有效，但在运行时无效。只是使用system范围依赖时必须通过systemPath元素显式地指定依赖文件的路径。由于此类依赖不是通过Maven仓库解析的，而且往往与本机系统绑定，可能造成构建的不可移植，因此应该谨慎使用，systemPath元素可以引用环境变量。例如：  
-    ![这里写图片描述](https://img-blog.csdn.net/20180313185252134?watermark/2/text/Ly9ibG9nLmNzZG4ubmV0L2xpdXBlaWZlbmczNTE0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+    ![](assets/Maven%20教程（10）—%20Maven依赖详解/file-20251122090405391.png)
 6. **import(Maven 2.0.9及以上)**：导入依赖范围。该依赖范围不会对三种classpath产生实际的影响。
 
 上述除import以外的各种依赖范围与三种classpath的关系如下：  
-![这里写图片描述](https://img-blog.csdn.net/20180313185655278?watermark/2/text/Ly9ibG9nLmNzZG4ubmV0L2xpdXBlaWZlbmczNTE0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](assets/Maven%20教程（10）—%20Maven依赖详解/file-20251122090413861.png)
 
 #### 4、传递性依赖和依赖范围
 
 Maven的依赖是具有传递性的，比如A->B,B->C,那么A间接的依赖于C，这就是依赖的传递性，其中A对于B是第一直接依赖，B对于C是第二直接依赖，C为A的传递性依赖。
 
 在平时的开发中，如果我们的项目依赖了spring-core，依赖范围是compile，spring-core又依赖了commons-logging，依赖范围也是compile，那么我们的项目对于commons-logging这一传递性依赖的范围也就是compile。第一直接依赖的范围和第二直接依赖的范围决定了传递性依赖的范围。我们通过下面这个表格来说明，其中最左边一栏是第一直接依赖，最上面那一栏为第二直接依赖。中间交叉的是传递性依赖范围。  
-![这里写图片描述](https://img-blog.csdn.net/20180313190443699?watermark/2/text/Ly9ibG9nLmNzZG4ubmV0L2xpdXBlaWZlbmczNTE0/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
+![](assets/Maven%20教程（10）—%20Maven依赖详解/file-20251122090424198.png)  
 例如：第一直接依赖范围是Test，第二直接依赖范围是Compile，那么传递性依赖的范围就是Test，大家可以根据这个表去判断。
 
 仔细观察一下表格，我们可以发现这样的规律：
