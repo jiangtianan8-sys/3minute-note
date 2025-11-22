@@ -5,6 +5,7 @@
 ---
 
 Filtering 是 maven 的 resource 插件 提供的功能，作用是用环境变量、pom 文件里定义的属性和指定配置文件里的属性替换属性 (`*.properties`) 文件里的占位符 (`${jdbc.url}`)，具体使用如下：
+
 在 `src/main/resources` 目录有个配置文件 `jdbc.properties`，内容如下：
 
 ```
@@ -240,6 +241,7 @@ IDEA 里则可以在 Maven Projects 里直接勾选想要激活的 profile
 思路：在不同的 profile 里配置不同的属性 (properties),然后激活相应的 profile，用其中的属性去替换 jdbc.properties 里的占位符。
 
 继续使用介绍 Filtering 时的例子，现在添加三个 profile 配置，分别对应开发，测试，正式环境。
+
 修改后的 pom 文件如下：
 
 ```
