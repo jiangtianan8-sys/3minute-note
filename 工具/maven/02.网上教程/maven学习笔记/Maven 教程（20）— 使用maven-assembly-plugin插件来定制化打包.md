@@ -38,7 +38,6 @@ war
 </plugin>
 ```
 
-
 使用内置的 Assembly Descriptor
 
 要使用 maven-assembly-plugin，需要指定至少一个要使用的 assembly descriptor 文件。默认情况下，maven-assembly-plugin 内置了几个可以用的 assembly descriptor：
@@ -88,8 +87,6 @@ project ： 将整个 project 资源打包。
 </assembly>
 ```
 
-
-
 自定义 Assembly Descriptor
 
 一般来说，内置的 assembly descriptor 都不满足需求，这个时候就需要写自己的 assembly descriptor 的实现了。先从一个最简单的定义开始：
@@ -138,7 +135,8 @@ outputDirectory：指定当前要包含的目录的目的地。
     <outputDirectory>output</outputDirectory>
 </configuration> 
 ```
-最后会生成一个demo-demo.jar 文件在目录 output 下，其中前一个demo来自finalName，后一个demo来自assembly descriptor中的id，其中的内容和默认的打包出来的jar类似。
+
+最后会生成一个 demo-demo.jar 文件在目录 output 下，其中前一个 demo 来自 finalName，后一个 demo 来自 assembly descriptor 中的 id，其中的内容和默认的打包出来的 jar 类似。
 
 如果只想有 finalName，则增加配置：
 
@@ -180,6 +178,7 @@ outputDirectory：指定当前要包含的目录的目的地。
     </excludes>  
 </fileSet>
 ```
+
 或者某个目录下只想 .class 文件：
 
 ```xml
@@ -191,7 +190,9 @@ outputDirectory：指定当前要包含的目录的目的地。
     </includes>
 </fileSet>
 ```
+
 添加依赖
+
 如果想把一些依赖库打到包里，可以用 dependencySets 元素，例如最简单的，把当前工程的所有依赖都添加到包里：
 
 ```xml
@@ -201,11 +202,10 @@ outputDirectory：指定当前要包含的目录的目的地。
 	</dependencySet> 
 </dependencySets>
 ```
-在assembly下添加以上配置，则当前工程的依赖和工程本身生成的jar都会被打包进来。
+
+在 assembly 下添加以上配置，则当前工程的依赖和工程本身生成的 jar 都会被打包进来。
 
 如果要排除工程自身生成的 jar，则可以添加
-
-
 
 ```xml
 <useProjectArtifact>false</useProjectArtifact>
@@ -246,71 +246,36 @@ archive 的一个重要用处就是配置生成的 MANIFEST.MF 文件。默认�
 	</manifest> 
 </archive>
 ```
+
 下面来看一个项目中实际配置的文件：
 
 pom 文件：
 
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-assembly-plugin</artifactId>
-    <version>${maven-assembly-plugin.version}</version>
-    <configuration>
-        <descriptors>
-            <descriptor>package.xml</descriptor>
-        </descriptors>
-    </configuration>
-    <executions>
-        <execution>
-            <id>make-assembly</id>
-            <phase>package</phase>
-            <goals>
-                <goal>single</goal>
-            </goals>
-        </execution>
-    </executions>
-</plugin>
-一键获取完整项目代码
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
+```xml
+<plugin>                                                                
+    <groupId>org.apache.maven.plugins</groupId>                         
+    <artifactId>maven-assembly-plugin</artifactId>                      
+    <version>${maven-assembly-plugin.version}</version>                                          
+    <configuration>                                                     
+        <descriptors>                                                   
+            <descriptor>package.xml</descriptor>                        
+        </descriptors>                                                  
+    </configuration>                                                    
+    <executions>                                                        
+        <execution>                                                     
+            <id>make-assembly</id>                                      
+            <phase>package</phase>                                      
+            <goals>                                                     
+                <goal>single</goal>                                     
+            </goals>                                                    
+        </execution>                                                    
+    </executions>                                                       
+</plugin>           
+```
 
 assembly descriptor 文件：
 
+```xml
 <assembly>
     <id>${assembly-id}</id>
     <!-- 最终打包成一个用于发布的war文件 -->
@@ -350,9 +315,7 @@ assembly descriptor 文件：
         </fileSet>
     </fileSets>
 </assembly>
-一键获取完整项目代码
-
-————————————————
+```
 
 版权声明：本文为 CSDN 博主「挖坑埋你」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 
