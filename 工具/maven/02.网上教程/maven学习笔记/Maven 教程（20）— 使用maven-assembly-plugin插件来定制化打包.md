@@ -182,6 +182,7 @@ outputDirectory：指定当前要包含的目录的目的地。
 ```
 或者某个目录下只想 .class 文件：
 
+```xml
 <fileSet>
     <directory>${project.build.directory}/classes</directory>
     <outputDirectory>/</outputDirectory>
@@ -189,46 +190,32 @@ outputDirectory：指定当前要包含的目录的目的地。
         <include>**/*.class</include>
     </includes>
 </fileSet>
-一键获取完整项目代码
-1
-2
-3
-4
-5
-6
-7
+```
 添加依赖
 如果想把一些依赖库打到包里，可以用 dependencySets 元素，例如最简单的，把当前工程的所有依赖都添加到包里：
 
-<dependencySets>
-    <dependencySet>
-        <outputDirectory>/</outputDirectory>
-    </dependencySet>
+```xml
+<dependencySets> 
+	<dependencySet> 
+		<outputDirectory>/</outputDirectory> 
+	</dependencySet> 
 </dependencySets>
-一键获取完整项目代码
-xml
-1
-2
-3
-4
-5
+```
 在assembly下添加以上配置，则当前工程的依赖和工程本身生成的jar都会被打包进来。
 
 如果要排除工程自身生成的 jar，则可以添加
 
+
+
+```xml
 <useProjectArtifact>false</useProjectArtifact>
-
-一键获取完整项目代码
-
-1
+```
 
 unpack 参数可以控制依赖包是否在打包进来时是否解开，例如解开所有包，添加以下配置：
 
+```xml
 <unpack>true</unpack>
-
-一键获取完整项目代码
-
-1
+```
 
 和 fileSet 一样，可以使用 excludes 和 includes 来更详细的控制哪些依赖需要打包进来；另外 useProjectAttachments，useTransitiveDependencies，useTransitiveFiltering 等参数可以对间接依赖、传递依赖进行控制。
 
@@ -252,18 +239,9 @@ Assembly Plugin 更多配置
 
 archive 的一个重要用处就是配置生成的 MANIFEST.MF 文件。默认会生成一个 MANIFEST.MF 文件，不过这个文件默认值没什么意义。如果想指定生成 jar 的 Main-Class，可以如下配置：
 
-<archive>
-    <manifest>
-        <mainClass>demo.DemoMain</mainClass>
-    </manifest>
-</archive>
-一键获取完整项目代码
-xml
-1
-2
-3
-4
-5
+```xml
+<archive> <manifest> <mainClass>demo.DemoMain</mainClass> </manifest> </archive>
+```
 下面来看一个项目中实际配置的文件：
 
 pom 文件：
