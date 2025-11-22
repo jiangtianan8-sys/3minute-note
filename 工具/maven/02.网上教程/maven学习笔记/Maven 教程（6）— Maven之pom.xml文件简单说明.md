@@ -1,4 +1,5 @@
-通过前面几部分知识，我们对maven已经有了初步的印象，就像Make的Makefile、Ant的build.xml一样，Maven项目的核心是pom.xml。POM(Project Object Model，项目对象模型)定义了项目的基本信息，用于描述项目如何构建，声明依赖，等等。我们来看看maven中pom.xml文件主要标签的意思及其用法，来看一下pom.xml文件的结构：
+通过前面几部分知识，我们对 maven 已经有了初步的印象，就像 Make 的 Makefile、Ant 的 build.xml 一样，Maven 项目的核心是 pom.xml。POM(Project Object Model，项目对象模型) 定义了项目的基本信息，用于描述项目如何构建，声明依赖，等等。我们来看看 maven 中 pom.xml 文件主要标签的意思及其用法，来看一下 pom.xml 文件的结构：
+
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -358,39 +359,56 @@
 </project>
 ```
 
-我们可以看到maven的pom.xml文件结构非常清晰，把项目创建好后，我们基本上是在dependencies元素下添加一些子元素及plugins元素下添加一些插件，下面我们来介绍一下各个元素的含义：
+我们可以看到 maven 的 pom.xml 文件结构非常清晰，把项目创建好后，我们基本上是在 dependencies 元素下添加一些子元素及 plugins 元素下添加一些插件，下面我们来介绍一下各个元素的含义：
 
-1. project：是所有pom.xml的根元素，并且在里面定义了命名空间和xsd元素；
-2. modelVersion：当前pom模型的版本；
-3. groupId：定义当前maven项目隶属的实际项目，并会根据这给项目建立包结构；
+1. project：是所有 pom.xml 的根元素，并且在里面定义了命名空间和 xsd 元素；
+2. modelVersion：当前 pom 模型的版本；
+3. groupId：定义当前 maven 项目隶属的实际项目，并会根据这给项目建立包结构；
 4. artifactId：定义项目中的某个模块名称，如果只有一个模块那就是项目的名称；
-5. version：定义maven项目当前所处的版本号，默认0.0.1-SNAPSHOT为快照版本；
-6. packaging：定义maven项目的打包方式，可以是jar包、war包、pom；
+5. version：定义 maven 项目当前所处的版本号，默认 0.0.1-SNAPSHOT 为快照版本；
+6. packaging：定义 maven 项目的打包方式，可以是 jar 包、war 包、pom；
 7. dependencies：元素底下就是加入依赖包的地方，那么我们从哪里查询依赖包呢，可以查询的地方比较多，我给出一个大家用得比较多的仓库：[http://mvnrepository.com](http://mvnrepository.com/)；
-8. 每个dependency都是一个依赖包，依赖包也就是在dependency里面定义各个依赖包的坐标，这样maven就会从网上下载依赖包到你本地仓库中，有所不同的是dependency元素包含了一个子元素，这个就是对maven生命周期的一个说明，当然除了上面四个子元素外，还包含几个其他的元素。 
-
+8. 每个 dependency 都是一个依赖包，依赖包也就是在 dependency 里面定义各个依赖包的坐标，这样 maven 就会从网上下载依赖包到你本地仓库中，有所不同的是 dependency 元素包含了一个子元素，这个就是对 maven 生命周期的一个说明，当然除了上面四个子元素外，还包含几个其他的元素。 
 		a. type：说明依赖的类型；
 		b. optional：标记依赖是否可选；
-1. exclusions：用来排斥传递依赖。
+		c. exclusions：用来排斥传递依赖。
 
 我们具体来看看这个结构：
 
-   实际项目          
+  ```xml
 
-   模块      
+  <dependency>                          
 
-   版本            
+    <groupId>实际项目</groupId>          
 
-   依赖类型                
+    <artifactId>模块</artifactId>      
 
-   依赖范围              
+    <version>版本</version>            
 
-   依赖是否可选      
+    <type>依赖类型</type>                
 
-           …      
+    <scope>依赖范围</scope>              
 
-           …
+    <optional>依赖是否可选</optional>      
 
-Maven是通过groupId、artifactId、version这三个类似于坐标的元素来确定唯一性的，因此这三个元素对于每个依赖大多是必须的，后面会详细介绍依赖、聚合、继承等知识点。
+    <!-- 主要用于排除传递性依赖 -->              
 
-没有任何实际的Java代码，我们能够定义一个Maven项目的POM，这体现了Maven的一大优点，它能让项目对象模型最大程度地与实际代码相独立，我们可以称之为解耦。这在很大程度上避免了Java代码和POM代码的相互影响。只要我们定义的POM稳定后，日常的Java代码开发工作中基本不会涉及到POM的修改。
+    <exclusions>                      
+
+        <exclusion>                  
+
+            <groupId>…</groupId>      
+
+            <artifactId>…</artifactId>
+
+        </exclusion>                  
+
+    </exclusions>                    
+
+</dependency>
+
+  ```
+
+Maven 是通过 groupId、artifactId、version 这三个类似于坐标的元素来确定唯一性的，因此这三个元素对于每个依赖大多是必须的，后面会详细介绍依赖、聚合、继承等知识点。
+
+没有任何实际的 Java 代码，我们能够定义一个 Maven 项目的 POM，这体现了 Maven 的一大优点，它能让项目对象模型最大程度地与实际代码相独立，我们可以称之为解耦。这在很大程度上避免了 Java 代码和 POM 代码的相互影响。只要我们定义的 POM 稳定后，日常的 Java 代码开发工作中基本不会涉及到 POM 的修改。
