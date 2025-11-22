@@ -200,6 +200,9 @@
   "lastOpenFiles": [
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（7）— Maven使用的最佳实践.md",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践/file-20251122083929875.png",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践/file-20251122083914499.png",
+    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（5）— Maven目录结构及常用命令说明.md",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（5）— Maven目录结构及常用命令说明/file-20251122083009844.png",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（5）— Maven目录结构及常用命令说明",
@@ -214,8 +217,6 @@
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（4）— 新建Maven项目/file-20251121155850931.png",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（4）— 新建Maven项目",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（2）— Maven的安装与环境配置.md",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（3）— Maven仓库介绍与本地仓库配置/file-20251121155611232.png",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（3）— Maven仓库介绍与本地仓库配置/file-20251121155600499.png",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（3）— Maven仓库介绍与本地仓库配置",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（2）— Maven的安装与环境配置",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（1）— Maven初步了解与认识.md",
@@ -226,7 +227,6 @@
     "工具/maven/02.网上教程/archetype/assets/手写Maven的archetype项目脚手架",
     "工具/maven/02.网上教程/archetype/assets",
     "工具/maven/01.网上资料/mvn -N和-U的用法.md",
-    "工具/maven/02.网上教程/archetype",
     "工具/maven/01.网上资料/Maven中maven-source-plugin,maven-javadoc-plugin插件的使用.md",
     "工具/maven/01.网上资料/maven profile实现多环境配置.md",
     "工具/maven/01.网上资料/maven 常用插件解析.md",
@@ -242,7 +242,6 @@
     "工具/jdk/在Linux上安装JDK8-教程.md",
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "git/解决 fatal  refusing to merge unrelated histories.md",
-    "git/git文件重命名之git mv命令.md",
-    "git/git打tag.md"
+    "git/git文件重命名之git mv命令.md"
   ]
 }
