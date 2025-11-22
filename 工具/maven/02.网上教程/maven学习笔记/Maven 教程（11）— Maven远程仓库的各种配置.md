@@ -155,9 +155,6 @@ distributionManagement 包含 repository 和 snapshotRepository 子元素，前�
     </mirror>  
 
 </mirrors>
-
-1
-
  ```
 
 该例中的值为星号，表示该配置是所有 Maven 仓库的镜像，任何对于远程仓库的请求都会被转至 [http://183.238.2.182:8081/nexus/content/groups/public/](http://183.238.2.182:8081/nexus/content/groups/public/)。如果该镜像仓库需要认证，则配置一个 id 为 nexus 的认证信息即可。
