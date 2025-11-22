@@ -240,7 +240,11 @@ Assembly Plugin 更多配置
 archive 的一个重要用处就是配置生成的 MANIFEST.MF 文件。默认会生成一个 MANIFEST.MF 文件，不过这个文件默认值没什么意义。如果想指定生成 jar 的 Main-Class，可以如下配置：
 
 ```xml
-<archive> <manifest> <mainClass>demo.DemoMain</mainClass> </manifest> </archive>
+<archive> 
+	<manifest> 
+		<mainClass>demo.DemoMain</mainClass> 
+	</manifest> 
+</archive>
 ```
 下面来看一个项目中实际配置的文件：
 
