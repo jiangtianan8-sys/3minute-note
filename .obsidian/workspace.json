@@ -11,14 +11,12 @@
             "id": "5392c7c50f49ba79",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
-                "mode": "source",
-                "source": false
+                "file": "工具/maven/04.maven学习/Maven基础讲义.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Maven 教程（22）— Maven中 plugins 和 pluginManagement"
+              "icon": "lucide-file-text",
+              "title": "Maven基础讲义"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
+                "file": "工具/maven/04.maven学习/Maven基础讲义.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Maven 教程（22）— Maven中 plugins 和 pluginManagement 的反向链接列表"
+              "title": "Maven基础讲义 的反向链接列表"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
+                "file": "工具/maven/04.maven学习/Maven基础讲义.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Maven 教程（22）— Maven中 plugins 和 pluginManagement 的出链列表"
+              "title": "Maven基础讲义 的出链列表"
             }
           },
           {
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
+                "file": "工具/maven/04.maven学习/Maven基础讲义.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Maven 教程（22）— Maven中 plugins 和 pluginManagement 的大纲"
+              "title": "Maven基础讲义 的大纲"
             }
           },
           {
@@ -180,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +193,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "5392c7c50f49ba79",
   "lastOpenFiles": [
+    "工具/maven/04.maven学习/Maven-教案-实战(IDEA).pdf",
+    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
+    "工具/maven/04.maven学习/Maven基础讲义.pdf",
     "工具/maven/04.maven学习",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（21）— maven-compiler-plugin 插件详解.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（20）— 使用maven-assembly-plugin插件来定制化打包.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（19）— Maven的六类属性.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（18）— 利用 Profile 构建不同环境的部署包.md",
@@ -232,12 +231,9 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md",
     "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（7）— Maven使用的最佳实践",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（5）— Maven目录结构及常用命令说明.md",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（5）— Maven目录结构及常用命令说明",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（4）— 新建Maven项目.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（3）— Maven仓库介绍与本地仓库配置.md",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（4）— 新建Maven项目",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（2）— Maven的安装与环境配置.md",
-    "工具/maven/02.网上教程/maven学习笔记/assets/Maven 教程（3）— Maven仓库介绍与本地仓库配置",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（1）— Maven初步了解与认识.md",
     "工具/maven/02.网上教程/archetype/手写Maven的archetype项目脚手架.md",
     "工具/maven/01.网上资料/mvn -N和-U的用法.md",
