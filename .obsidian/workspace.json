@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
+                "file": "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）"
+              "title": "MAC下使用ngrok实现内网穿透"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
+                "file": "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的反向链接列表"
+              "title": "MAC下使用ngrok实现内网穿透 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
+                "file": "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的出链列表"
+              "title": "MAC下使用ngrok实现内网穿透 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
+                "file": "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的大纲"
+              "title": "MAC下使用ngrok实现内网穿透 的大纲"
             }
           },
           {
@@ -198,6 +198,10 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
+    "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
+    "工具/ngrok",
+    "工具/navicat",
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142109708.png",
@@ -230,8 +234,6 @@
     "attachments/idea_主题.rar.md",
     "attachments",
     "工具/intellij/assets/idea_主题.rar",
-    "工具/intellij/assets/IntelliJ IDEA设置护眼主题",
-    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！",
     "工具/google/google 必备插件.md",
     "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
@@ -241,8 +243,6 @@
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "工具/vs code/玩转vscode/VSCode高级操作技巧.md",
     "工具/vs code/玩转vscode/VScode多行编辑的设置.md",
-    "工具/vs code/玩转vscode/07讲如何快速在文件、符号、代码之间跳转.md",
-    "工具/vs code/玩转vscode/06讲拒绝重复，你一定要学会的多光标特性.pdf.md",
-    "工具/vs code/html&javascript/vscode 快速生成html.md"
+    "工具/vs code/玩转vscode/07讲如何快速在文件、符号、代码之间跳转.md"
   ]
 }
