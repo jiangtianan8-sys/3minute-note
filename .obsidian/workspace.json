@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
+                "file": "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mac上好用的开发相关软件推荐 - 2025篇"
+              "title": "我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
+                "file": "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的反向链接列表"
+              "title": "我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
+                "file": "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的出链列表"
+              "title": "我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
+                "file": "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的大纲"
+              "title": "我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具 的大纲"
             }
           },
           {
@@ -198,8 +198,23 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "工具/intellij/Intellij快捷键.md",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141917468.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141856493.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141839143.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141827319.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141810041.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141759802.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141748731.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141732145.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141719954.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141708249.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141652483.png",
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具",
+    "工具/mac/assets",
+    "工具/mac/如何在 Mac 中隐藏文件或文件夹？.md",
+    "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
     "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
+    "工具/intellij/Intellij快捷键.md",
     "工具/mac",
     "工具/intellij/IntelliJ IDEA设置护眼主题.md",
     "工具/intellij/IntelliJ 创建main函数快捷.md",
@@ -207,17 +222,7 @@
     "工具/intellij/IDEA 中 显示 .properties 为中文.md",
     "工具/intellij/阿里巴巴Java开发规约插件p3c详细教程及使用感受.md",
     "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135148640.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135140123.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135128653.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135118489.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135109069.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135058094.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135045147.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135035535.png",
-    "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135014670.png",
     "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受",
-    "工具/intellij/assets/IntelliJ 创建main函数快捷/file-20251123132257902.png",
     "工具/intellij/assets/IntelliJ 创建main函数快捷",
     "attachments/idea_主题.rar 1.md",
     "attachments/idea_主题.rar.md",
@@ -226,8 +231,6 @@
     "工具/intellij/assets/IntelliJ IDEA设置护眼主题",
     "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！",
     "工具/intellij/assets/IDEA 中 显示 .properties 为中文",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率",
-    "工具/intellij/assets",
     "工具/google/google 必备插件.md",
     "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
@@ -240,9 +243,6 @@
     "工具/vs code/玩转vscode/07讲如何快速在文件、符号、代码之间跳转.md",
     "工具/vs code/玩转vscode/06讲拒绝重复，你一定要学会的多光标特性.pdf.md",
     "工具/vs code/html&javascript/vscode 快速生成html.md",
-    "工具/vs code/html&javascript/VS Code中怎么运行js文件.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（21）— maven-compiler-plugin 插件详解.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（20）— 使用maven-assembly-plugin插件来定制化打包.md"
+    "工具/vs code/html&javascript/VS Code中怎么运行js文件.md"
   ]
 }
