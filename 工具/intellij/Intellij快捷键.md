@@ -12,15 +12,18 @@
 
     shift + cmd + n  查找文件
 
-    双击shift      全局搜文件<br>
+    <span style="color: red;">双击shift      全局搜文件</span>
+    
     cmd + F12     查看类中所有的方法名 （Fn换出F12）
 
 查看代码快捷键
 
      cmd + p                  查询某方法的参数信息
 
-     <span style="color:rgb(0, 0, 0)">cmd + b                  跳到调用方法的定义    </span> 
-     <span style="color:rgb(0, 0, 0)">option + cmd + b          跳到方法的实现处<br></span>
+     <span style="color: red;">cmd + b                  跳到调用方法的定义</span> 
+     
+     <span style="color: red;">option + cmd + b          跳到方法的实现处<br></span>
+     
      ctrl + up/down           跳到上/下一方法
 
      alt + cmd + left/right   跳到上/下一次光标查看处
