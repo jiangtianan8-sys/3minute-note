@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown 的基本语法"
+              "title": "03.MarkDown 进阶语法"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Markdown 的基本语法 的反向链接列表"
+              "title": "03.MarkDown 进阶语法 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Markdown 的基本语法 的出链列表"
+              "title": "03.MarkDown 进阶语法 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Markdown 的基本语法 的大纲"
+              "title": "03.MarkDown 进阶语法 的大纲"
             }
           },
           {
@@ -195,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,9 +213,10 @@
   },
   "active": "56cb4fe00b7779c2",
   "lastOpenFiles": [
+    "Markdown 的基本语法.md",
+    "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
     "工具/markdown/markdown教程/02.Markdown 的基本语法.md",
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
-    "Markdown 的基本语法.md",
     "工具/markdown/markdown教程",
     "工具/markdown",
     "工具/vs code/玩转vscode/VSCode高级操作技巧.md",
@@ -256,7 +258,6 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（9）— Maven坐标详解.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（8）— Eclipse创建Maven项目运行mvn命令.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（7）— Maven使用的最佳实践.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（5）— Maven目录结构及常用命令说明.md"
+    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md"
   ]
 }
