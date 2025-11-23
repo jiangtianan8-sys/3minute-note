@@ -12,7 +12,7 @@
 
     shift + cmd + n  查找文件
 
-    <span style="color:rgb(255, 0, 0)">双击shift      全局搜文件</span><br>
+    双击shift      全局搜文件<br>
     cmd + F12     查看类中所有的方法名 （Fn换出F12）
 
 查看代码快捷键
