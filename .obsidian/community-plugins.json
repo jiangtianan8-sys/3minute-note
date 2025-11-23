@@ -3,6 +3,5 @@
   "obsidian-custom-attachment-location",
   "obsidian-plugin-prettier",
   "templater-obsidian",
-  "obsidian-linter",
-  "highlightr-plugin"
+  "obsidian-linter"
 ]
