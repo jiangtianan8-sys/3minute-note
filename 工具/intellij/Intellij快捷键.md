@@ -2,7 +2,7 @@
 
       在编辑文档中，cmd+f 开始搜索 cmd + r 搜索替换
 
-    在project中，按下cmd + shift + f(r) 即是在当前目前下递归查找或替换,搜索出来后，要全部替换，按下alt + a
+    在 project 中，按下 cmd + shift + f(r) 即是在当前目前下递归查找或替换,搜索出来后，要全部替换，按下 alt + a
 
     alt + F7      搜索对象被引用的地方
 
@@ -12,18 +12,18 @@
 
     shift + cmd + n  查找文件
 
-    <span style="color: red;">双击shift      全局搜文件</span>
-    
-    cmd + F12     查看类中所有的方法名 （Fn换出F12）
+    <span style="color: red;">双击 shift      全局搜文件</span>
+
+    cmd + F12     查看类中所有的方法名 （Fn 换出 F12）
 
 查看代码快捷键
 
      cmd + p                  查询某方法的参数信息
 
      <span style="color: red;">cmd + b                  跳到调用方法的定义</span> 
-     
+
      <span style="color: red;">option + cmd + b          跳到方法的实现处<br></span>
-     
+
      ctrl + up/down           跳到上/下一方法
 
      alt + cmd + left/right   跳到上/下一次光标查看处
@@ -40,7 +40,7 @@ View     
 
      <span style="color: red;">md + ]                  forward</span>
 
-同样单词之间跳转:在Eclipse中的快捷键是ctrl+k，这个挺好用的，在IntelliJ中也不缺这个功能，但是在Mac OSX 10.5+的键位绑定中默认为空。据说Windows的默认绑定中是有绑定的，自己可以查询下，我自己绑定了一个⌘+ctrl+k (Find Word at Caret)，没有的需要自己绑定一个，然后还能结合其他的键位实现上一个⌘+G (Find Next)下一个⌘+Shift+G (Find Previous)的功能.很是实用。
+同样单词之间跳转: 在 Eclipse 中的快捷键是 ctrl+k，这个挺好用的，在 IntelliJ 中也不缺这个功能，但是在 Mac OSX 10.5+ 的键位绑定中默认为空。据说 Windows 的默认绑定中是有绑定的，自己可以查询下，我自己绑定了一个⌘+ctrl+k (Find Word at Caret)，没有的需要自己绑定一个，然后还能结合其他的键位实现上一个⌘+G (Find Next) 下一个⌘+Shift+G (Find Previous) 的功能.很是实用。
 
 实用快捷键:
 
@@ -56,7 +56,7 @@ Ctrl+X 删除行
 
 ctr+G 定位某一行
 
-Shift+F6 重构-重命名
+Shift+F6 重构 - 重命名
 
 Ctrl+R 替换文本
 
@@ -76,19 +76,19 @@ Ctrl+J 自动代码
 
 IntelliJ Idea 常用快捷键列表
 
-Alt+回车 导入包,自动修正
+Alt+ 回车 导入包,自动修正
 
 Ctrl+N   查找类
 
 Ctrl+Shift+N 查找文件
 
-Ctrl+Alt+L  格式化代码
+<span style="color: red;">Ctrl+Alt+L  格式化代码</span>
 
-Ctrl+Alt+O 优化导入的类和包
+<span style="color: red;">Ctrl+Alt+O 优化导入的类和包</span>
 
-Alt+Insert 生成代码(如get,set方法,构造函数等)
+Alt+Insert 生成代码 (如 get,set 方法,构造函数等)
 
-Ctrl+E或者Alt+Shift+C  最近更改的代码
+Ctrl+E 或者 Alt+Shift+C  最近更改的代码
 
 Ctrl+R 替换文本
 
@@ -96,7 +96,7 @@ Ctrl+F 查找文本
 
 Ctrl+Shift+Space 自动补全代码
 
-Ctrl+空格 代码提示
+Ctrl+ 空格 代码提示
 
 Ctrl+Alt+Space 类名或接口名提示
 
@@ -106,9 +106,9 @@ Ctrl+Shift+Alt+N 查找类中的方法或变量
 
 Alt+Shift+C 对比最近修改的代码
 
-Shift+F6  重构-重命名
+Shift+F6  重构 - 重命名
 
-Ctrl+Shift+先上键
+Ctrl+Shift+ 先上键
 
 Ctrl+X 删除行
 
@@ -136,15 +136,15 @@ Alt+ Up/Down 在方法间快速移动定位
 
 Ctrl+Shift+Up/Down 代码向上/下移动。
 
-F2 或Shift+F2 高亮错误或警告快速定位
+F2 或 Shift+F2 高亮错误或警告快速定位
 
-代码标签输入完成后，按Tab，生成代码。
+代码标签输入完成后，按 Tab，生成代码。
 
-选中文本，按Ctrl+Shift+F7 ，高亮显示所有该文本，按Esc高亮消失。
+选中文本，按 Ctrl+Shift+F7 ，高亮显示所有该文本，按 Esc 高亮消失。
 
 Ctrl+W 选中代码，连续按会有其他效果
 
-选中文本，按Alt+F3 ，逐个往下查找相同文本，并高亮显示。
+选中文本，按 Alt+F3 ，逐个往下查找相同文本，并高亮显示。
 
 Ctrl+Up/Down 光标跳转到第一行或最后一行下
 
@@ -152,7 +152,7 @@ Ctrl+B 快速打开光标处的类或方法 
 
 ------------------------------------------------------------------------------------------------------------
 
-1. IDEA内存优化
+1. IDEA 内存优化
 
 因机器本身的配置而配置：
 
@@ -212,7 +212,7 @@ CTRL+SHIFT+O  弹出显示查找内容
 
 3. 自动代码
 
-ALT+回车  导入包,自动修正 
+ALT+ 回车  导入包,自动修正 
 
 CTRL+ALT+L  格式化代码 
 
@@ -220,13 +220,13 @@ CTRL+ALT+I  自动缩进 
 
 CTRL+ALT+O  优化导入的类和包 
 
-ALT+INSERT  生成代码(如GET,SET方法,构造函数等) 
+ALT+INSERT  生成代码 (如 GET,SET 方法,构造函数等) 
 
 CTRL+E 最近更改的代码 
 
 CTRL+SHIFT+SPACE 自动补全代码 
 
-CTRL+空格  代码提示 
+CTRL+ 空格  代码提示 
 
 CTRL+ALT+SPACE  类名或接口名提示 
 
@@ -270,7 +270,7 @@ CTRL+ALT ←/→  返回上次编辑的位置 
 
 ALT+ ↑/↓  在方法间快速移动定位 
 
-SHIFT+F6  重构-重命名 
+SHIFT+F6  重构 - 重命名 
 
 CTRL+H   显示类结构图 
 
