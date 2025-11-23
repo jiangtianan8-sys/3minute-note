@@ -12,7 +12,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "",
+  "googleApiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
@@ -21,7 +21,7 @@
   "amazonBedrockRegion": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "defaultModelKey": "gemini-3-pro-preview|google",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -186,8 +186,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ]
     },
     {
@@ -257,6 +257,19 @@
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "enableCors": false,
+      "displayName": "gemini-3-pro-preview"
     }
   ],
   "activeEmbeddingModels": [
@@ -342,6 +355,17 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "gemini-3-pro-preview",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "gemini-3-pro-preview"
     }
   ],
   "embeddingRequestsPerMin": 60,

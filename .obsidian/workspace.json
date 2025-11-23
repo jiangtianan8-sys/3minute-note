@@ -174,13 +174,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "51738bfca2db14c8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 466.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +206,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "51738bfca2db14c8",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
+    "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
@@ -238,11 +250,9 @@
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具",
     "工具/mac/assets",
     "工具/intellij/Intellij快捷键.md",
-    "工具/mac",
     "工具/intellij/IntelliJ IDEA设置护眼主题.md",
     "工具/intellij/IntelliJ 创建main函数快捷.md",
     "工具/intellij/IDEA 中很骚的技巧，掌握了编码快一倍！！！.md",
-    "工具/intellij/IDEA 中 显示 .properties 为中文.md",
-    "工具/intellij/阿里巴巴Java开发规约插件p3c详细教程及使用感受.md"
+    "工具/intellij/IDEA 中 显示 .properties 为中文.md"
   ]
 }
