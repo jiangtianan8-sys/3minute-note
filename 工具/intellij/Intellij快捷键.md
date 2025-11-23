@@ -19,7 +19,7 @@
 
      cmd + p                  查询某方法的参数信息
 
-     <span style="color:rgb(0, 0, 0)">cmd + b                  跳到调用方法的定义处<br><br>     option + cmd + b          跳到方法的实现处<br></span>
+     cmd + b                  跳到调用方法的定义处<br><br>     option + cmd + b          跳到方法的实现处<br></span>
      ctrl + up/down           跳到上/下一方法
 
      alt + cmd + left/right   跳到上/下一次光标查看处
