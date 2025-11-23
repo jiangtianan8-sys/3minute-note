@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
+                "file": "工具/vs code/玩转vscode/VSCode 快捷键.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.MarkDown 进阶语法"
+              "title": "VSCode 快捷键"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
+                "file": "工具/vs code/玩转vscode/VSCode 快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "03.MarkDown 进阶语法 的反向链接列表"
+              "title": "VSCode 快捷键 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
+                "file": "工具/vs code/玩转vscode/VSCode 快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "03.MarkDown 进阶语法 的出链列表"
+              "title": "VSCode 快捷键 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
+                "file": "工具/vs code/玩转vscode/VSCode 快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03.MarkDown 进阶语法 的大纲"
+              "title": "VSCode 快捷键 的大纲"
             }
           },
           {
@@ -213,15 +213,16 @@
   },
   "active": "56cb4fe00b7779c2",
   "lastOpenFiles": [
-    "Markdown 的基本语法.md",
+    "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
+    "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
+    "Markdown 的基本语法.md",
     "工具/markdown/markdown教程/02.Markdown 的基本语法.md",
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "工具/markdown/markdown教程",
     "工具/markdown",
     "工具/vs code/玩转vscode/VSCode高级操作技巧.md",
     "工具/vs code/玩转vscode/VScode多行编辑的设置.md",
-    "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
     "工具/vs code/玩转vscode/07讲如何快速在文件、符号、代码之间跳转.md",
     "工具/vs code/玩转vscode/06讲拒绝重复，你一定要学会的多光标特性.pdf.md",
     "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法/file-20251122132808847.png",
@@ -257,7 +258,6 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（10）— Maven依赖详解.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（9）— Maven坐标详解.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（8）— Eclipse创建Maven项目运行mvn命令.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（7）— Maven使用的最佳实践.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（6）— Maven之pom.xml文件简单说明.md"
+    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（7）— Maven使用的最佳实践.md"
   ]
 }
