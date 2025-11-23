@@ -150,3 +150,18 @@ Please retry in 26.968566078s. [{"@type":"type.googleapis.com/google.rpc.Help","
 希望这个总结对您有所帮助！
 
 [Timestamp: 2025/11/23 18:09:50]
+
+**user**: mac 如何切换jdk版本
+[Timestamp: 2025/11/23 21:24:16]
+
+**ai**: 
+<errorChunk>[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [403 ] Your API key was reported as leaked. Please use another API key.</errorChunk>
+[Timestamp: 2025/11/23 21:25:01]
+
+**user**: mac 如何切换jdk版本
+[Context: Notes: Github/github骚操作/GitHub骚操作之#L数字.md]
+[Timestamp: 2025/11/23 21:25:18]
+
+**ai**: 
+<errorChunk>[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [403 ] Your API key was reported as leaked. Please use another API key.</errorChunk>
+[Timestamp: 2025/11/23 21:25:19]
