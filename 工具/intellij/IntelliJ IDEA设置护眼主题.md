@@ -1,5 +1,6 @@
 1.下载护眼主题
-[[assert/]]
+[[assets/idea_主题.rar]]
+
 2.导入护眼主题
 
 File -> setting -> Editor > Color Scheme > General
