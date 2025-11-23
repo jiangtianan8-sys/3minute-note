@@ -36,9 +36,9 @@
 
 View     
 
-     cmd + [                  back
+     <span style="color: red;">cmd + [                  back</span>
 
-     cmd + ]                  forward
+     <span style="color: red;">md + ]                  forward</span>
 
 同样单词之间跳转:在Eclipse中的快捷键是ctrl+k，这个挺好用的，在IntelliJ中也不缺这个功能，但是在Mac OSX 10.5+的键位绑定中默认为空。据说Windows的默认绑定中是有绑定的，自己可以查询下，我自己绑定了一个⌘+ctrl+k (Find Word at Caret)，没有的需要自己绑定一个，然后还能结合其他的键位实现上一个⌘+G (Find Next)下一个⌘+Shift+G (Find Previous)的功能.很是实用。
 
