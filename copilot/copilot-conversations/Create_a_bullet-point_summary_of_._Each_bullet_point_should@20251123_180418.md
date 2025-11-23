@@ -163,5 +163,8 @@ Please retry in 26.968566078s. [{"@type":"type.googleapis.com/google.rpc.Help","
 [Timestamp: 2025/11/23 21:25:18]
 
 **ai**: 
-<errorChunk>[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [403 ] Your API key was reported as leaked. Please use another API key.</errorChunk>
-[Timestamp: 2025/11/23 21:25:19]
+<errorChunk>Something went wrong. Please check if you have set your API key.
+Path: Settings > copilot plugin > Basic Tab > Set Keys.
+Or check model config
+Error Details: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [400 ] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]</errorChunk>
+[Timestamp: 2025/11/23 21:27:49]

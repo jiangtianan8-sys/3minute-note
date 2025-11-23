@@ -12,7 +12,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
+  "googleApiKey": "AIzaSyAj8LeIesqkbJ9pMs7NSo7RWREQmDQdqk4",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
@@ -21,7 +21,7 @@
   "amazonBedrockRegion": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemini-2.0-flash|google",
+  "defaultModelKey": "copilot-plus-flash|copilot-plus",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -270,18 +270,6 @@
       "stream": true,
       "enableCors": false,
       "displayName": "gemini-3-pro-preview"
-    },
-    {
-      "name": "gemini-2.0-flash",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "",
-      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
-      "isEmbeddingModel": false,
-      "capabilities": [],
-      "stream": true,
-      "displayName": "gemini-2.0-flash"
     }
   ],
   "activeEmbeddingModels": [
@@ -378,17 +366,6 @@
       "isEmbeddingModel": true,
       "capabilities": [],
       "displayName": "gemini-3-pro-preview"
-    },
-    {
-      "name": "gemini-2.0-flash",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "",
-      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
-      "isEmbeddingModel": true,
-      "capabilities": [],
-      "displayName": "gemini-2.0-flash"
     }
   ],
   "embeddingRequestsPerMin": 60,
