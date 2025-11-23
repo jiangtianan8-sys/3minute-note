@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
+                "file": "工具/intellij/IntelliJ IDEA设置护眼主题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10大必备的Intellij插件，大幅提高你的工作效率"
+              "title": "IntelliJ IDEA设置护眼主题"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
+                "file": "工具/intellij/IntelliJ IDEA设置护眼主题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的反向链接列表"
+              "title": "IntelliJ IDEA设置护眼主题 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
+                "file": "工具/intellij/IntelliJ IDEA设置护眼主题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的出链列表"
+              "title": "IntelliJ IDEA设置护眼主题 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
+                "file": "工具/intellij/IntelliJ IDEA设置护眼主题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的大纲"
+              "title": "IntelliJ IDEA设置护眼主题 的大纲"
             }
           },
           {
@@ -213,19 +213,27 @@
   },
   "active": "56cb4fe00b7779c2",
   "lastOpenFiles": [
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130838954.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130825704.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130814000.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130801738.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130746253.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130732278.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130721476.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130704269.png",
-    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130651878.png",
+    "工具/intellij/assets/IntelliJ IDEA设置护眼主题/file-20251123131416394.png",
+    "工具/intellij/assets/IntelliJ IDEA设置护眼主题",
+    "工具/intellij/IDEA 中很骚的技巧，掌握了编码快一倍！！！.md",
+    "工具/intellij/IntelliJ IDEA设置护眼主题.md",
+    "工具/intellij/IDEA 中 显示 .properties 为中文.md",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131238850.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131230316.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131219996.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131211508.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131201776.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131151130.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131139524.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131130596.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131107267.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！/file-20251123131052571.png",
+    "工具/intellij/assets/IDEA 中很骚的技巧，掌握了编码快一倍！！！",
+    "工具/intellij/assets/IDEA 中 显示 .properties 为中文",
+    "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
     "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率",
     "工具/intellij/assets",
     "工具/google/google 必备插件.md",
-    "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
     "工具/intellij",
     "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/google",
@@ -240,12 +248,7 @@
     "工具/vs code/玩转vscode/VScode多行编辑的设置.md",
     "工具/vs code/玩转vscode/07讲如何快速在文件、符号、代码之间跳转.md",
     "工具/vs code/玩转vscode/06讲拒绝重复，你一定要学会的多光标特性.pdf.md",
-    "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法/file-20251122132808847.png",
-    "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法/file-20251122132756949.png",
     "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法",
-    "工具/vs code/玩转vscode/assets/VSCode高级操作技巧",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转",
-    "工具/vs code/玩转vscode/assets/06讲拒绝重复，你一定要学会的多光标特性.pdf",
     "工具/vs code/html&javascript/vscode 快速生成html.md",
     "工具/vs code/html&javascript/VS Code中怎么运行js文件.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
@@ -255,9 +258,6 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（18）— 利用 Profile 构建不同环境的部署包.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（17）— Maven Profile 和 Filtering 简介.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（14）— Maven聚合与继承.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（13）— Maven插件解析运行机制.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（12）— Maven生命周期和插件.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（11）— Maven远程仓库的各种配置.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（10）— Maven依赖详解.md"
+    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（13）— Maven插件解析运行机制.md"
   ]
 }
