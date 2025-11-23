@@ -168,3 +168,125 @@ Path: Settings > copilot plugin > Basic Tab > Set Keys.
 Or check model config
 Error Details: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse: [400 ] API key expired. Please renew the API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key expired. Please renew the API key."}]</errorChunk>
 [Timestamp: 2025/11/23 21:27:49]
+
+**user**: mac 如何切换jdk版本
+[Context: Notes: Github/github骚操作/GitHub骚操作之#L数字.md]
+[Timestamp: 2025/11/23 21:29:46]
+
+**ai**: 由于提供的上下文中没有关于如何在 Mac 上切换 JDK 版本的信息，我无法直接回答你的问题。不过，我可以提供一些常见的方法：
+
+1.  **使用 `/usr/libexec/java_home` 命令：**
+
+    -   这个命令可以帮助你找到已安装的 JDK 的路径。
+    -   你可以使用 `java_home -v 1.8` 来查找 JDK 8 的路径。
+    -   然后，你可以设置 `JAVA_HOME` 环境变量指向该路径。
+2.  **修改 `~/.bash_profile` 或 `~/.zshrc` 文件：**
+
+    -   打开你的 shell 配置文件（取决于你使用的 shell）。
+    -   添加或修改 `JAVA_HOME` 环境变量，并将其指向你想要使用的 JDK 路径。
+    -   例如：`export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)`
+    -   保存文件并执行 `source ~/.bash_profile` 或 `source ~/.zshrc` 使更改生效。
+3.  **使用 `jenv`：**
+
+    -   `jenv` 是一个 Java 版本管理工具，可以方便地切换 JDK 版本。
+    -   你需要先安装 `jenv`，然后使用 `jenv add` 命令添加 JDK，最后使用 `jenv local` 或 `jenv global` 命令来设置 JDK 版本。
+
+希望这些信息能帮到你！
+
+[Timestamp: 2025/11/23 21:29:50]
+
+**user**: {工具} mac 如何切换jdk版本
+[Context: Notes: Github/github骚操作/GitHub骚操作之#L数字.md]
+[Timestamp: 2025/11/23 21:30:22]
+
+**ai**: 好的，根据您提供的上下文，这里是如何在 Mac 上切换 JDK 版本的总结，并结合了 VS Code 的一些设置：
+
+**Mac 上切换 JDK 版本**
+
+由于没有直接关于如何在 Mac 上切换 JDK 版本的信息，以下是一些常见方法：
+
+1.  **使用 `/usr/libexec/java_home` 命令：**
+
+    -   使用 `java_home -v 1.8` 查找 JDK 8 的路径。
+    -   设置 `JAVA_HOME` 环境变量指向该路径。
+2.  **修改 `~/.bash_profile` 或 `~/.zshrc` 文件：**
+
+    -   打开 shell 配置文件。
+    -   添加或修改 `JAVA_HOME` 环境变量：`export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)`
+    -   保存并执行 `source ~/.bash_profile` 或 `source ~/.zshrc`。
+3.  **使用 `jenv`：**
+
+    -   安装 `jenv`。
+    -   使用 `jenv add` 添加 JDK。
+    -   使用 `jenv local` 或 `jenv global` 设置 JDK 版本。
+
+**VS Code 相关设置**
+
+虽然与 JDK 切换没有直接关系，但以下 VS Code 设置可能对 Java 开发有帮助：
+
+*   **设置护眼色：**
+
+    -   安装主题，例如 "Atom One Light Theme"。
+    -   修改 `settings.json` 文件，设置颜色：
+
+    ```json
+    "workbench.colorCustomizations": {
+        "editor.background": "#C7EDCC",
+        "sideBar.background": "#FAF9DE",
+        "terminal.background": "#EAEAEF"
+    }
+    ```
+*   **多行编辑：**
+
+    -   `Alt+Shift` 竖列选择。
+    -   `Shift+Ctrl` 竖列选择，`Ctrl+` 光标点击选择多个编辑位点。
+    -   使用 `Shift+Ctrl+p` 切换多行修改键。
+*   **常用快捷键：**
+
+    -   `Command + B` 显示/隐藏左侧目录栏。
+    -   `Command + Shift + K` 删除行。
+    -   `Command + P` 查找文件。
+    -   `Shift + Option + F` 代码格式化。
+*   **快速跳转：**
+
+    -   `Command + P` 打开最近打开的文件列表。
+    -   `Command + G` 跳转到指定行。
+    -   `Command + Shift + O` 在文件里的符号之间跳转。
+    -   `F12` 跳转到函数的定义处。
+    -   `Shift + F12` 打开函数引用预览。
+
+**Maven 相关**
+
+*   **设置 `MAVEN_OPTS` 环境变量：** 建议设置为 `-Xms128m -Xmx512m`。
+*   **配置用户范围 `settings.xml`：** 推荐使用用户范围的 `settings.xml`，避免影响其他用户。
+*   **不要使用 IDE 内嵌的 Maven：** 在 IDE 中配置 Maven 插件时，使用与命令行一致的 Maven。
+*   **在 Eclipse 中指定使用的 `settings.xml` 配置文件。**
+*   **`pom.xml` 文件：**
+
+    *   `<properties>`：配置常用属性或定义一系列版本号。
+    *   `<dependencyManagement>`：依赖管理。
+    *   `<build>`：构建管理。
+*   **Maven 常用命令：**
+
+    *   `mvn clean`：清理操作。
+    *   `mvn compile`：编译。
+    *   `mvn test`：运行测试。
+    *   `mvn package`：打包。
+    *   `mvn install`：安装到本地仓库。
+    *   `mvn deploy`：发布到远程仓库。
+*   **Maven 仓库：**
+
+    *   本地仓库：存储所有项目的依赖关系。
+    *   远程仓库：其他服务器上的仓库，包括中央仓库、公司内部的私服等。
+*   **Maven 坐标：** `groupId`、`artifactId`、`version` 是必须定义的。
+*   **Maven Profile：** 用于构建不同环境的部署包。
+*   **Maven 插件：**
+
+    *   `maven-compiler-plugin`：指定 JDK 版本。
+    *   `maven-assembly-plugin`：定制化打包。
+    *   `maven-source-plugin`：生成源码包。
+    *   `maven-javadoc-plugin`：生成 javadoc 包。
+
+希望这些信息对您有所帮助！
+
+[Timestamp: 2025/11/23 21:30:54]
