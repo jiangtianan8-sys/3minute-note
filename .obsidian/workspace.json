@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/google/google 必备插件.md",
+                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "google 必备插件"
+              "title": "10大必备的Intellij插件，大幅提高你的工作效率"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/google/google 必备插件.md",
+                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "google 必备插件 的反向链接列表"
+              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/google/google 必备插件.md",
+                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "google 必备插件 的出链列表"
+              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/google/google 必备插件.md",
+                "file": "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "google 必备插件 的大纲"
+              "title": "10大必备的Intellij插件，大幅提高你的工作效率 的大纲"
             }
           },
           {
@@ -213,8 +213,21 @@
   },
   "active": "56cb4fe00b7779c2",
   "lastOpenFiles": [
-    "工具/vs code/玩转vscode/VSCode 快捷键.md",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130838954.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130825704.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130814000.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130801738.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130746253.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130732278.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130721476.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130704269.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率/file-20251123130651878.png",
+    "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率",
+    "工具/intellij/assets",
     "工具/google/google 必备插件.md",
+    "工具/intellij/10大必备的Intellij插件，大幅提高你的工作效率.md",
+    "工具/intellij",
+    "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/google",
     "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
     "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
@@ -230,21 +243,10 @@
     "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法/file-20251122132808847.png",
     "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法/file-20251122132756949.png",
     "工具/vs code/玩转vscode/assets/关于VScode设置护眼色的方法",
-    "工具/vs code/玩转vscode/assets/VSCode高级操作技巧/file-20251122132714131.png",
-    "工具/vs code/玩转vscode/assets/VSCode高级操作技巧/file-20251122132705705.png",
     "工具/vs code/玩转vscode/assets/VSCode高级操作技巧",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132612956.png",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132557598.png",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132546710.png",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132534784.png",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132520131.png",
-    "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转/file-20251122132508011.png",
     "工具/vs code/玩转vscode/assets/07讲如何快速在文件、符号、代码之间跳转",
     "工具/vs code/玩转vscode/assets/06讲拒绝重复，你一定要学会的多光标特性.pdf",
-    "工具/vs code/玩转vscode/assets",
     "工具/vs code/html&javascript/vscode 快速生成html.md",
-    "工具/vs code/玩转vscode",
-    "工具/vs code/html&javascript/assets/vscode 快速生成html",
     "工具/vs code/html&javascript/VS Code中怎么运行js文件.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（22）— Maven中 plugins 和 pluginManagement.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（21）— maven-compiler-plugin 插件详解.md",
@@ -256,8 +258,6 @@
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（13）— Maven插件解析运行机制.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（12）— Maven生命周期和插件.md",
     "工具/maven/02.网上教程/maven学习笔记/Maven 教程（11）— Maven远程仓库的各种配置.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（10）— Maven依赖详解.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（9）— Maven坐标详解.md",
-    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（8）— Eclipse创建Maven项目运行mvn命令.md"
+    "工具/maven/02.网上教程/maven学习笔记/Maven 教程（10）— Maven依赖详解.md"
   ]
 }
