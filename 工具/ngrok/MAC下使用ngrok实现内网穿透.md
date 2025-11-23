@@ -1,10 +1,10 @@
-下载MAC版的ngrok：https://ngrok.com/download
+下载 MAC 版的 ngrok：https://ngrok.com/download
 
 解压到指定目录：
 
 $ unzip -n ngrok-stable-darwin-amd64.zip -d /tmp
 
-进入到解压后的ngrok所在路径：
+进入到解压后的 ngrok 所在路径：
 
 $ cd /tmp
 
@@ -12,13 +12,13 @@ $ cd /tmp
 
 $ ./ngrok http localhost:8080
 
-![0](https://note.youdao.com/yws/res/17121/D7D993EEFCB8486F9B43FD39BC99E582)
+![](assets/MAC下使用ngrok实现内网穿透/file-20251123142431571.png)
 
-![0](https://note.youdao.com/yws/res/17123/C3844FF3A5664CEE9DE90FC563102D2E)
+![](assets/MAC下使用ngrok实现内网穿透/file-20251123142440141.png)
 
-![0](https://note.youdao.com/yws/res/17125/D54E9FEEFE4E4E3A9AA948340E29B9BF)
+![](assets/MAC下使用ngrok实现内网穿透/file-20251123142449273.png)
 
-输入命令后会先出现图1，图2的情况，稍等片刻，等Session Status显示为online状态时即可使用外网访问。即：以前使用http://localhost:8080/testWeb访问，现在便可使用http://744fb6df.ngrok.io/testWeb进行访问，http://744fb6df.ngrok.io就是本地服务映射到外网的地址。其中744fb6df不是固定的，在每次开始ngrok服务的时候都会变更。
+输入命令后会先出现图 1，图 2 的情况，稍等片刻，等 Session Status 显示为 online 状态时即可使用外网访问。即：以前使用 http://localhost:8080/testWeb 访问，现在便可使用 http://744fb6df.ngrok.io/testWeb 进行访问，http://744fb6df.ngrok.io 就是本地服务映射到外网的地址。其中 744fb6df 不是固定的，在每次开始 ngrok 服务的时候都会变更。
 
 转自：http://blog.csdn.net/u011886447/article/details/73268407
 
