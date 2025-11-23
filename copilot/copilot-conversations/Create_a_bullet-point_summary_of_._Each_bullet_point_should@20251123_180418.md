@@ -290,3 +290,29 @@ Error Details: [GoogleGenerativeAI Error]: Error fetching from https://generativ
 希望这些信息对您有所帮助！
 
 [Timestamp: 2025/11/23 21:30:54]
+
+**user**: {工具} 提供的文档中 查找 mac如何切换jdk版本
+[Context: Notes: Github/github骚操作/GitHub骚操作之#L数字.md]
+[Timestamp: 2025/11/23 21:32:12]
+
+**ai**: 在提供的上下文中，没有直接关于如何在 Mac 上切换 JDK 版本的信息。但是，根据之前对话中总结的一些常见方法，我将再次列出：
+
+1.  **使用 `/usr/libexec/java_home` 命令：**
+
+    -   这个命令可以帮助你找到已安装的 JDK 的路径。
+    -   你可以使用 `java_home -v 1.8` 来查找 JDK 8 的路径。
+    -   然后，你可以设置 `JAVA_HOME` 环境变量指向该路径。
+2.  **修改 `~/.bash_profile` 或 `~/.zshrc` 文件：**
+
+    -   打开你的 shell 配置文件（取决于你使用的 shell）。
+    -   添加或修改 `JAVA_HOME` 环境变量，并将其指向你想要使用的 JDK 路径。
+    -   例如：`export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)`
+    -   保存文件并执行 `source ~/.bash_profile` 或 `source ~/.zshrc` 使更改生效。
+3.  **使用 `jenv`：**
+
+    -   `jenv` 是一个 Java 版本管理工具，可以方便地切换 JDK 版本。
+    -   你需要先安装 `jenv`，然后使用 `jenv add` 命令添加 JDK，最后使用 `jenv local` 或 `jenv global` 命令来设置 JDK 版本。
+
+希望这些信息能帮到你！
+
+[Timestamp: 2025/11/23 21:32:20]
