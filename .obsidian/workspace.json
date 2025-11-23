@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/intellij/Intellij快捷键.md",
+                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intellij快捷键"
+              "title": "Mac上好用的开发相关软件推荐 - 2025篇"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/intellij/Intellij快捷键.md",
+                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Intellij快捷键 的反向链接列表"
+              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/intellij/Intellij快捷键.md",
+                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Intellij快捷键 的出链列表"
+              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/intellij/Intellij快捷键.md",
+                "file": "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Intellij快捷键 的大纲"
+              "title": "Mac上好用的开发相关软件推荐 - 2025篇 的大纲"
             }
           },
           {
@@ -196,8 +196,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "工具/intellij/Intellij快捷键.md",
+    "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
     "工具/mac",
     "工具/intellij/IntelliJ IDEA设置护眼主题.md",
     "工具/intellij/IntelliJ 创建main函数快捷.md",
@@ -215,7 +217,6 @@
     "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135035535.png",
     "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受/file-20251123135014670.png",
     "工具/intellij/assets/阿里巴巴Java开发规约插件p3c详细教程及使用感受",
-    "工具/intellij/Intellij快捷键.md",
     "工具/intellij/assets/IntelliJ 创建main函数快捷/file-20251123132257902.png",
     "工具/intellij/assets/IntelliJ 创建main函数快捷",
     "attachments/idea_主题.rar 1.md",
@@ -228,7 +229,6 @@
     "工具/intellij/assets/10大必备的Intellij插件，大幅提高你的工作效率",
     "工具/intellij/assets",
     "工具/google/google 必备插件.md",
-    "工具/intellij",
     "工具/vs code/玩转vscode/VSCode 快捷键.md",
     "工具/vs code/玩转vscode/关于VScode设置护眼色的方法.md",
     "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
