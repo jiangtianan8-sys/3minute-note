@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
+                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串"
+              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
+                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串 的反向链接列表"
+              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
+                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串 的出链列表"
+              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
+                "file": "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串 的大纲"
+              "title": "MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题） 的大纲"
             }
           },
           {
@@ -198,11 +198,12 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
+    "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142109708.png",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142059172.png",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串",
     "工具/mac/如何在 Mac 中隐藏文件或文件夹？.md",
-    "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
     "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
     "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141945261.png",
@@ -213,7 +214,6 @@
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141827319.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141810041.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141759802.png",
-    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141748731.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具",
     "工具/mac/assets",
     "工具/intellij/Intellij快捷键.md",
