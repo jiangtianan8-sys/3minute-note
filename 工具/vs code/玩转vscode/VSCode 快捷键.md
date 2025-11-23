@@ -1,4 +1,4 @@
-### 1、Window 版快捷键
+# 1、Window 版快捷键
 
 常用快捷键
 
@@ -17,7 +17,7 @@
 - 新建一个窗口：`ctrl + shift + n`
 - 多行编辑：`Ctrl + Alt + up/down`
 
-### 2、Mac 版快捷键
+# 2、Mac 版快捷键
 
 Mac
 
