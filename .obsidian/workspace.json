@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,7 +206,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "51738bfca2db14c8",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
     "copilot/copilot-conversations",

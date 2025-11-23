@@ -21,7 +21,7 @@
   "amazonBedrockRegion": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gemini-3-pro-preview|google",
+  "defaultModelKey": "gemini-2.0-flash|google",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
@@ -270,6 +270,18 @@
       "stream": true,
       "enableCors": false,
       "displayName": "gemini-3-pro-preview"
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "gemini-2.0-flash"
     }
   ],
   "activeEmbeddingModels": [
@@ -366,6 +378,17 @@
       "isEmbeddingModel": true,
       "capabilities": [],
       "displayName": "gemini-3-pro-preview"
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "AIzaSyBtsDLjFS8PJAwKl3WhNkucfrfCk2PDOtA",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "gemini-2.0-flash"
     }
   ],
   "embeddingRequestsPerMin": 60,
