@@ -1,7 +1,6 @@
 1.下载护眼主题
-[[
+[[assert/
 ]]
-
 2.导入护眼主题
 
 File -> setting -> Editor > Color Scheme > General
