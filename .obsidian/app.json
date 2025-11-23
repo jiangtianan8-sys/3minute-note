@@ -3,5 +3,6 @@
   "newLinkFormat": "relative",
   "useTab": true,
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true
 }

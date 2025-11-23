@@ -4,5 +4,6 @@
   "obsidian-plugin-prettier",
   "templater-obsidian",
   "obsidian-linter",
-  "colored-text"
+  "colored-text",
+  "copilot"
 ]
