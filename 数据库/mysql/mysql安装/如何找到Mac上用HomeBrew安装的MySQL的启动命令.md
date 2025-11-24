@@ -55,5 +55,7 @@
 
 37. 按照提示启动就成功了
 
-38. $ /usr/local/opt/mysql@5.7/bin/mysql.server start
-39. Starting MySQL
+```shell
+1. $ /usr/local/opt/mysql@5.7/bin/mysql.server start
+2. Starting MySQL
+```
