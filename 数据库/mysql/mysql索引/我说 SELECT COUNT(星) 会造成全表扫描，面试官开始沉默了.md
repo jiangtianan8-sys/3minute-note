@@ -101,14 +101,27 @@ SHOW TABLE STATUS LIKE 'person'
 optimizer_trace 功能使用如下
 
 ```
-
+SET optimizer_trace="enabled=on";
+SELECT create_time FROM person WHERE NAME >'name84059' AND create_time > '2020-05-23 14:39:18';
+SELECT * FROM information_schema.OPTIMIZER_TRACE;
+SET optimizer_trace="enabled=off";
 ```
 
 执行之后我们主要观察使用 name_score，create_time 索引及全表扫描的成本。
 
 先来看下使用 name_score 索引执行的的预估执行成本:
 
-{ "index": "name_score", "ranges": [ "name84059 <= name" ], "index_dives_for_eq_ranges": true, "rows": 25372, "cost": 30447 }
+```
+{
+    "index": "name_score",
+    "ranges": [
+      "name84059 <= name"
+    ],
+    "index_dives_for_eq_ranges": true,
+    "rows": 25372,
+    "cost": 30447
+}
+```
 
 可以看到执行成本为 30447，高于我们之前算出来的全表扫描成本：20406。所以没选择此索引执行
 
