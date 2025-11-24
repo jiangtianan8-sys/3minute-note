@@ -232,6 +232,8 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154817148.png",
+    "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154722368.png",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154700551.png",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154646502.png",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154633109.png",
@@ -245,8 +247,6 @@
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
     "数据库/mysql/mysql索引/什么是覆盖索引  如何利用索引进行SQL语句优化.md",
     "数据库/mysql/mysql索引/assets/什么是覆盖索引  如何利用索引进行SQL语句优化/file-20251124154343081.png",
-    "数据库/mysql/mysql索引/assets/什么是覆盖索引  如何利用索引进行SQL语句优化/file-20251124154333613.png",
-    "数据库/mysql/mysql索引/assets/什么是覆盖索引  如何利用索引进行SQL语句优化/file-20251124154323838.png",
     "数据库/mysql/mysql索引/assets/什么是覆盖索引  如何利用索引进行SQL语句优化",
     "数据库/mysql/mysql索引/or会导致MySQL索引失效的原因.md",
     "数据库/mysql/mysql索引/mysql中explain的type的解释.md",
