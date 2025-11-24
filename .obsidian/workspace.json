@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
+                "file": "数据库/mysql/mysql优化/10. MySQL优化之超大分页查询：从原理到实战.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？"
+              "title": "10. MySQL优化之超大分页查询：从原理到实战"
             }
           }
         ]
@@ -232,6 +232,8 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
+    "数据库/mysql/mysql优化/10. MySQL优化之超大分页查询：从原理到实战.md",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124164001137.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163951487.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163938754.png",
@@ -242,11 +244,9 @@
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163838307.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163829189.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163819742.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163806188.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？",
     "数据库/mysql/mysql优化/assets",
     "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
-    "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
     "数据库/mysql/mysql优化",
     "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？",
     "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",

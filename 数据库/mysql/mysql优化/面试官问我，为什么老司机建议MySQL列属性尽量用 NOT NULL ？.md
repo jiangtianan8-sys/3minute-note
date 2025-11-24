@@ -12,7 +12,7 @@ int *p = NULL;
 
 关于空指针异常，我之前写过一篇文章来介绍怎么防御《[java.lang.NullPointerException](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247484982&idx=1&sn=39fe1032d17ed9f688f40e1d3fb8213f&chksm=e8fe9a3fdf891329775372afc97e45ce7ac65e2f4f1721c712613da5df541bda176086b2002d&scene=21#wechat_redirect)》。但是这篇文章没有写全，今天在这里补充一下。
 
-其实很早之前 guava 就提供了 Optional 容器类来处理 null，其目的便是避免猝不及防的空指针。后来 java8 直接引入了 Optional，功能一样，用法上稍稍有点变化。其实还有很多开源框架，比如 Spring，common lang3等，也提供了处理空的工具类，如。
+其实很早之前 guava 就提供了 Optional 容器类来处理 null，其目的便是避免猝不及防的空指针。后来 java8 直接引入了 Optional，功能一样，用法上稍稍有点变化。其实还有很多开源框架，比如 Spring，common lang3 等，也提供了处理空的工具类，如。
 
 StringUtils.isBlank();   
 
@@ -22,7 +22,7 @@ CollectionUtils.isEmpty();
 
 我们在设计表的时候，经常会有老司机这么告诉我们。
 
-字段尽可能用NOT NULL，而不是NULL，除非特殊情况。
+字段尽可能用 NOT NULL，而不是 NULL，除非特殊情况。
 
 这句话到底有没有错？
 
@@ -36,9 +36,9 @@ CollectionUtils.isEmpty();
 
 广告
 
-高性能MySQL（第3版）
+高性能 MySQL（第 3 版）
 
-作者：(美)施瓦茨,(美)扎伊采夫,(美)特卡琴科
+作者：(美) 施瓦茨,(美) 扎伊采夫,(美) 特卡琴科
 
 当当
 
@@ -62,7 +62,7 @@ CollectionUtils.isEmpty();
 
 比如上例中的 t2，我执行如下 SQL 语句。
 
-SELECT * from t2 where name != '张三'
+SELECT * from t2 where name != ' 张三 '
 
 你本打算返回 id 为 2 的那行数据，然而什么都没有。
 
@@ -82,7 +82,7 @@ SELECT CONCAT("1",NULL)
 
 ![](assets/面试官问我，为什么老司机建议MySQL列属性尽量用%20NOT%20NULL%20？/file-20251124163917723.png)
 
-3、当用count函数进行统计时，NULL 列不会计入统计。
+3、当用 count 函数进行统计时，NULL 列不会计入统计。
 
 SELECT count(name) from t2
 
@@ -98,11 +98,11 @@ SELECT * FROM t2 where name is NULL
 
 如果你仔细观察 t1 和 t2 表的 key_len，会发现 t2 比 t1 多了一个字节。
 
-explain SELECT * from t2 where name = '张三'
+explain SELECT * from t2 where name = ' 张三 '
 
 ![](assets/面试官问我，为什么老司机建议MySQL列属性尽量用%20NOT%20NULL%20？/file-20251124163951487.png)
 
-explain SELECT * from t1 where name = '张三'
+explain SELECT * from t1 where name = ' 张三 '
 
 ![](assets/面试官问我，为什么老司机建议MySQL列属性尽量用%20NOT%20NULL%20？/file-20251124164001137.png)
 
