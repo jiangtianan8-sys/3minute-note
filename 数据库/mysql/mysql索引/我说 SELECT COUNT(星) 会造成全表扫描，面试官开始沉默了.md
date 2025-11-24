@@ -129,13 +129,49 @@ SET optimizer_trace="enabled=off";
 
 再来看下使用 create_time 索引执行的的预估执行成本:
 
-{ "index": "create_time", "ranges": [ "0x5ec8c516 < create_time" ], "index_dives_for_eq_ranges": true, "rows": 50132, "cost": 60159, "cause": "cost" }
+```
+{
+    "index": "create_time",
+    "ranges": [
+      "0x5ec8c516 < create_time"
+    ],
+    "index_dives_for_eq_ranges": true,
+    "rows": 50132,
+    "cost": 60159,
+    "cause": "cost"
+}
+```
 
 可以看到成本是 60159,远大于全表扫描成本 20406，自然也没选择此索引。
 
 再来看计算出的全表扫描成本：
 
-{ "considered_execution_plans": [ { "plan_prefix": [ ], "table": "`person`", "best_access_path": { "considered_access_paths": [ { "rows_to_scan": 100264, "access_type": "scan", "resulting_rows": 100264, "cost": 20406, "chosen": true } ] }, "condition_filtering_pct": 100, "rows_for_plan": 100264, "cost_for_plan": 20406, "chosen": true } ] }
+```
+{
+    "considered_execution_plans": [
+      {
+        "plan_prefix": [
+        ],
+        "table": "`person`",
+        "best_access_path": {
+          "considered_access_paths": [
+            {
+              "rows_to_scan": 100264,
+              "access_type": "scan",
+              "resulting_rows": 100264,
+              "cost": 20406,
+              "chosen": true
+            }
+          ]
+        },
+        "condition_filtering_pct": 100,
+        "rows_for_plan": 100264,
+        "cost_for_plan": 20406,
+        "chosen": true
+      }
+    ]
+}
+```
 
 注意看 cost：20406，与我们之前算出来的完全一样！这个值在以上三者算出的执行成本中最小，所以最终 MySQL 选择了用全表扫描的方式来执行此 SQL。
 
