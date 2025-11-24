@@ -219,10 +219,10 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？/file-20251124102715178.png",
-    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
     "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
     "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
+    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？/file-20251124102715178.png",
+    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102421667.png",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102408541.png",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102330557.png",
@@ -263,7 +263,6 @@
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
-    "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
-    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142449273.png"
+    "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md"
   ]
 }
