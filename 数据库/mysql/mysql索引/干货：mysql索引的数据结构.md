@@ -77,9 +77,8 @@ B-Tree有许多变种，其中最常见的是B+Tree，例如MySQL就普遍使用
     
       
     
-    ![](//upload-images.jianshu.io/upload_images/5687393-717ab97b31dfa84b.png?imageMogr2/auto-orient/strip|imageView2/2/w/569/format/webp)
+    ![](assets/干货：mysql索引的数据结构/file-20251124153854985.png)
     
-    Paste_Image.png
     
 
 B+的搜索与B-树也基本相同，区别是B+树只有达到叶子结点才命中（B-树可以在非叶子结点命中），其性能也等价于在关键字全集做一次二分查找；
@@ -96,9 +95,8 @@ B+的搜索与B-树也基本相同，区别是B+树只有达到叶子结点才�
     
       
     
-    ![](//upload-images.jianshu.io/upload_images/5687393-59a8ea11c8555ab0.gif?imageMogr2/auto-orient/strip|imageView2/2/w/1007/format/webp)
-    
-    Bplustreebuild.gif
+    ![](assets/干货：mysql索引的数据结构/file-20251124153909486.png)
+
     
 
 # 索引的物理存储
@@ -107,7 +105,7 @@ B+的搜索与B-树也基本相同，区别是B+树只有达到叶子结点才�
 
 ## B-tree
 
-![](//upload-images.jianshu.io/upload_images/5687393-deb292ed3e4bf18c.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![](assets/干货：mysql索引的数据结构/file-20251124153923117.png)
 
 Paste_Image.png
 
@@ -128,7 +126,7 @@ Paste_Image.png
 
 ## B+tree
 
-![](//upload-images.jianshu.io/upload_images/5687393-717ab97b31dfa84b.png?imageMogr2/auto-orient/strip|imageView2/2/w/569/format/webp)
+![](assets/干货：mysql索引的数据结构/file-20251124153934416.png)
 
 Paste_Image.png
 
@@ -149,7 +147,7 @@ MyISAM引擎使用B+Tree作为索引结构，叶节点的data域存放的是数�
 
   
 
-![](//upload-images.jianshu.io/upload_images/5687393-942f8ec950b81e79.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![](assets/干货：mysql索引的数据结构/file-20251124153945233.png)
 
 Paste_Image.png
 
