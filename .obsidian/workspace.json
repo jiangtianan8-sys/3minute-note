@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/sql面试总结/在一个千万级的数据库查寻中，如何提高查询效率？.md",
+                "file": "数据库/sql面试总结/【数据库】SQL经典面试题 - 行列转换二 - 列转行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "在一个千万级的数据库查寻中，如何提高查询效率？"
+              "title": "【数据库】SQL经典面试题 - 行列转换二 - 列转行"
             }
           }
         ]
@@ -232,8 +232,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/sql面试总结/一道面试题引发的数据库SQL语句实践（含行列转换）.md",
     "数据库/sql面试总结/在一个千万级的数据库查寻中，如何提高查询效率？.md",
+    "数据库/sql面试总结/【数据库】SQL经典面试题 - 行列转换二 - 列转行.md",
+    "数据库/sql面试总结/一道面试题引发的数据库SQL语句实践（含行列转换）.md",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195654267.png",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195636198.png",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195624776.png",
@@ -276,7 +277,6 @@
     "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
     "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
     "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
-    "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md",
-    "数据库/mysql/mysql学习/SELECT 子句顺序.md"
+    "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md"
   ]
 }
