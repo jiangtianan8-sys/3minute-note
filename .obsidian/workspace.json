@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
+                "file": "数据库/mysql/mysql面试/为什么MySQL数据库索引选择使用B+树？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL——VARCHAR和CHAR类型"
+              "title": "为什么MySQL数据库索引选择使用B+树？"
             }
           }
         ]
@@ -232,6 +232,24 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql面试/assets/为什么MySQL数据库索引选择使用B+树？/file-20251124193243190.png",
+    "数据库/mysql/mysql面试/assets/为什么MySQL数据库索引选择使用B+树？",
+    "数据库/mysql/mysql面试/什么是B-Tree.md",
+    "数据库/mysql/mysql面试/为什么MySQL数据库索引选择使用B+树？.md",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193211260.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193204486.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193156286.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193147903.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193139036.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193127942.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193119052.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193109903.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193054972.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree/file-20251124193031410.png",
+    "数据库/mysql/mysql面试/assets/什么是B-Tree",
+    "数据库/mysql/mysql面试/assets",
+    "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
+    "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/sql审核平台/Archery/archery SQL审核平台.md",
     "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
     "数据库/sql审核平台/Archery",
@@ -239,29 +257,16 @@
     "数据库/sql审核平台",
     "数据库/mysql/mysql语句/sql中exists,not exists的用法.md",
     "数据库/mysql/mysql语句/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？.md",
-    "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？/file-20251124164528806.png",
-    "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？/file-20251124164518714.png",
-    "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？/file-20251124164456955.png",
     "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？",
     "数据库/mysql/mysql语句/assets",
     "数据库/mysql/mysql优化/10. MySQL优化之超大分页查询：从原理到实战.md",
     "数据库/mysql/mysql语句",
     "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124164001137.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163951487.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163938754.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163929188.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163917723.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163901870.png",
-    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163846787.png",
     "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？",
     "数据库/mysql/mysql优化/assets",
     "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
-    "数据库/mysql/mysql优化",
-    "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？",
     "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
     "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法",
     "数据库/mysql/mysql学习/SELECT 子句顺序.md",
     "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
     "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
@@ -272,11 +277,6 @@
     "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
     "数据库/mysql/mysql索引/什么是覆盖索引  如何利用索引进行SQL语句优化.md",
     "数据库/mysql/mysql索引/or会导致MySQL索引失效的原因.md",
-    "数据库/mysql/mysql索引/mysql中explain的type的解释.md",
-    "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
-    "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
-    "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
-    "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
-    "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md"
+    "数据库/mysql/mysql索引/mysql中explain的type的解释.md"
   ]
 }
