@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
+                "file": "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14.4 InnoDB Architecture"
+              "title": "MYSQL中TRUNCATE和DELETE的区别"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
+                "file": "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "14.4 InnoDB Architecture 的大纲"
+              "title": "MYSQL中TRUNCATE和DELETE的区别 的大纲"
             }
           },
           {
@@ -219,11 +219,18 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102421667.png",
+    "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102408541.png",
+    "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102330557.png",
+    "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别",
+    "数据库/mysql/mysql基础/assets",
+    "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
+    "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
+    "数据库/mysql/mysql基础",
     "数据库/mysql/mysql官方文档/assets/14.4 InnoDB Architecture/file-20251124102127805.png",
     "数据库/mysql/mysql官方文档/assets/14.4 InnoDB Architecture",
     "数据库/mysql/mysql官方文档/assets",
     "数据库/mysql/mysql安装/安装问题解决.md",
-    "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
     "数据库/mysql/mysql官方文档",
     "数据库/mysql/mysql安装/assets/安装问题解决/file-20251124102000542.png",
     "数据库/mysql/mysql安装/assets/安装问题解决/file-20251124101952595.png",
@@ -239,10 +246,7 @@
     "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录",
     "数据库/mysql/mysql安装/assets",
     "Github/github骚操作/GitHub骚操作之#L数字.md",
-    "数据库/mysql/mysql安装",
-    "数据库/mysql",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
-    "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
@@ -260,10 +264,6 @@
     "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
     "工具/mac/如何在 Mac 中隐藏文件或文件夹？.md",
     "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142449273.png",
-    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142440141.png",
-    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142431571.png",
-    "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
-    "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142109708.png",
-    "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142059172.png"
+    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142440141.png"
   ]
 }
