@@ -11,14 +11,12 @@
             "id": "4c526b674b4d9ea1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
-                "mode": "source",
-                "source": false
+                "file": "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf"
               },
-              "icon": "lucide-file",
-              "title": "45自增id用完怎么办？"
+              "icon": "lucide-file-text",
+              "title": "07 行锁功过：怎么减少行锁对性能的影响？"
             }
           }
         ]
@@ -230,21 +228,21 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql实战45讲/pdf/40 insert语句的锁为什么这么多？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/41 怎么最快地复制一张表？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/33 我查这么多数据，会不会把数据库内存打爆？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/35 join语句怎么优化？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/37 什么时候会使用内部临时表？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/15 答疑文章（一）：日志和索引相关问题.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/16 “order by”是怎么工作的？.pdf",
-    "数据库/mysql/mysql实战45讲/pdf/10 MySQL为什么有时候会选错索引？.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/14 count 这么慢，我该怎么办？.pdf",
-    "数据库/mysql/mysql实战45讲/pdf/17 如何正确地显示随机消息.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf",
-    "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
+    "数据库/mysql/mysql实战45讲/pdf/26 备库为什么会延迟好几个小时？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/30 答疑文章（二）：用动态的观点看加锁.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/29 如何判断一个数据库是不是出问题了？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/32 为什么还有kill不掉的语句？.pdf",
+    "数据库/mysql/mysql实战45讲/pdf/34 到底可不可以使用join？.pdf",
+    "数据库/mysql/mysql实战45讲/pdf/28 读写分离有哪些坑？.pdf",
+    "数据库/mysql/mysql实战45讲/pdf/25 MySQL是怎么保证高可用的？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/31 误删数据后除了跑路，还能怎么办？.pdf",
+    "数据库/mysql/mysql实战45讲/pdf/24 MySQL是怎么保证主备一致的？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/35 join语句怎么优化？.pdf",
+    "数据库/mysql/mysql实战45讲/pdf/32 为什么还有kill不掉的语句？.pdf.baiduyun.p.downloading",
     "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
+    "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
     "数据库/mysql/mysql权限/MySQL之权限管理(mysql.user表详解).md",
     "数据库/mysql/mysql面试/腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列.md",
