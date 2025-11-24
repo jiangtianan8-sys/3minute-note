@@ -54,7 +54,7 @@ InnoDB的二级索引和主键索引也有很大的不同，二级索引存放�
 
 3、根据数据地址去myd文件里找到对应的数据返回。
 
-![0](https://note.youdao.com/yws/res/21534/15FD0389566340BF897CD8F9551EB4FA)
+![](assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153317826.png)
 
 3. 两者的区别
 
@@ -73,7 +73,7 @@ InnoDB的二级索引和主键索引也有很大的不同，二级索引存放�
 
 示意图，test1的存储引擎为InnoDB，test2的存储引擎为MyISAM：
 
-![0](https://note.youdao.com/yws/res/21539/3E9FF04B83824A058D8C09DC79F7847C)
+![](assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153333621.png)
 
 聚簇索引和非聚簇索引的存储方式区别：
 
@@ -84,11 +84,11 @@ InnoDB的二级索引和主键索引也有很大的不同，二级索引存放�
 
 对于采用聚簇索引的InnoDB引擎的主键索引B+Tree和MyISAM的主键索引树以及MyISAM的二级索引B+Tree都是采用这样的结构。
 
-![0](https://note.youdao.com/yws/res/21537/92887552A67D4D4F8AA9FE4989A64D9F)
+![](assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153357468.png)
 
  但是InnoDB的二级索引B+Tree却是这样的：
 
-![0](https://note.youdao.com/yws/res/21536/A3CEA41387444F0DA71762120846F1E2)
+![](assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153408167.png)
 
 可以得出：
 
