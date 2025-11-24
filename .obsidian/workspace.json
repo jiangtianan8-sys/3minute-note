@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
+                "file": "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "「MYSQL」MYSQL中的int(11)到底代表什么意思？"
+              "title": "面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？"
             }
           }
         ]
@@ -232,16 +232,25 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？/file-20251124161517483.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124164001137.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163951487.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163938754.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163929188.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163917723.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163901870.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163846787.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163838307.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163829189.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163819742.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？/file-20251124163806188.png",
+    "数据库/mysql/mysql优化/assets/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？",
+    "数据库/mysql/mysql优化/assets",
+    "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
+    "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
+    "数据库/mysql/mysql优化",
     "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？",
     "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
-    "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
     "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161219416.png",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161209899.png",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161159843.png",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161141100.png",
-    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161131569.png",
     "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法",
     "数据库/mysql/mysql学习/assets",
     "数据库/mysql/mysql学习/SELECT 子句顺序.md",
@@ -249,25 +258,17 @@
     "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
     "数据库/mysql/mysql索引/细说mysql索引.md",
     "数据库/mysql/mysql学习",
-    "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155817452.png",
-    "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155808078.png",
-    "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155756694.png",
     "数据库/mysql/mysql索引/assets/细说mysql索引",
     "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
-    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155446424.png",
-    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155404108.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了",
     "数据库/mysql/mysql索引/索引失效的7种情况.md",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况",
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
-    "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】",
     "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
     "数据库/mysql/mysql索引/什么是覆盖索引  如何利用索引进行SQL语句优化.md",
-    "数据库/mysql/mysql索引/assets/什么是覆盖索引  如何利用索引进行SQL语句优化",
     "数据库/mysql/mysql索引/or会导致MySQL索引失效的原因.md",
     "数据库/mysql/mysql索引/mysql中explain的type的解释.md",
     "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
-    "数据库/mysql/mysql索引/assets/干货：mysql索引的数据结构",
     "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
     "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
     "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
@@ -276,7 +277,6 @@
     "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
     "数据库/mysql/mysql锁/官方文档.md",
     "数据库/mysql/mysql锁/MySQL MVCC机制.md",
-    "数据库/mysql/mysql锁/MySQL MVCC介绍.md",
-    "数据库/mysql/mysql锁/MySQL InnoDB中的行锁 Next-Key Lock消除幻读.md"
+    "数据库/mysql/mysql锁/MySQL MVCC介绍.md"
   ]
 }
