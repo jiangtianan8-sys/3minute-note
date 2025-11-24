@@ -230,8 +230,14 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/06 全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/14 count 这么慢，我该怎么办？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/08 事务到底是隔离的还是不隔离的？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf/16 “order by”是怎么工作的？.pdf.baiduyun.p.downloading",
+    "数据库/mysql/mysql实战45讲/pdf",
     "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
     "数据库/mysql/mysql实战45讲",
@@ -263,20 +269,14 @@
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124112837826.png",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124112818081.png",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构",
-    "数据库/mysql/mysql列类型/assets",
     "数据库/mysql/mysql基础/在update中使用case when更新列.md",
-    "数据库/mysql/mysql列类型",
     "数据库/mysql/mysql列类型.md",
     "数据库/mysql/mysql基础/员工部门工资SQL面试题.md",
     "数据库/mysql/mysql基础/四种mysql存储引擎.md",
-    "数据库/mysql/mysql基础/assets/四种mysql存储引擎",
     "数据库/mysql/mysql基础/数据库三范式的简单理解.md",
     "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
     "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
-    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
-    "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别",
     "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
-    "数据库/mysql/mysql安装/安装问题解决.md",
-    "数据库/mysql/mysql安装/如何找到Mac上用HomeBrew安装的MySQL的启动命令.md"
+    "数据库/mysql/mysql安装/安装问题解决.md"
   ]
 }
