@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "copilot/copilot-custom-prompts/Generate table of contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown 的基本语法"
+              "title": "Generate table of contents"
             }
           }
         ]
@@ -229,10 +229,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "248e6d7b2c884030",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
     "copilot/copilot-conversations/你好@20251124_134020.md",
+    "Markdown 的基本语法.md",
+    "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113021337.png",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113010163.png",
@@ -268,14 +274,8 @@
     "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
     "数据库/mysql/mysql安装/linux下mysql5.7初始密码查看及忘记密码重置.md",
     "Github/github骚操作/GitHub骚操作之#L数字.md",
-    "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md"
+    "copilot/copilot-custom-prompts/Remove URLs.md"
   ]
 }
