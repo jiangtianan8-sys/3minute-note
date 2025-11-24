@@ -1,24 +1,23 @@
 [mysql.user表中Host为%的含义](http://www.cnblogs.com/wanghetao/p/3804653.html)
 
-　　Host列指定了允许用户登录所使用的IP，比如user=root Host=192.168.1.1。这里的意思就是说root用户只能通过192.168.1.1的客户端去访问。 　　而%是个通配符，如果Host=192.168.1.%，那么就表示只要是IP地址前缀为“192.168.1.”的客户端都可以连接。如果Host=%，表示所有IP都有连接权限。、 　　这也就是为什么在开启远程连接的时候，大部分人都直接把Host改成%的缘故，为了省事。
+　　Host 列指定了允许用户登录所使用的 IP，比如 user=root Host=192.168.1.1。这里的意思就是说 root 用户只能通过 192.168.1.1 的客户端去访问。 　　而% 是个通配符，如果 Host=192.168.1.%，那么就表示只要是 IP 地址前缀为“192.168.1.”的客户端都可以连接。如果 Host=%，表示所有 IP 都有连接权限。、 　　这也就是为什么在开启远程连接的时候，大部分人都直接把 Host 改成% 的缘故，为了省事。
 
 1：新增用户：
 
-注：[MySQL数据库](http://lib.csdn.net/base/mysql)下user表中，Host和User为两个主键列（primary key），已经各版本下非空未设置默认字段。
+注：[MySQL数据库](http://lib.csdn.net/base/mysql) 下 user 表中，Host 和 User 为两个主键列（primary key），已经各版本下非空未设置默认字段。
 
-登录后，切换db：
+登录后，切换 db：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
 1. mysql> use mysql;  
 2. Reading table information for completion of table and column names  
 3. You can turn off this feature to get a quicker startup with -A  
-
 4. Database changed  
 
 新增用户：
 
-注：限制kaka用户的登陆ip为10.155.123.55，ip为随手写入，如果正确配置为您有效登陆ip，所有ip登陆，则设置Host为 '%'
+注：限制 kaka 用户的登陆 ip 为 10.155.123.55，ip 为随手写入，如果正确配置为您有效登陆 ip，所有 ip 登陆，则设置 Host 为 '%'
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
@@ -31,13 +30,13 @@
 1. mysql> INSERT INTO mysql.user(Host,User,Password,ssl_cipher,x509_issuer,x509_subject) VALUES("10.155.123.55","kaka",PASSWORD("kaka123"),"","","");  
 2. Query OK, 1 row affected (0.03 sec)  
 
-新增用户（全sql）：
+新增用户（全 sql）：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
 1. INSERT  INTO `user`(`Host`,`User`,`Password`,`Select_priv`,`Insert_priv`,`Update_priv`,`Delete_priv`,`Create_priv`,`Drop_priv`,`Reload_priv`,`Shutdown_priv`,`Process_priv`,`File_priv`,`Grant_priv`,`References_priv`,`Index_priv`,`Alter_priv`,`Show_db_priv`,`Super_priv`,`Create_tmp_table_priv`,`Lock_tables_priv`,`Execute_priv`,`Repl_slave_priv`,`Repl_client_priv`,`Create_view_priv`,`Show_view_priv`,`Create_routine_priv`,`Alter_routine_priv`,`Create_user_priv`,`Event_priv`,`Trigger_priv`,`Create_tablespace_priv`,`ssl_type`,`ssl_cipher`,`x509_issuer`,`x509_subject`,`max_questions`,`max_updates`,`max_connections`,`max_user_connections`,`plugin`,`authentication_string`,`password_expired`) VALUES ('%','root','*6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'mysql_native_password','','N');  
 
-新增用户完成，刷新[mysql](http://lib.csdn.net/base/mysql)的系统权限相关表
+新增用户完成，刷新 [mysql](http://lib.csdn.net/base/mysql) 的系统权限相关表
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
@@ -92,10 +91,8 @@
 
 1. mysql> DELETE FROM `user` WHERE Host='10.155.123.55' AND User='kaka';  
 2. Query OK, 1 row affected (0.00 sec)  
-
 3. mysql> flush privileges;  
 4. Query OK, 0 rows affected (0.00 sec)  
-
 5. mysql> SELECT Host,User,Password FROM `user`;  
 6. +----------------+------+-------------------------------------------+  
 7. | Host           | User | Password                                  |  
@@ -107,35 +104,34 @@
 13. | %              | root | *71ABCA8B06D46066CEF8062A75256E66243D0FC8 |  
 14. +----------------+------+-------------------------------------------+  
 15. 5 rows in set (0.00 sec)  
-
 16. 权限分配
 
 [plain] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
-1. GRANT语法：     
-2.    GRANT 权限 ON 数据库.* TO 用户名@'登录主机' IDENTIFIED BY '密码'  
+1. GRANT 语法：     
+2. GRANT 权限 ON 数据库.* TO 用户名@' 登录主机 ' IDENTIFIED BY ' 密码 '  
 3. 权限：  
-4.    ALL,ALTER,CREATE,DROP,SELECT,UPDATE,DELETE  
-5.    新增用户：权限为USAGE,即为："无权限",想要创建一个没有权限的用户时,可以指定USAGE  
+4. ALL,ALTER,CREATE,DROP,SELECT,UPDATE,DELETE  
+5. 新增用户：权限为 USAGE,即为：" 无权限 ",想要创建一个没有权限的用户时,可以指定 USAGE  
 6. 数据库：  
-7.      *.*              表示所有库的所有表  
-8.      mylove.*         表示mylove库的所有表  
-9.      mylove.loves     表示mylove库的loves表   
+7. *.*              表示所有库的所有表  
+8. mylove.*         表示 mylove 库的所有表  
+9. mylove.loves     表示 mylove 库的 loves 表   
 10. 用户名：  
-11.      MySQL的账户名  
+11. MySQL 的账户名  
 12. 登陆主机：  
-13.      允许登陆到MySQL Server的客户端ip  
-14.      '%'表示所有ip  
-15.      'localhost' 表示本机  
-16.      '10.155.123.55' 特定IP  
+13. 允许登陆到 MySQL Server 的客户端 ip  
+14. '%' 表示所有 ip  
+15. 'localhost' 表示本机  
+16. '10.155.123.55' 特定 IP  
 17. 密码：  
-18.       MySQL的账户名对应的登陆密码  
+18. MySQL 的账户名对应的登陆密码  
 
-注： IDENTIFIED BY '密码'，可选。
+注： IDENTIFIED BY ' 密码 '，可选。
 
-        GRANT会覆盖用户的部分信息，跟insert 、update执行功能一样。
+        GRANT 会覆盖用户的部分信息，跟 insert 、update 执行功能一样。
 
-给用户kaka分配test数据库下user表的查询select权限：
+给用户 kaka 分配 test 数据库下 user 表的查询 select 权限：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
@@ -152,7 +148,7 @@
 11. +-----------------------------------------------------------------------------------------------------------------+  
 12. 2 rows in set (0.00 sec)  
 
-为了快速[测试](http://lib.csdn.net/base/softwaretest)，我要把ip切回%，ip全访问：
+为了快速 [测试](http://lib.csdn.net/base/softwaretest)，我要把 ip 切回%，ip 全访问：
 
 使用和测试：
 
@@ -164,11 +160,11 @@
 2. Reading table information for completion of table and column names  
 3. You can turn off this feature to get a quicker startup with -A  
 4. Database changed  
-5. 修改权限Host为所有ip登陆：  
+5. 修改权限 Host 为所有 ip 登陆：  
 6. mysql> UPDATE `user` SET Host='%' WHERE Host='10.155.123.55' AND User='kaka';  
 7. Query OK, 1 row affected (0.00 sec)  
 8. Rows matched: 1  Changed: 1  Warnings: 0  
-9. 查看kaka的权限：  
+9. 查看 kaka 的权限：  
 10. mysql> show grants for 'kaka'@'10.155.123.55';  
 11. +-----------------------------------------------------------------------------------------------------------------+  
 12. | Grants for kaka@10.155.123.55                                                                                   |  
@@ -177,10 +173,10 @@
 15. | GRANT SELECT ON `test`.`user` TO 'kaka'@'10.155.123.55'                                                         |  
 16. +-----------------------------------------------------------------------------------------------------------------+  
 17. 2 rows in set (0.00 sec)  
-18. 刷新MySQL的系统权限相关表  
+18. 刷新 MySQL 的系统权限相关表  
 19. mysql> flush privileges;  
 20. Query OK, 0 rows affected (0.00 sec)  
-21. 查看kaka的权限：  
+21. 查看 kaka 的权限：  
 22. mysql> show grants for 'kaka'@'%';  
 23. +-----------------------------------------------------------------------------------------------------+  
 24. | Grants for kaka@%                                                                                   |  
@@ -188,10 +184,10 @@
 26. | GRANT USAGE ON *.* TO 'kaka'@'%' IDENTIFIED BY PASSWORD '*6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9' |  
 27. +-----------------------------------------------------------------------------------------------------+  
 28. 1 row in set (0.00 sec)  
-29. 给用户kaka分配weloveshare数据库下user表的查询select权限：  
+29. 给用户 kaka 分配 weloveshare 数据库下 user 表的查询 select 权限：  
 30. mysql> GRANT SELECT ON `weloveshare`.`user` TO kaka@'%';  
 31. Query OK, 0 rows affected (0.00 sec)  
-32. 查看kaka的权限：  
+32. 查看 kaka 的权限：  
 33. mysql> show grants for 'kaka'@'%';  
 34. +-----------------------------------------------------------------------------------------------------+  
 35. | Grants for kaka@%                                                                                   |  
@@ -200,7 +196,7 @@
 38. | GRANT SELECT ON `weloveshare`.`user` TO 'kaka'@'%'                                                  |  
 39. +-----------------------------------------------------------------------------------------------------+  
 40. 2 rows in set (0.00 sec)  
-41. 查看weloveshare数据库下user表的数据：  
+41. 查看 weloveshare 数据库下 user 表的数据：  
 42. mysql> use weloveshare  
 43. Reading table information for completion of table and column names  
 44. You can turn off this feature to get a quicker startup with -A  
@@ -210,42 +206,41 @@
 48. 退出当前用户：  
 49. mysql> exit;  
 50. Bye  
-51. 切换用户kaka:  
+51. 切换用户 kaka:  
 52. [root@Tony_ts_tian ~]# mysql -u kaka -p  
 53. Enter password:   
 54. 登录成功。  
-55. 切换数据库，查看user表数据：  
+55. 切换数据库，查看 user 表数据：  
 56. mysql> use weloveshare  
 57. Reading table information for completion of table and column names  
 58. You can turn off this feature to get a quicker startup with -A  
-
 59. Database changed  
 60. mysql> select * from user;  
 61. Empty set (0.00 sec)  
 62. 插入数据：  
 63. mysql> INSERT INTO `weloveshare`.`user`(uname,upass,ustatus) VALUES('kaka','kaka123','0');  
 64. ERROR 1142 (42000): INSERT command denied to user 'kaka'@'localhost' for table 'user'  
-65. 提示：INSERT被拒绝。配置成功。  
+65. 提示：INSERT 被拒绝。配置成功。  
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
-1. 注：`weloveshare`.`user`数据库名.数据表名，kaka用户名，%为Host，ip可限制或不 localhost，%，192.168.10.%  
-2. grant创建、修改、删除、更新、查询MySQL数据表结构权限：  
+1. 注：`weloveshare`.`user` 数据库名.数据表名，kaka 用户名，% 为 Host，ip 可限制或不 localhost，%，192.168.10.%  
+2. grant 创建、修改、删除、更新、查询 MySQL 数据表结构权限：  
 3. GRANT CREATE ON `weloveshare`.`user` TO kaka@'%';   
 4. GRANT ALTER ON `weloveshare`.`user` TO kaka@'%';   
 5. GRANT DROP ON `weloveshare`.`user` TO kaka@'%';   
 6. GRANT UPDATE ON `weloveshare`.`user` TO kaka@'%';   
 7. GRANT SELECT ON `weloveshare`.`user` TO kaka@'%';   
-8. grant操作MySQL外键权限:  
+8. grant 操作 MySQL 外键权限:  
 9. GRANT REFERENCES ON `weloveshare`.`user` TO kaka@'%';   
-10. grant操作MySQL 临时表权限:  
+10. grant 操作 MySQL 临时表权限:  
 11. GRANT CREATE TEMPORARY TABLES ON `weloveshare`.`user` TO kaka@'%';   
-12. grant操作MySQL索引权限  
+12. grant 操作 MySQL 索引权限  
 13. GRANT INDEX ON `weloveshare`.`user` TO kaka@'%';   
-14. grant操作MySQL视图、查看视图源代码权限:  
+14. grant 操作 MySQL 视图、查看视图源代码权限:  
 15. GRANT CREATE VIEW ON `weloveshare`.`user` TO kaka@'%';   
 16. GRANT SHOW VIEW ON `weloveshare`.`user` TO kaka@'%';   
-17. grant操作MySQL存储过程(查看状态,删除修改)、函数权限。  
+17. grant 操作 MySQL 存储过程 (查看状态,删除修改)、函数权限。  
 18. GRANT CREATE ROUTINE ON `weloveshare`.`user` TO kaka@'%';   
 19. GRANT CREATE ROUTINE ON `weloveshare`.`user` TO kaka@'%';   
 20. GRANT EXECUTE ON `weloveshare`.`user` TO kaka@'%';  
@@ -269,7 +264,7 @@
 11. +--------------------------------+  
 12. 6 rows in set (0.00 sec)  
 
-查看某个用户的具体权限，比如root：
+查看某个用户的具体权限，比如 root：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
@@ -287,11 +282,11 @@
 
 1. mysql> select * from mysql.user where user='root' \G  
 
-注：\G为按列显示数据。
+注：\G 为按列显示数据。
 
 备注附件：
 
-查看MySQL数据中user表的表结构：
+查看 MySQL 数据中 user 表的表结构：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
@@ -345,97 +340,97 @@
 48. +------------------------+-------------------+------+-----+-----------+-------+  
 49. 43 rows in set (0.00 sec)  
 
-查看root用户的所有具体权限：
+查看 root 用户的所有具体权限：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
-1.                Host: %  
-2.                User: root  
-3.            Password: *71ABCA8B06D46066CEF8062A75256E66243D0FC8  
-4.         Select_priv: Y  
-5.         Insert_priv: Y  
-6.         Update_priv: Y  
-7.         Delete_priv: Y  
-8.         Create_priv: Y  
-9.           Drop_priv: Y  
-10.         Reload_priv: Y  
-11.       Shutdown_priv: Y  
-12.        Process_priv: Y  
-13.           File_priv: Y  
-14.          Grant_priv: Y  
-15.     References_priv: Y  
-16.          Index_priv: Y  
-17.          Alter_priv: Y  
-18.        Show_db_priv: Y  
-19.          Super_priv: Y  
+1. Host: %  
+2. User: root  
+3. Password: *71ABCA8B06D46066CEF8062A75256E66243D0FC8  
+4. Select_priv: Y  
+5. Insert_priv: Y  
+6. Update_priv: Y  
+7. Delete_priv: Y  
+8. Create_priv: Y  
+9. Drop_priv: Y  
+10. Reload_priv: Y  
+11. Shutdown_priv: Y  
+12. Process_priv: Y  
+13. File_priv: Y  
+14. Grant_priv: Y  
+15. References_priv: Y  
+16. Index_priv: Y  
+17. Alter_priv: Y  
+18. Show_db_priv: Y  
+19. Super_priv: Y  
 20. eate_tmp_table_priv: Y  
-21.    Lock_tables_priv: Y  
-22.        Execute_priv: Y  
-23.     Repl_slave_priv: Y  
-24.    Repl_client_priv: Y  
-25.    Create_view_priv: Y  
-26.      Show_view_priv: Y  
+21. Lock_tables_priv: Y  
+22. Execute_priv: Y  
+23. Repl_slave_priv: Y  
+24. Repl_client_priv: Y  
+25. Create_view_priv: Y  
+26. Show_view_priv: Y  
 27. Create_routine_priv: Y  
-28.  Alter_routine_priv: Y  
-29.    Create_user_priv: Y  
-30.          Event_priv: Y  
-31.        Trigger_priv: Y  
+28. Alter_routine_priv: Y  
+29. Create_user_priv: Y  
+30. Event_priv: Y  
+31. Trigger_priv: Y  
 32. ate_tablespace_priv: Y  
-33.            ssl_type:   
-34.          ssl_cipher:   
-35.         x509_issuer:   
-36.        x509_subject:   
-37.       max_questions: 0  
-38.         max_updates: 0  
-39.     max_connections: 0  
+33. ssl_type:   
+34. ssl_cipher:   
+35. x509_issuer:   
+36. x509_subject:   
+37. max_questions: 0  
+38. max_updates: 0  
+39. max_connections: 0  
 40. ax_user_connections: 0  
-41.              plugin: mysql_native_password  
+41. plugin: mysql_native_password  
 42. thentication_string:   
-43.    password_expired: N  
+43. password_expired: N  
 
 参数说明：
 
 [sql] [view plain](http://blog.csdn.net/typa01_kk/article/details/49126365#) [copy](http://blog.csdn.net/typa01_kk/article/details/49126365#)
 
-1. Select_priv：用户可以通过SELECT命令选择数据。  
-2. Insert_priv：用户可以通过INSERT命令插入数据;  
-3. Update_priv：用户可以通过UPDATE命令修改现有数据;  
-4. Delete_priv：用户可以通过DELETE命令删除现有数据;  
+1. Select_priv：用户可以通过 SELECT 命令选择数据。  
+2. Insert_priv：用户可以通过 INSERT 命令插入数据;  
+3. Update_priv：用户可以通过 UPDATE 命令修改现有数据;  
+4. Delete_priv：用户可以通过 DELETE 命令删除现有数据;  
 5. Create_priv：用户可以创建新的数据库和表;  
 6. Drop_priv：用户可以删除现有数据库和表;  
-7. Reload_priv：用户可以执行刷新和重新加载MySQL所用各种内部缓存的特定命令,包括日志、权限、主机、查询和表;重新加载权限表;  
-8. Shutdown_priv：用户可以关闭MySQL服务器;在将此权限提供给root账户之外的任何用户时,都应当非常谨慎;  
-9. Process_priv：用户可以通过SHOW PROCESSLIST命令查看其他用户的进程;服务器管理;  
-10. File_priv：用户可以执行SELECT INTO OUTFILE和LOAD DATA INFILE命令;加载服务器上的文件;  
-11. Grant_priv：用户可以将已经授予给该用户自己的权限再授予其他用户(任何用户赋予全部已有权限);  
-12. References_priv;目前只是某些未来功能的占位符；现在没有作用;  
-13. Index_priv：用户可以创建和删除表索引;用索引查询表;  
+7. Reload_priv：用户可以执行刷新和重新加载 MySQL 所用各种内部缓存的特定命令,包括日志、权限、主机、查询和表; 重新加载权限表;  
+8. Shutdown_priv：用户可以关闭 MySQL 服务器; 在将此权限提供给 root 账户之外的任何用户时,都应当非常谨慎;  
+9. Process_priv：用户可以通过 SHOW PROCESSLIST 命令查看其他用户的进程; 服务器管理;  
+10. File_priv：用户可以执行 SELECT INTO OUTFILE 和 LOAD DATA INFILE 命令; 加载服务器上的文件;  
+11. Grant_priv：用户可以将已经授予给该用户自己的权限再授予其他用户 (任何用户赋予全部已有权限);  
+12. References_priv; 目前只是某些未来功能的占位符；现在没有作用;  
+13. Index_priv：用户可以创建和删除表索引; 用索引查询表;  
 14. Alter_priv：用户可以重命名和修改表结构;  
-15. Show_db_priv：用户可以查看服务器上所有数据库的名字,包括用户拥有足够访问权限的数据库;可以考虑对所有用户禁用这个权限,除非有特别不可抗拒的原因;  
-16. Super_priv：用户可以执行某些强大的管理功能,例如通过KILL命令删除用户进程,使用SET GLOBAL修改全局MySQL变量,执行关于复制和日志的各种命令;超级权限;  
+15. Show_db_priv：用户可以查看服务器上所有数据库的名字,包括用户拥有足够访问权限的数据库; 可以考虑对所有用户禁用这个权限,除非有特别不可抗拒的原因;  
+16. Super_priv：用户可以执行某些强大的管理功能,例如通过 KILL 命令删除用户进程,使用 SET GLOBAL 修改全局 MySQL 变量,执行关于复制和日志的各种命令; 超级权限;  
 17. Create_tmp_table_priv：用户可以创建临时表;  
-18. Lock_tables_priv：用户可以使用LOCK TABLES命令阻止对表的访问/修改;  
-19. Execute_priv：用户可以执行存储过程;此权限只在MySQL 5.0及更高版本中有意义;  
-20. Repl_slave_priv：用户可以读取用于维护复制数据库环境的二进制日志文件;此用户位于主系统中,有利于主机和客户机之间的通信;主服务器管理;  
-21. Repl_client_priv：用户可以确定复制从服务器和主服务器的位置;从服务器管理;  
-22. Create_view_priv：用户可以创建视图;此权限只在MySQL 5.0及更高版本中有意义;  
-23. Show_view_priv：用户可以查看视图或了解视图如何执行;此权限只在MySQL 5.0及更高版本中有意义;  
-24. Create_routine_priv：用户可以更改或放弃存储过程和函数;此权限是在MySQL 5.0中引入的;  
-25. Alter_routine_priv：用户可以修改或删除存储函数及函数;此权限是在MySQL 5.0中引入的;  
-26. Create_user_priv：用户可以执行CREATE USER命令,这个命令用于创建新的MySQL账户;  
-27. Event_priv：用户能否创建、修改和删除事件;这个权限是MySQL 5.1.6新增的;  
-28. Trigger_priv：用户能否创建和删除触发器,这个权限是MySQL 5.1.6新增的;  
+18. Lock_tables_priv：用户可以使用 LOCK TABLES 命令阻止对表的访问/修改;  
+19. Execute_priv：用户可以执行存储过程; 此权限只在 MySQL 5.0 及更高版本中有意义;  
+20. Repl_slave_priv：用户可以读取用于维护复制数据库环境的二进制日志文件; 此用户位于主系统中,有利于主机和客户机之间的通信; 主服务器管理;  
+21. Repl_client_priv：用户可以确定复制从服务器和主服务器的位置; 从服务器管理;  
+22. Create_view_priv：用户可以创建视图; 此权限只在 MySQL 5.0 及更高版本中有意义;  
+23. Show_view_priv：用户可以查看视图或了解视图如何执行; 此权限只在 MySQL 5.0 及更高版本中有意义;  
+24. Create_routine_priv：用户可以更改或放弃存储过程和函数; 此权限是在 MySQL 5.0 中引入的;  
+25. Alter_routine_priv：用户可以修改或删除存储函数及函数; 此权限是在 MySQL 5.0 中引入的;  
+26. Create_user_priv：用户可以执行 CREATE USER 命令,这个命令用于创建新的 MySQL 账户;  
+27. Event_priv：用户能否创建、修改和删除事件; 这个权限是 MySQL 5.1.6 新增的;  
+28. Trigger_priv：用户能否创建和删除触发器,这个权限是 MySQL 5.1.6 新增的;  
 29. Create_tablespace_priv：创建表空间  
-30. ssl_type：支持ssl标准加密安全字段  
-31. ssl_cipher：支持ssl标准加密安全字段  
-32. x509_issuer：支持x509标准字段  
-33. x509_subject：支持x509标准字段  
+30. ssl_type：支持 ssl 标准加密安全字段  
+31. ssl_cipher：支持 ssl 标准加密安全字段  
+32. x509_issuer：支持 x509 标准字段  
+33. x509_subject：支持 x509 标准字段  
 34. max_questions：0 每小时允许执行多少次查询  
-35. max_updates：0 每小时可以执行多少次更新  ：0表示无限制  
-36. max_connections：0 每小时可以建立的多少次连接：0表示无限制  
-37. max_user_connections：0 单用户可以同时具有的连接数：0表示无限制  
-38. plugin：5.5.7开始,mysql引入plugins以进行用户连接时的密码验证,plugin创建外部/代理用户   
-39. authentication_string：通过authentication_string可以控制两者的映射关系,(PAM plugin等,PAM可以支持多个服务名)尤其是在使用代理用户时，并须声明这一点  
-40. password_expired：密码过期 Y,说明该用户密码已过期 N相反  
+35. max_updates：0 每小时可以执行多少次更新  ：0 表示无限制  
+36. max_connections：0 每小时可以建立的多少次连接：0 表示无限制  
+37. max_user_connections：0 单用户可以同时具有的连接数：0 表示无限制  
+38. plugin：5.5.7 开始,mysql 引入 plugins 以进行用户连接时的密码验证,plugin 创建外部/代理用户   
+39. authentication_string：通过 authentication_string 可以控制两者的映射关系,(PAM plugin 等,PAM 可以支持多个服务名) 尤其是在使用代理用户时，并须声明这一点  
+40. password_expired：密码过期 Y,说明该用户密码已过期 N 相反  
 
 来源： [https://blog.csdn.net/zmx729618/article/details/78026497](https://blog.csdn.net/zmx729618/article/details/78026497)
