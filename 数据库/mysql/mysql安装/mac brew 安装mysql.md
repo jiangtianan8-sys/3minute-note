@@ -34,6 +34,6 @@ Or, if you don't want/need a background service you can just run:
 
 /usr/local/opt/mysql@5.7/bin/mysql.server start
 
-mysql的配置文件my.cnf
+mysql 的配置文件 my.cnf
 
 sudo vi /usr/local/etc/my.cnf
