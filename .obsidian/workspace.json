@@ -230,8 +230,9 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "数据库/mysql/mysql实战45讲",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
     "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql权限/MySQL之权限管理(mysql.user表详解).md",
@@ -276,7 +277,6 @@
     "数据库/mysql/mysql基础/assets",
     "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
     "数据库/mysql/mysql安装/安装问题解决.md",
-    "数据库/mysql/mysql安装/如何找到Mac上用HomeBrew安装的MySQL的启动命令.md",
-    "数据库/mysql/mysql安装/mac brew 安装mysql.md"
+    "数据库/mysql/mysql安装/如何找到Mac上用HomeBrew安装的MySQL的启动命令.md"
   ]
 }
