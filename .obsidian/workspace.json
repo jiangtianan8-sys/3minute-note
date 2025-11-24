@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
+                "file": "数据库/mysql/mysql安装/mac brew 安装mysql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linux安装mysql5.7.20并登录"
+              "title": "mac brew 安装mysql"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
+                "file": "数据库/mysql/mysql安装/mac brew 安装mysql.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "linux安装mysql5.7.20并登录 的大纲"
+              "title": "mac brew 安装mysql 的大纲"
             }
           },
           {
@@ -219,8 +219,16 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "Github/github骚操作/GitHub骚操作之#L数字.md",
+    "数据库/mysql/mysql安装/assets/mac brew 安装mysql/file-20251124100250431.png",
+    "数据库/mysql/mysql安装/assets/mac brew 安装mysql",
     "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
+    "数据库/mysql/mysql安装/mac brew 安装mysql.md",
+    "数据库/mysql/mysql安装/linux下mysql5.7初始密码查看及忘记密码重置.md",
+    "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录/file-20251124100128550.png",
+    "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录/file-20251124100107430.png",
+    "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录",
+    "数据库/mysql/mysql安装/assets",
+    "Github/github骚操作/GitHub骚操作之#L数字.md",
     "数据库/mysql/mysql安装",
     "数据库/mysql",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
@@ -249,21 +257,13 @@
     "工具/ngrok/assets/MAC下使用ngrok实现内网穿透",
     "工具/ngrok/assets",
     "工具/Sublimetext/MAC 下 Sublimetext 3 配置豆沙绿主题（护眼主题）.md",
-    "工具/ngrok",
-    "工具/navicat",
     "工具/Sublimetext/新手必看！sublime text 3快捷键大集合.md",
     "工具/Sublimetext/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串.md",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142109708.png",
     "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串/file-20251123142059172.png",
-    "工具/Sublimetext/assets/【备忘录】Sublime Text编辑器如何在选中的多行行首增加字符串",
     "工具/mac/Mac上好用的开发相关软件推荐 - 2025篇.md",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141945261.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141933726.png",
-    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141917468.png",
-    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141856493.png",
-    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141839143.png",
-    "工具/intellij/Intellij快捷键.md",
-    "工具/intellij/IntelliJ IDEA设置护眼主题.md",
-    "工具/intellij/IntelliJ 创建main函数快捷.md"
+    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141917468.png"
   ]
 }
