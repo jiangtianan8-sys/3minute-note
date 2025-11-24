@@ -184,6 +184,16 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "248e6d7b2c884030",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
         ],
         "currentTab": 6
@@ -208,6 +218,8 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql安装",
+    "数据库/mysql",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -248,11 +260,9 @@
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141856493.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141839143.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具",
-    "工具/mac/assets",
     "工具/intellij/Intellij快捷键.md",
     "工具/intellij/IntelliJ IDEA设置护眼主题.md",
     "工具/intellij/IntelliJ 创建main函数快捷.md",
-    "工具/intellij/IDEA 中很骚的技巧，掌握了编码快一倍！！！.md",
-    "工具/intellij/IDEA 中 显示 .properties 为中文.md"
+    "工具/intellij/IDEA 中很骚的技巧，掌握了编码快一倍！！！.md"
   ]
 }
