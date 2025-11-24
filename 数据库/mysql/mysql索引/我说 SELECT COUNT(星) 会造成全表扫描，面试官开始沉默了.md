@@ -10,7 +10,7 @@ EXPLAIN SELECT COUNT(*) FROM SomeTable
 
 结果如下
 
-![](assets/我说%20SELECT%20COUNT(星)%20会造成全表扫描，面试官开始沉默了/file-20251124155243207.png)%20会造成全表扫描，面试官开始沉默了/file-20251124155243207.png)
+![](assets/我说%20SELECT%20COUNT(星)%20会造成全表扫描，面试官开始沉默了/file-20251124155243207.png)
 
 如图所示: 发现确实此条语句在此例中用到的并不是主键索引，而是辅助索引，实际上在此例中我试验了，不管是 COUNT(1)，还是 COUNT(*)，MySQL 都会用成本最小的辅助索引查询方式来计数，也就是使用 COUNT(*) 由于 MySQL 的优化已经保证了它的查询性能是最好的！随带提一句，COUNT(*)是 SQL92 定义的标准统计行数的语法，并且效率高，所以请直接使用COUNT(*)查询表的行数！
 
@@ -48,13 +48,22 @@ CREATE TABLE `person` (
 
 这个表除了主键索引之外，还有另外两个索引, name_score 及 create_time。然后我们在此表中插入 10 w 行数据，只要写一个存储过程调用即可，如下:
 
-CREATE PROCEDURE insert_person() begin declare c_id integer default 1; while c_id<=100000 do insert into person values(c_id, concat('name',c_id), c_id+100, date_sub(NOW(), interval c_id second)); set c_id=c_id+1; end while; end
+```sql
+CREATE PROCEDURE insert_person()
+begin
+    declare c_id integer default 1;
+    while c_id<=100000 do
+    insert into person values(c_id, concat('name',c_id), c_id+100, date_sub(NOW(), interval c_id second));
+    set c_id=c_id+1;
+    end while;
+end
+```
 
 插入之后我们现在使用 EXPLAIN 来计算下统计总行数到底使用的是哪个索引
 
 EXPLAIN SELECT COUNT(*) FROM person
 
-![0](https://note.youdao.com/yws/res/16761/38D43D977F164415A285365D7A441AF9)
+![](assets/我说%20SELECT%20COUNT(星)%20会造成全表扫描，面试官开始沉默了/file-20251124155354445.png)
 
 从结果上看它选择了 create_time 辅助索引，显然 MySQL 认为使用此索引进行查询成本最小，这也是符合我们的预期，使用辅助索引来查询确实是性能最高的！
 
@@ -62,7 +71,7 @@ EXPLAIN SELECT COUNT(*) FROM person
 
 SELECT * FROM person WHERE NAME >'name84059' AND create_time>'2020-05-23 14:39:18'
 
-![0](https://note.youdao.com/yws/res/16762/3D5FA245F9CB4A1CA54036DE5FFBF89A)
+![](assets/我说%20SELECT%20COUNT(星)%20会造成全表扫描，面试官开始沉默了/file-20251124155404108.png)
 
 用了全表扫描！理论上应该用 name_score 或者 create_time 索引才对，从 WHERE 的查询条件来看确实都能命中索引，那是否是使用 SELECT * 造成的回表代价太大所致呢，我们改成覆盖索引的形式试一下
 
