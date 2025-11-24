@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
+                "file": "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Innodb锁机制：Next-Key Lock 浅谈"
+              "title": "Innodb中的事务隔离级别和锁的关系"
             }
           }
         ]
@@ -232,8 +232,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
     "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
+    "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
+    "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
     "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf",
     "数据库/mysql/mysql锁",
     "数据库/mysql/mysql实战45讲/pdf/44 答疑文章（三）：说一说这些好问题.pdf",
@@ -276,7 +277,6 @@
     "数据库/mysql/mysql基础/四种mysql存储引擎.md",
     "数据库/mysql/mysql基础/数据库三范式的简单理解.md",
     "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
-    "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
-    "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md"
+    "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md"
   ]
 }
