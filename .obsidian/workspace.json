@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
+                "file": "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL高级-"
+              "title": "MYSQL索引：聚簇索引和非聚簇索引的区别"
             }
           }
         ]
@@ -232,8 +232,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
     "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
+    "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
+    "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
     "数据库/mysql/mysql索引/尚学堂高级",
     "数据库/mysql/mysql索引",
     "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
@@ -276,7 +277,6 @@
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
-    "copilot/copilot-conversations/你好@20251124_134020.md",
-    "Markdown 的基本语法.md"
+    "copilot/copilot-conversations/你好@20251124_134020.md"
   ]
 }
