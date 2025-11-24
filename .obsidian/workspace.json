@@ -206,12 +206,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 637.5,
-    "collapsed": true
+    "width": 637.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +227,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "51738bfca2db14c8",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/你好@20251124_134020.md",
     "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
     "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113021337.png",
@@ -274,7 +274,6 @@
     "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md"
+    "copilot/copilot-custom-prompts/Emojify.md"
   ]
 }
