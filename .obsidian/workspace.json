@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
+                "file": "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试官：谈谈你对Mysql的MVCC的理解？"
+              "title": "《快照读、当前读和MVCC》"
             }
           }
         ]
@@ -232,13 +232,18 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql锁/锁机制.md",
+    "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
+    "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
+    "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152848019.png",
+    "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152840886.png",
+    "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152830322.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152804016.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152740382.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152731849.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152723200.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？",
     "数据库/mysql/mysql锁/官方文档.md",
-    "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
     "数据库/mysql/mysql锁/MySQL MVCC机制.md",
     "数据库/mysql/mysql锁/MySQL MVCC介绍.md",
     "数据库/mysql/mysql锁/assets/MySQL MVCC介绍/file-20251124152513953.png",
@@ -247,7 +252,6 @@
     "数据库/mysql/mysql锁/assets/MySQL MVCC介绍",
     "数据库/mysql/mysql锁/MySQL InnoDB中的行锁 Next-Key Lock消除幻读.md",
     "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
-    "数据库/mysql/mysql锁/assets/Innodb中的事务隔离级别和锁的关系/file-20251124152307014.png",
     "数据库/mysql/mysql锁/assets/Innodb中的事务隔离级别和锁的关系",
     "数据库/mysql/mysql锁/assets",
     "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
@@ -273,10 +277,6 @@
     "copilot/copilot-conversations/你好@20251124_134020.md",
     "Markdown 的基本语法.md",
     "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
-    "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
-    "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113021337.png",
-    "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113010163.png",
-    "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124112955226.png",
-    "数据库/mysql/mysql基础/在update中使用case when更新列.md"
+    "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md"
   ]
 }
