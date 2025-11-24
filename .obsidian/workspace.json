@@ -230,10 +230,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
-    "数据库/mysql/mysql语句/sql中exists,not exists的用法.md",
+    "数据库/sql审核平台/Archery",
+    "数据库/sql审核平台/Archery.md",
     "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
+    "数据库/sql审核平台",
+    "数据库/mysql/mysql语句/sql中exists,not exists的用法.md",
     "数据库/mysql/mysql语句/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？.md",
     "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？/file-20251124164528806.png",
     "数据库/mysql/mysql语句/assets/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？/file-20251124164518714.png",
@@ -263,7 +266,6 @@
     "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
     "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
     "数据库/mysql/mysql索引/细说mysql索引.md",
-    "数据库/mysql/mysql学习",
     "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
     "数据库/mysql/mysql索引/索引失效的7种情况.md",
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
@@ -275,8 +277,6 @@
     "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
     "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
     "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
-    "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
-    "数据库/mysql/mysql锁/锁机制.md",
-    "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md"
+    "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md"
   ]
 }
