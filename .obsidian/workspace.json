@@ -232,6 +232,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql索引/assets/干货：mysql索引的数据结构/file-20251124153639613.png",
+    "数据库/mysql/mysql索引/assets/干货：mysql索引的数据结构/file-20251124153623666.png",
+    "数据库/mysql/mysql索引/assets/干货：mysql索引的数据结构",
     "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
     "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
     "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
@@ -253,7 +256,6 @@
     "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
     "数据库/mysql/mysql锁/锁机制.md",
     "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
-    "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？/file-20251124152848019.png",
     "数据库/mysql/mysql锁/assets/面试官：谈谈你对Mysql的MVCC的理解？",
     "数据库/mysql/mysql锁/官方文档.md",
     "数据库/mysql/mysql锁/MySQL MVCC机制.md",
@@ -266,7 +268,6 @@
     "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
     "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
     "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf",
-    "数据库/mysql/mysql锁",
     "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
     "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
@@ -276,7 +277,6 @@
     "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md"
+    "copilot/copilot-custom-prompts/Explain like I am 5.md"
   ]
 }
