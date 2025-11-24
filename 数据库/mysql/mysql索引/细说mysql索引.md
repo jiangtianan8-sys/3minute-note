@@ -74,9 +74,9 @@ explain select * from `award` where nickname > 'rSUQFzpkDz3R' and account = 'DYx
 
 因为上面说了建立组合索引(nickname, account, created_time), 会出现三个索引
 
-![0](https://note.youdao.com/yws/res/859/9027DAF92CAA4ADDB87CB10B4D512761)
+![](assets/细说mysql索引/file-20251124155808078.png)
 
-![0](https://note.youdao.com/yws/res/858/CB966573E7184622958AC23B629744AB)
+![](assets/细说mysql索引/file-20251124155817452.png)
 
 (3)全文索引
 
