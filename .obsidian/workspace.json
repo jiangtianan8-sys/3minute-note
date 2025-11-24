@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot/copilot-custom-prompts/Generate table of contents.md",
+                "file": "数据库/mysql/mysql面试/腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generate table of contents"
+              "title": "腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列"
             }
           }
         ]
@@ -231,6 +231,10 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql面试/面试集锦1：精讲{}和${}的区别是什么？.md",
+    "数据库/mysql/mysql面试/腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "数据库/mysql/mysql面试",
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
@@ -267,15 +271,11 @@
     "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
     "数据库/mysql/mysql基础",
     "数据库/mysql/mysql官方文档/assets/14.4 InnoDB Architecture",
-    "数据库/mysql/mysql官方文档/assets",
     "数据库/mysql/mysql安装/安装问题解决.md",
     "数据库/mysql/mysql安装/如何找到Mac上用HomeBrew安装的MySQL的启动命令.md",
     "数据库/mysql/mysql安装/mac brew 安装mysql.md",
     "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
     "数据库/mysql/mysql安装/linux下mysql5.7初始密码查看及忘记密码重置.md",
-    "Github/github骚操作/GitHub骚操作之#L数字.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md"
+    "Github/github骚操作/GitHub骚操作之#L数字.md"
   ]
 }
