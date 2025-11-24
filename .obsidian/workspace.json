@@ -11,12 +11,14 @@
             "id": "4c526b674b4d9ea1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf"
+                "file": "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "07 行锁功过：怎么减少行锁对性能的影响？"
+              "icon": "lucide-file",
+              "title": "Innodb锁机制：Next-Key Lock 浅谈"
             }
           }
         ]
@@ -228,8 +230,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
+    "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
+    "数据库/mysql/mysql实战45讲/pdf/07 行锁功过：怎么减少行锁对性能的影响？.pdf",
+    "数据库/mysql/mysql锁",
     "数据库/mysql/mysql实战45讲/pdf/44 答疑文章（三）：说一说这些好问题.pdf",
     "数据库/mysql/mysql实战45讲/pdf/开篇词 这一次，让我们一起来搞懂MySQL.pdf",
     "数据库/mysql/mysql实战45讲/pdf/15 答疑文章（一）：日志和索引相关问题.pdf",
@@ -238,9 +244,6 @@
     "数据库/mysql/mysql实战45讲/pdf/44 答疑文章（三）：说一说这些好问题.pdf.baiduyun.p.downloading",
     "数据库/mysql/mysql实战45讲/pdf/17 如何正确地显示随机消息.pdf",
     "数据库/mysql/mysql实战45讲/pdf/结束语 点线网面，一起构建MySQL知识网络.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/10 MySQL为什么有时候会选错索引？.pdf",
-    "数据库/mysql/mysql实战45讲/pdf/开篇词 这一次，让我们一起来搞懂MySQL.pdf.baiduyun.p.downloading",
-    "数据库/mysql/mysql实战45讲/pdf/06 全局锁和表锁 ：给表加个字段怎么有这么多阻碍？.pdf",
     "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
     "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
@@ -274,7 +277,6 @@
     "数据库/mysql/mysql基础/数据库三范式的简单理解.md",
     "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
     "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
-    "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
-    "数据库/mysql/mysql安装/安装问题解决.md"
+    "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md"
   ]
 }
