@@ -87,7 +87,7 @@ SELECT create_time FROM person WHERE NAME >'name84059' AND create_time > '2020-0
 
 SHOW TABLE STATUS LIKE 'person'
 
-![0](https://note.youdao.com/yws/res/16759/573E3A6DC24446E989A48D922482F71D)
+![](assets/我说%20SELECT%20COUNT(星)%20会造成全表扫描，面试官开始沉默了/file-20251124155446424.png)
 
 可以发现
 
@@ -100,7 +100,9 @@ SHOW TABLE STATUS LIKE 'person'
 
 optimizer_trace 功能使用如下
 
-SET optimizer_trace="enabled=on"; SELECT create_time FROM person WHERE NAME >'name84059' AND create_time > '2020-05-23 14:39:18'; SELECT * FROM information_schema.OPTIMIZER_TRACE; SET optimizer_trace="enabled=off";
+```
+
+```
 
 执行之后我们主要观察使用 name_score，create_time 索引及全表扫描的成本。
 

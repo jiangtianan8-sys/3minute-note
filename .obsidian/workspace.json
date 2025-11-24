@@ -232,6 +232,7 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155446424.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155404108.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155354445.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155243207.png",
@@ -247,7 +248,6 @@
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154958277.png",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154947509.png",
-    "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】/file-20251124154936775.png",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】",
     "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
     "数据库/mysql/mysql索引/什么是覆盖索引  如何利用索引进行SQL语句优化.md",
