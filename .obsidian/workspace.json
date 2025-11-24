@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
+                "file": "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "员工部门表综合查询60题"
+              "title": "MySQL——VARCHAR和CHAR类型"
             }
           }
         ]
@@ -230,11 +230,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/sql审核平台/Archery/archery SQL审核平台.md",
+    "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
     "数据库/sql审核平台/Archery",
     "数据库/sql审核平台/Archery.md",
-    "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
     "数据库/sql审核平台",
     "数据库/mysql/mysql语句/sql中exists,not exists的用法.md",
     "数据库/mysql/mysql语句/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？.md",
@@ -261,7 +262,6 @@
     "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
     "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md",
     "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法",
-    "数据库/mysql/mysql学习/assets",
     "数据库/mysql/mysql学习/SELECT 子句顺序.md",
     "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
     "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
