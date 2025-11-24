@@ -232,6 +232,14 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195924179.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195915465.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195907731.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195858561.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195850094.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195841977.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行/file-20251124195831561.png",
+    "数据库/sql面试总结/assets/【数据库】SQL经典面试题 - 行列转换二 - 列转行",
     "数据库/sql面试总结/在一个千万级的数据库查寻中，如何提高查询效率？.md",
     "数据库/sql面试总结/【数据库】SQL经典面试题 - 行列转换二 - 列转行.md",
     "数据库/sql面试总结/一道面试题引发的数据库SQL语句实践（含行列转换）.md",
@@ -239,12 +247,6 @@
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195636198.png",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195624776.png",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195604644.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195550581.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195537679.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195507775.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195451273.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195232241.png",
-    "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）/file-20251124195218941.png",
     "数据库/sql面试总结/assets/一道面试题引发的数据库SQL语句实践（含行列转换）",
     "数据库/sql面试总结/我以为我对Mysql索引很了解，直到我遇到了阿里的面试官.md",
     "数据库/sql面试总结/数据库MySQL经典面试题之SQL语句.md",
@@ -269,14 +271,12 @@
     "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/sql审核平台/Archery/archery SQL审核平台.md",
     "数据库/mysql/mysql语句/员工部门表综合查询60题.md",
-    "数据库/sql审核平台/Archery",
     "数据库/sql审核平台/Archery.md",
     "数据库/mysql/mysql语句/sql中exists,not exists的用法.md",
     "数据库/mysql/mysql语句/面试必备：如何实现SQL语句删除重复记录且只保留一条有效记录？.md",
     "数据库/mysql/mysql优化/10. MySQL优化之超大分页查询：从原理到实战.md",
     "数据库/mysql/mysql优化/面试官问我，为什么老司机建议MySQL列属性尽量用 NOT NULL ？.md",
     "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
-    "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
-    "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md"
+    "数据库/mysql/mysql学习/员工部门工资SQL面试题.md"
   ]
 }

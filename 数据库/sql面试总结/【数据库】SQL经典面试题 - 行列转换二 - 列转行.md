@@ -2,7 +2,7 @@
 
 面试题2： 柠檬班第30期学生要毕业了，他们的Linux、MySQL、Java成绩数据表 tb_lemon_grade_column中， 表中字段student_name，Linux，MySQL，Java分别表示学生姓名、Linux成绩、MySQL成绩、Java成绩， 数据图1所示。请写出一条SQL，将图1的数据变成图2的形式（列转行）
 
-![](//upload-images.jianshu.io/upload_images/7391770-194f99c99442bb38?imageMogr2/auto-orient/strip|imageView2/2/w/717/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195831561.png)
 
 请点击此处输入图片描述
 
@@ -18,19 +18,19 @@ COURSE when 'Java' THEN SCORE ELSE 0 END) as 'Java'FROM tb_lemon_grade
 
 结果如下：
 
-![](//upload-images.jianshu.io/upload_images/7391770-23f8756bc1c3d504?imageMogr2/auto-orient/strip|imageView2/2/w/640/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195841977.png)
 
 请点击此处输入图片描述
 
 2：使用导出功能，将数据导入到Excel
 
-![](//upload-images.jianshu.io/upload_images/7391770-d53297cef2d6715a?imageMogr2/auto-orient/strip|imageView2/2/w/527/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195850094.png)
 
 请点击此处输入图片描述
 
 点击下一步，选择保存位置，输入保存的文件名
 
-![](//upload-images.jianshu.io/upload_images/7391770-a534fe22de63104c?imageMogr2/auto-orient/strip|imageView2/2/w/603/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195858561.png)
 
 请点击此处输入图片描述
 
@@ -40,19 +40,19 @@ COURSE when 'Java' THEN SCORE ELSE 0 END) as 'Java'FROM tb_lemon_grade
 
 选择表，点击右键选择导入向导
 
-![](//upload-images.jianshu.io/upload_images/7391770-329f23f2ffcb92e4?imageMogr2/auto-orient/strip|imageView2/2/w/523/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195907731.png)
 
 请点击此处输入图片描述
 
 选择Excel文件，点击下一步，选择刚才保存的Excel文件，输入要保存的表，进行导入
 
-![](//upload-images.jianshu.io/upload_images/7391770-8eef52b0d4b6e2cb?imageMogr2/auto-orient/strip|imageView2/2/w/635/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195915465.png)
 
 请点击此处输入图片描述
 
 4：导入完成，就生成了一个表，查看下数据
 
-![](//upload-images.jianshu.io/upload_images/7391770-5fc4e7d1c88f797d?imageMogr2/auto-orient/strip|imageView2/2/w/627/format/webp)
+![](assets/【数据库】SQL经典面试题%20-%20行列转换二%20-%20列转行/file-20251124195924179.png)
 
 请点击此处输入图片描述
 
