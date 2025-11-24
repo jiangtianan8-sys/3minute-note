@@ -54,19 +54,39 @@ Read Committed（读取提交内容）
 在RC级别中，数据的读取都是不加锁的，但是数据的写入、修改和删除是需要加锁的。效果如下
 
 ```sql
-MySQL> show create table class_teacher \G\ Table: class_teacher Create Table: CREATE TABLE `class_teacher` ( `id` int(11) NOT NULL AUTO_INCREMENT, `class_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL, `teacher_id` int(11) NOT NULL, PRIMARY KEY (`id`), KEY `idx_teacher_id` (`teacher_id`) ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci 1 row in set (0.02 sec) MySQL> select * from class_teacher; +----+--------------+------------+ | id | class_name | teacher_id | +----+--------------+------------+ | 1 | 初三一班 | 1 | | 3 | 初二一班 | 2 | | 4 | 初二二班 | 2 | +----+--------------+------------+
+MySQL> show create table class_teacher \G\
+Table: class_teacher
+Create Table: CREATE TABLE `class_teacher` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `class_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `teacher_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `idx_teacher_id` (`teacher_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+1 row in set (0.02 sec)
+MySQL> select * from class_teacher;
++----+--------------+------------+
+| id | class_name   | teacher_id |
++----+--------------+------------+
+|  1 | 初三一班     |          1 |
+|  3 | 初二一班     |          2 |
+|  4 | 初二二班     |          2 |
++----+--------------+------------+
 ```
 
 由于MySQL的InnoDB默认是使用的RR级别，所以我们先要将该session开启成RC级别，并且设置binlog的模式
 
-SET session transaction isolation level read committed; SET SESSION binlog_format = 'ROW';（或者是MIXED）
+```sql
+SET session transaction isolation level read committed; 
+SET SESSION binlog_format = 'ROW';（或者是MIXED）
+```
 
-|   |   |
-|---|---|
-|事务A|事务B|
-|begin;|begin;|
-|update class_teacher set class_name=‘初三二班’ where teacher_id=1;|update class_teacher set class_name=‘初三三班’ where teacher_id=1;|
-|commit;||
+|                                                                |                                                                |
+| -------------------------------------------------------------- | -------------------------------------------------------------- |
+| 事务A                                                            | 事务B                                                            |
+| begin;                                                         | begin;                                                         |
+| update class_teacher set class_name=‘初三二班’ where teacher_id=1; | update class_teacher set class_name=‘初三三班’ where teacher_id=1; |
+| commit;                                                        |                                                                |
 
 为了防止并发过程中的修改冲突，事务A中MySQL给teacher_id=1的数据行加锁，并一直不commit（释放锁），那么事务B也就一直拿不到该行锁，wait直到超时。
 
