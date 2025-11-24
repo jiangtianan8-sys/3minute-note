@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql索引/细说mysql索引.md",
+                "file": "数据库/mysql/mysql学习/SELECT 子句顺序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "细说mysql索引"
+              "title": "SELECT 子句顺序"
             }
           }
         ]
@@ -232,12 +232,16 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
+    "数据库/mysql/mysql学习/SELECT 子句顺序.md",
+    "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
+    "数据库/mysql/mysql索引/细说mysql索引.md",
+    "数据库/mysql/mysql学习",
     "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155817452.png",
     "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155808078.png",
     "数据库/mysql/mysql索引/assets/细说mysql索引/file-20251124155756694.png",
     "数据库/mysql/mysql索引/assets/细说mysql索引",
     "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
-    "数据库/mysql/mysql索引/细说mysql索引.md",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155446424.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155404108.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155354445.png",
@@ -247,7 +251,6 @@
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155128168.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155118915.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155109725.png",
-    "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155057974.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况",
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】",
@@ -264,7 +267,6 @@
     "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
     "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
     "数据库/mysql/mysql索引/尚学堂高级",
-    "数据库/mysql/mysql索引",
     "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
     "数据库/mysql/mysql锁/锁机制.md",
     "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
@@ -275,8 +277,6 @@
     "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
     "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
     "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
-    "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
-    "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
-    "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md"
+    "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md"
   ]
 }
