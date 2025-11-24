@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/github骚操作/GitHub骚操作之#L数字.md",
+                "file": "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub骚操作之#L数字"
+              "title": "linux安装mysql5.7.20并登录"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/github骚操作/GitHub骚操作之#L数字.md",
+                "file": "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "GitHub骚操作之#L数字 的大纲"
+              "title": "linux安装mysql5.7.20并登录 的大纲"
             }
           },
           {
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 637.5
+    "width": 637.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,6 +219,8 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "Github/github骚操作/GitHub骚操作之#L数字.md",
+    "数据库/mysql/mysql安装/linux安装mysql5.7.20并登录.md",
     "数据库/mysql/mysql安装",
     "数据库/mysql",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
@@ -259,10 +262,8 @@
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141917468.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141856493.png",
     "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具/file-20251123141839143.png",
-    "工具/mac/assets/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具",
     "工具/intellij/Intellij快捷键.md",
     "工具/intellij/IntelliJ IDEA设置护眼主题.md",
-    "工具/intellij/IntelliJ 创建main函数快捷.md",
-    "工具/intellij/IDEA 中很骚的技巧，掌握了编码快一倍！！！.md"
+    "工具/intellij/IntelliJ 创建main函数快捷.md"
   ]
 }
