@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
+                "file": "Markdown 的基本语法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL——VARCHAR和CHAR类型"
+              "title": "Markdown 的基本语法"
             }
           }
         ]
@@ -206,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -224,14 +224,16 @@
       "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "51738bfca2db14c8",
+  "active": "248e6d7b2c884030",
   "lastOpenFiles": [
+    "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "copilot/copilot-conversations/你好@20251124_134020.md",
     "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
-    "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113021337.png",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124113010163.png",
     "数据库/mysql/mysql列类型/assets/MySQL的varchar水真的太深了——InnoDB记录存储结构/file-20251124112955226.png",
