@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql索引/未命名.md",
+                "file": "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了"
             }
           }
         ]
@@ -232,8 +232,10 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155243207.png",
+    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了",
     "数据库/mysql/mysql索引/索引失效的7种情况.md",
-    "数据库/mysql/mysql索引/未命名.md",
+    "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155128168.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155118915.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155109725.png",
@@ -268,7 +270,6 @@
     "数据库/mysql/mysql锁/官方文档.md",
     "数据库/mysql/mysql锁/MySQL MVCC机制.md",
     "数据库/mysql/mysql锁/MySQL MVCC介绍.md",
-    "数据库/mysql/mysql锁/assets/MySQL MVCC介绍",
     "数据库/mysql/mysql锁/MySQL InnoDB中的行锁 Next-Key Lock消除幻读.md",
     "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
     "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
@@ -276,7 +277,6 @@
     "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
     "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
-    "数据库/mysql/mysql权限/MySQL之权限管理(mysql.user表详解).md",
-    "数据库/mysql/mysql面试/腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列.md"
+    "数据库/mysql/mysql权限/MySQL之权限管理(mysql.user表详解).md"
   ]
 }
