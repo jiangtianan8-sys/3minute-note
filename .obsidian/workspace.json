@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 637.5
+    "width": 637.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,11 +228,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "314826b2d865dd74",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
-    "数据库/mysql/mysql基础/数据库三范式的简单理解.md",
     "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
+    "数据库/mysql/mysql基础/数据库三范式的简单理解.md",
+    "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
     "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？/file-20251124102715178.png",
     "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102421667.png",
