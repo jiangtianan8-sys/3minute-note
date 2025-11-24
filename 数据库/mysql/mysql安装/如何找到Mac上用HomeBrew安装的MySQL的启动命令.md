@@ -1,4 +1,5 @@
-1. 找HomeBrew安装的包列表， 找到MySQL的formula
+1. 找 HomeBrew 安装的包列表， 找到 MySQL 的 formula
+
 ```shell
 1. $ brew list
 2. apache-spark heroku-node mysql@5.7 openssl@1.1 sbt
@@ -7,7 +8,7 @@
 5. heroku maven openjdk readline yarn
 ```
 
-2. 查看MySQL的info
+2. 查看 MySQL 的 info
 
 ```shell
 1. $ brew info mysql@5.7
