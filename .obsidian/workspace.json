@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
+                "file": "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MYSQL中TRUNCATE和DELETE的区别"
+              "title": "如何查看MySQL的当前存储引擎？"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
+                "file": "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MYSQL中TRUNCATE和DELETE的区别 的大纲"
+              "title": "如何查看MySQL的当前存储引擎？ 的大纲"
             }
           },
           {
@@ -219,13 +219,16 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？/file-20251124102715178.png",
+    "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
+    "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
+    "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102421667.png",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102408541.png",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别/file-20251124102330557.png",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别",
     "数据库/mysql/mysql基础/assets",
     "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
-    "数据库/mysql/mysql基础/MYSQL中TRUNCATE和DELETE的区别.md",
     "数据库/mysql/mysql基础",
     "数据库/mysql/mysql官方文档/assets/14.4 InnoDB Architecture/file-20251124102127805.png",
     "数据库/mysql/mysql官方文档/assets/14.4 InnoDB Architecture",
@@ -244,7 +247,6 @@
     "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录/file-20251124100128550.png",
     "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录/file-20251124100107430.png",
     "数据库/mysql/mysql安装/assets/linux安装mysql5.7.20并登录",
-    "数据库/mysql/mysql安装/assets",
     "Github/github骚操作/GitHub骚操作之#L数字.md",
     "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -262,8 +264,6 @@
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "工具/ngrok/MAC下使用ngrok实现内网穿透.md",
     "工具/mac/我为什么花 1 万多买 MacBook Pro，重点是推荐我常用的开发写作相关的工具.md",
-    "工具/mac/如何在 Mac 中隐藏文件或文件夹？.md",
-    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142449273.png",
-    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142440141.png"
+    "工具/ngrok/assets/MAC下使用ngrok实现内网穿透/file-20251123142449273.png"
   ]
 }
