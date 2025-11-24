@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
+                "file": "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL 优化之 index merge(索引合并)未命名"
+              "title": "干货：mysql索引的数据结构"
             }
           }
         ]
@@ -232,8 +232,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
     "数据库/mysql/mysql索引/MySQL 优化之 index merge(索引合并)未命名.md",
+    "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
+    "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
     "数据库/mysql/mysql索引/assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153418390.png",
     "数据库/mysql/mysql索引/assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153408167.png",
     "数据库/mysql/mysql索引/assets/MYSQL索引：聚簇索引和非聚簇索引的区别/file-20251124153357468.png",
@@ -276,7 +277,6 @@
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-conversations/Create_a_bullet-point_summary_of_._Each_bullet_point_should@20251123_180418.md"
+    "copilot/copilot-custom-prompts/Emojify.md"
   ]
 }
