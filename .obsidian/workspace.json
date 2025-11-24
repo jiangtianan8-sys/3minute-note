@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
+                "file": "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "（28）简单的update语法，大大的事务道理"
+              "title": "45自增id用完怎么办？"
             }
           }
         ]
@@ -230,11 +230,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
+    "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md",
     "数据库/mysql/mysql实战45讲",
     "数据库/mysql/mysql事务/（27）简单的select语法，大大的事务道理.md",
-    "数据库/mysql/mysql事务/（28）简单的update语法，大大的事务道理.md",
     "数据库/mysql/mysql权限/MySQL之权限管理(mysql.user表详解).md",
     "数据库/mysql/mysql事务",
     "数据库/mysql/mysql面试/腾讯面试：一条SQL语句执行得很慢的原因有哪些？---不看后悔系列.md",
@@ -274,7 +275,6 @@
     "数据库/mysql/mysql基础/如何查看MySQL的当前存储引擎？.md",
     "数据库/mysql/mysql基础/assets/如何查看MySQL的当前存储引擎？",
     "数据库/mysql/mysql基础/assets/MYSQL中TRUNCATE和DELETE的区别",
-    "数据库/mysql/mysql基础/assets",
     "数据库/mysql/mysql官方文档/14.4 InnoDB Architecture.md",
     "数据库/mysql/mysql安装/安装问题解决.md",
     "数据库/mysql/mysql安装/如何找到Mac上用HomeBrew安装的MySQL的启动命令.md"
