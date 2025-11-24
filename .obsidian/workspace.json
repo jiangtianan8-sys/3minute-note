@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/mysql/mysql学习/SELECT 子句顺序.md",
+                "file": "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SELECT 子句顺序"
+              "title": "「MYSQL」MYSQL中的int(11)到底代表什么意思？"
             }
           }
         ]
@@ -232,8 +232,20 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
+    "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？/file-20251124161517483.png",
+    "数据库/mysql/mysql学习/assets/「MYSQL」MYSQL中的int(11)到底代表什么意思？",
+    "数据库/mysql/mysql学习/员工部门工资SQL面试题.md",
+    "数据库/mysql/mysql学习/「MYSQL」MYSQL中的int(11)到底代表什么意思？.md",
+    "数据库/mysql/mysql学习/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法.md",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161219416.png",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161209899.png",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161159843.png",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161141100.png",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法/file-20251124161131569.png",
+    "数据库/mysql/mysql学习/assets/如何将mysql表结构导出成Excel格式的（并带备注）另附转为word表格的方法",
+    "数据库/mysql/mysql学习/assets",
     "数据库/mysql/mysql学习/SELECT 子句顺序.md",
+    "数据库/mysql/mysql学习/MySql 里的IFNULL、NULLIF和ISNULL用法.md",
     "数据库/mysql/mysql学习/MySQL中 int(11)和int(10)有没有区别.md",
     "数据库/mysql/mysql索引/细说mysql索引.md",
     "数据库/mysql/mysql学习",
@@ -244,13 +256,8 @@
     "数据库/mysql/mysql索引/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了.md",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155446424.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155404108.png",
-    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155354445.png",
-    "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了/file-20251124155243207.png",
     "数据库/mysql/mysql索引/assets/我说 SELECT COUNT(星) 会造成全表扫描，面试官开始沉默了",
     "数据库/mysql/mysql索引/索引失效的7种情况.md",
-    "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155128168.png",
-    "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155118915.png",
-    "数据库/mysql/mysql索引/assets/索引失效的7种情况/file-20251124155109725.png",
     "数据库/mysql/mysql索引/assets/索引失效的7种情况",
     "数据库/mysql/mysql索引/数据库两大神器【索引和锁】.md",
     "数据库/mysql/mysql索引/assets/数据库两大神器【索引和锁】",
@@ -262,21 +269,14 @@
     "数据库/mysql/mysql索引/干货：mysql索引的数据结构.md",
     "数据库/mysql/mysql索引/assets/干货：mysql索引的数据结构",
     "数据库/mysql/mysql索引/MYSQL索引：聚簇索引和非聚簇索引的区别.md",
-    "数据库/mysql/mysql索引/assets/MYSQL索引：聚簇索引和非聚簇索引的区别",
-    "数据库/mysql/mysql索引/assets",
     "数据库/mysql/mysql索引/尚学堂高级/MySQL高级-.md",
     "数据库/mysql/mysql锁/【mysql学习笔记】InnoDB的RR级别如何避免幻读.md",
-    "数据库/mysql/mysql索引/尚学堂高级",
     "数据库/mysql/mysql锁/《快照读、当前读和MVCC》.md",
     "数据库/mysql/mysql锁/锁机制.md",
     "数据库/mysql/mysql锁/面试官：谈谈你对Mysql的MVCC的理解？.md",
     "数据库/mysql/mysql锁/官方文档.md",
     "数据库/mysql/mysql锁/MySQL MVCC机制.md",
     "数据库/mysql/mysql锁/MySQL MVCC介绍.md",
-    "数据库/mysql/mysql锁/MySQL InnoDB中的行锁 Next-Key Lock消除幻读.md",
-    "数据库/mysql/mysql锁/Innodb中的事务隔离级别和锁的关系.md",
-    "数据库/mysql/mysql锁/Innodb锁机制：Next-Key Lock 浅谈.md",
-    "数据库/mysql/mysql锁/14.3 InnoDB Multi-Versioning.md",
-    "数据库/mysql/mysql实战45讲/45自增id用完怎么办？.md"
+    "数据库/mysql/mysql锁/MySQL InnoDB中的行锁 Next-Key Lock消除幻读.md"
   ]
 }
