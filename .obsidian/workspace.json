@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/01.java源码分析/jdk1.8 LinkedList源码全分析.md",
+                "file": "后端/java/01.java源码分析/图解集合 1 ：ArrayList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jdk1.8 LinkedList源码全分析"
+              "title": "图解集合 1 ：ArrayList"
             }
           }
         ]
@@ -230,6 +230,8 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "后端/java/01.java源码分析/jdk1.8 LinkedList源码全分析.md",
+    "后端/java/01.java源码分析/图解集合 1 ：ArrayList.md",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095623230.png",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095602744.png",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095519879.png",
@@ -240,10 +242,8 @@
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095346570.png",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095322912.png",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095311636.png",
-    "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析/file-20251126095202794.png",
     "后端/java/01.java源码分析/assets/jdk1.8 LinkedList源码全分析",
     "后端/java/01.java源码分析/hashmap 中hash函数h & (length-1)详解.md",
-    "后端/java/01.java源码分析/jdk1.8 LinkedList源码全分析.md",
     "后端/java/01.java源码分析/HashMap中神奇的h & （length - 1）运算.md",
     "后端/java/01.java源码分析/assets/hashmap 中hash函数h & (length-1)详解",
     "后端/java/01.java源码分析/StringBuilder为什么线程不安全.md",
