@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 280.5
   },
   "right": {
     "id": "942784d0550aa728",
@@ -228,8 +228,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "后端/java",
+    "后端",
     "数据库/sql面试总结/面试如何回答优化数据库.md",
     "数据库/sql面试总结/面试：做过sql优化吗？.md",
     "数据库/sql面试总结/【数据库】SQL经典面试题 - 行列转换二 - 列转行.md",
@@ -263,7 +265,6 @@
     "数据库/mysql/mysql面试/assets/为什么MySQL数据库索引选择使用B+树？",
     "数据库/mysql/mysql面试/什么是B-Tree.md",
     "数据库/mysql/mysql面试/assets/什么是B-Tree",
-    "数据库/mysql/mysql面试/assets",
     "数据库/mysql/mysql列类型/MySQL的varchar水真的太深了——InnoDB记录存储结构.md",
     "数据库/mysql/mysql列类型/MySQL——VARCHAR和CHAR类型.md",
     "数据库/sql审核平台/Archery/archery SQL审核平台.md",
