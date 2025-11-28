@@ -25,16 +25,17 @@
             "id": "b8ac0e04e16c4b8d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "工具/markdown/markdown教程/01.什么是 Markdown.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.6"
+              "icon": "lucide-file",
+              "title": "01.什么是 Markdown"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#标题1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,27 +181,7 @@
             }
           },
           {
-            "id": "ecff412204aba27f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "51738bfca2db14c8",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "248e6d7b2c884030",
+            "id": "f07babec4b7add34",
             "type": "leaf",
             "state": {
               "type": "github-copilot-chat-view",
@@ -207,19 +189,9 @@
               "icon": "bot-message-square",
               "title": "Copilot Chat"
             }
-          },
-          {
-            "id": "314826b2d865dd74",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,7 +200,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -236,12 +207,12 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
+      "copilot:Open Copilot Chat": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b8ac0e04e16c4b8d",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "Markdown 的基本语法.md",

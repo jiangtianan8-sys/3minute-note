@@ -1,11 +1,9 @@
 [
-  "obsidian-git",
-  "obsidian-custom-attachment-location",
-  "obsidian-plugin-prettier",
-  "templater-obsidian",
-  "obsidian-linter",
   "colored-text",
   "copilot",
+  "obsidian-custom-attachment-location",
+  "obsidian-git",
   "github-copilot",
-  "table-editor-obsidian"
+  "obsidian-plugin-prettier",
+  "templater-obsidian"
 ]
