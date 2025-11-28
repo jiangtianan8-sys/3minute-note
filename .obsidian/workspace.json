@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/04.util.concurrent/01.并发编程视频/1.5 synchronized其他概念.md",
+                "file": "后端/java/04.util.concurrent/01.并发编程视频/1.6 synchronized代码块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.5 synchronized其他概念"
+              "title": "1.6 synchronized代码块"
             }
           },
           {
@@ -213,8 +213,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "后端/java/04.util.concurrent/01.并发编程视频/1.4 脏读.md",
     "后端/java/04.util.concurrent/01.并发编程视频/1.5 synchronized其他概念.md",
+    "后端/java/04.util.concurrent/01.并发编程视频/1.6 synchronized代码块.md",
+    "后端/java/04.util.concurrent/01.并发编程视频/1.4 脏读.md",
     "后端/java/04.util.concurrent/01.并发编程视频/1.3 对象锁的同步和异步.md",
     "后端/java/04.util.concurrent/01.并发编程视频/1.2 多个线程多个锁.md",
     "后端/java/04.util.concurrent/01.并发编程视频/1.1 线程安全.md",
@@ -257,7 +258,6 @@
     "Markdown 的基本语法.md",
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
-    "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
-    "linux/99. 未分类/管道.md"
+    "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md"
   ]
 }
