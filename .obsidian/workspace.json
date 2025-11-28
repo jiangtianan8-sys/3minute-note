@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/03.socket网络编程/Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）.md",
+                "file": "后端/java/04.util.concurrent/1.1 线程安全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）"
+              "title": "1.1 线程安全"
             }
           },
           {
@@ -211,11 +211,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "后端/java/04.util.concurrent/01.并发编程视频/0 并发编程视频课件整理.md",
+    "后端/java/04.util.concurrent/1.1 线程安全.md",
+    "后端/java/03.socket网络编程/Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）.md",
+    "后端/java/04.util.concurrent/01.并发编程视频",
     "后端/java/04.util.concurrent",
     "后端/java/03.socket网络编程/Java BIO、NIO、AIO 学习.md",
-    "后端/java/03.socket网络编程/Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）.md",
     "后端/java/03.socket网络编程/2.2 Buffer.md",
     "后端/java/03.socket网络编程/2.1 NIO编程介绍（一）.md",
     "后端/java/03.socket网络编程/assets/2.1 NIO编程介绍（一）/file-20251128174340085.png",
@@ -242,9 +245,7 @@
     "后端/java/02.代码优化&重构等/44条Java代码优化建议.md",
     "后端/java/02.代码优化&重构等/关于烂代码的那些事/关于烂代码的那些事（下）.md",
     "后端/java/02.代码优化&重构等/关于烂代码的那些事/assets/关于烂代码的那些事（下）/file-20251128173252516.png",
-    "后端/java/02.代码优化&重构等/关于烂代码的那些事/assets/关于烂代码的那些事（下）",
     "后端/java/02.代码优化&重构等/关于烂代码的那些事/关于烂代码的那些事（中）.md",
-    "后端/java/02.代码优化&重构等/关于烂代码的那些事/assets/关于烂代码的那些事（中）",
     "后端/java/02.代码优化&重构等/关于烂代码的那些事/assets/关于烂代码的那些事（中）/file-20251128173218102.png",
     "后端/java/02.代码优化&重构等/关于烂代码的那些事/关于烂代码的那些事（上）.md",
     "工具/intellij/工作使用/韵达/代理设置.md",
@@ -257,7 +258,6 @@
     "后端/java/01.java源码分析/StringBuilder为什么线程不安全.md",
     "后端/java/01.java源码分析/jdk1.8 LinkedList源码全分析.md",
     "后端/java/01.java源码分析/Java中synchronized关键字的使用.md",
-    "后端/java/01.java源码分析/HashSet中是如何判断元素是否重复的.md",
-    "后端/java/01.java源码分析/HashMap中神奇的h & （length - 1）运算.md"
+    "后端/java/01.java源码分析/HashSet中是如何判断元素是否重复的.md"
   ]
 }
