@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown 的基本语法.md",
+                "file": "工具/markdown/markdown教程/01.什么是 Markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown 的基本语法"
+              "title": "01.什么是 Markdown"
             }
           }
         ]
@@ -230,9 +230,9 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
-    "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
     "Markdown 的基本语法.md",
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
+    "工具/markdown/markdown教程/03.MarkDown 进阶语法.md",
     "linux/99. 未分类/使用SSH命令行传输文件到远程服务器.md",
     "linux/99. 未分类/管道.md",
     "后端/java/01.java源码分析/StringBuilder为什么线程不安全.md",
