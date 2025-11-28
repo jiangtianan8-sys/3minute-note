@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#标题1",
+                "query": "reset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "e95f08e04da44ee5",
   "lastOpenFiles": [
     "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "Markdown 的基本语法.md",
