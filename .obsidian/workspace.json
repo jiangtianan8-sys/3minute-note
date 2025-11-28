@@ -211,8 +211,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
+    "后端/java/04.util.concurrent",
     "后端/java/03.socket网络编程/Java BIO、NIO、AIO 学习.md",
     "后端/java/03.socket网络编程/Java 网络IO编程总结（BIO、NIO、AIO均含完整实例代码）.md",
     "后端/java/03.socket网络编程/2.2 Buffer.md",
@@ -257,7 +258,6 @@
     "后端/java/01.java源码分析/jdk1.8 LinkedList源码全分析.md",
     "后端/java/01.java源码分析/Java中synchronized关键字的使用.md",
     "后端/java/01.java源码分析/HashSet中是如何判断元素是否重复的.md",
-    "后端/java/01.java源码分析/HashMap中神奇的h & （length - 1）运算.md",
-    "后端/java/01.java源码分析/hashmap 中hash函数h & (length-1)详解.md"
+    "后端/java/01.java源码分析/HashMap中神奇的h & （length - 1）运算.md"
   ]
 }
