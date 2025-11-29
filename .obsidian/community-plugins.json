@@ -5,5 +5,6 @@
   "obsidian-git",
   "github-copilot",
   "obsidian-plugin-prettier",
-  "templater-obsidian"
+  "templater-obsidian",
+  "remotely-save"
 ]
