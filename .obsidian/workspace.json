@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/markdown/markdown教程/01.什么是 Markdown.md",
+                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.什么是 Markdown"
+              "title": "深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2)"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/markdown/markdown教程/01.什么是 Markdown.md",
+                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "01.什么是 Markdown 的反向链接列表"
+              "title": "深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2) 的反向链接列表"
             }
           },
           {
@@ -222,8 +222,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5e6744f0d3cb8c09",
+  "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
+    "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
@@ -253,7 +254,6 @@
     "后端/java/04.util.concurrent/01.并发编程视频/6.4 生产者-消费者.md",
     "后端/java/04.util.concurrent/01.并发编程视频/6.2 Future模式.md",
     "后端/java/04.util.concurrent/01.并发编程视频/6.1 多线程的设计模式.md",
-    "后端/java/04.util.concurrent/01.并发编程视频/5.2 ConcurrentLinkedQueue.md",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
