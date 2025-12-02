@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
+                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2)"
+              "title": "深入浅出 Java Concurrency (2) 原子操作 part 1"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "01.什么是 Markdown"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,10 +213,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c526b674b4d9ea1",
+  "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (33) 线程池 part 6 线程池的实现及原理 (1).md",
+    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
+    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
+    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (33) 线程池 part 6 线程池的实现及原理 (1).md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (29)线程池 part 2 Executor 以及Executors.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (30) 线程池 part 3 Executor 生命周期.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (28) 线程池 part 1 简介.md",
@@ -229,8 +232,6 @@
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (5) 原子操作 part 4.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (4)原子操作 part 3 指令重排序与happens-before法则.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (3) 原子操作 part 2.md",
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets",
