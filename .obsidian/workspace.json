@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/github骚操作/GitHub骚操作之#L数字.md",
+                "file": "工具/markdown/markdown教程/01.什么是 Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GitHub骚操作之#L数字 的反向链接列表"
+              "title": "01.什么是 Markdown 的反向链接列表"
             }
           },
           {
@@ -189,14 +189,23 @@
               "icon": "bot-message-square",
               "title": "Copilot Chat"
             }
+          },
+          {
+            "id": "5e6744f0d3cb8c09",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 637.5,
-    "collapsed": true
+    "width": 637.5
   },
   "left-ribbon": {
     "hiddenItems": {
