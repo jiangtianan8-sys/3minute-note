@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
+                "file": "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "深入浅出 Java Concurrency (1)  J.U.C的整体认识"
+              "title": "深入浅出 Java Concurrency (2) 原子操作 part 1"
             }
           },
           {
@@ -214,11 +214,12 @@
   },
   "active": "4c526b674b4d9ea1",
   "lastOpenFiles": [
+    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
+    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (2) 原子操作 part 1.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets",
     "工具/intellij/不花一分钱！如何用 Ja-Netfilter 永久破解 IDEA，开发者必备技巧！.md",
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (1)  J.U.C的整体认识.md",
     "后端/java/04.util.concurrent/02.Java Concurrency",
     "后端/java/04.util.concurrent/01.并发编程视频/9 锁.md",
     "后端/java/04.util.concurrent/01.并发编程视频/8.2 concurrent.util常用类.md",
@@ -258,7 +259,6 @@
     "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173458840.png",
     "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173445058.png",
     "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173434992.png",
-    "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173425882.png",
-    "后端/java/02.代码优化&重构等/关于烂代码的那些事/assets/关于烂代码的那些事（下）/file-20251128173252516.png"
+    "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173425882.png"
   ]
 }
