@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析volatile的实现原理.md",
+                "file": "外语/英语/duolinguo/多邻国会员.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【死磕Java并发】—–深入分析volatile的实现原理"
+              "title": "多邻国会员"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析volatile的实现原理.md",
+                "file": "外语/英语/duolinguo/多邻国会员.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "【死磕Java并发】—–深入分析volatile的实现原理 的反向链接列表"
+              "title": "多邻国会员 的反向链接列表"
             }
           },
           {
@@ -207,10 +207,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8ac0e04e16c4b8d",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析synchronized的实现原理.md",
+    "外语/英语/duolinguo/assets/多邻国会员",
+    "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
+    "外语/英语/duolingguo/assets/未命名",
+    "外语/英语/duolinguo/assets",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析volatile的实现原理.md",
+    "外语/英语/duolinguo/多邻国会员.md",
+    "外语/英语/duolinguo",
+    "外语/英语",
+    "外语",
+    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析synchronized的实现原理.md",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析ThreadLocal.md",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之重排序.md",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之happens-before.md",
@@ -236,24 +244,16 @@
     "工具/git/ssh",
     "工具/git",
     "conflict-files-obsidian-git.md",
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (34) 线程池 part 7 线程池的实现及原理 (2).md",
-    "后端/java/04.util.concurrent/02.Java Concurrency/深入浅出 Java Concurrency (8)锁机制 part 3.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets",
-    "后端/java/04.util.concurrent/02.Java Concurrency",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
-    "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
-    "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念",
-    "后端/java/04.util.concurrent/01.并发编程视频/assets",
-    "后端/java/04.util.concurrent/01.并发编程视频",
     "后端/java/03.socket网络编程/assets/2.1 NIO编程介绍（一）/file-20251128174340085.png",
     "后端/java/03.socket网络编程/assets/1.3 传统的BIO编程(com.bjsxt.bio)/file-20251128174259578.png",
     "后端/java/02.代码优化&重构等/assets/老司机实战教你写出优雅的JAVA代码，一次学习，终身受益。/file-20251128173533016.png",
     "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173458840.png",
     "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173445058.png",
-    "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173434992.png",
-    "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173425882.png"
+    "后端/java/02.代码优化&重构等/assets/初探性能优化——2个月到4小时的性能提升/file-20251128173434992.png"
   ]
 }
