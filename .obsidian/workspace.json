@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/git/ssh/使用 SSH 连接 GitHub.md",
+                "file": "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：CLH同步队列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用 SSH 连接 GitHub"
+              "title": "【死磕Java并发】—–J.U.C之AQS：CLH同步队列"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/git/ssh/使用 SSH 连接 GitHub.md",
+                "file": "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：CLH同步队列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "使用 SSH 连接 GitHub 的反向链接列表"
+              "title": "【死磕Java并发】—–J.U.C之AQS：CLH同步队列 的反向链接列表"
             }
           },
           {
@@ -209,8 +209,11 @@
   },
   "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
-    "工具/markdown/markdown教程/01.什么是 Markdown.md",
+    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—-深入分析CAS.md",
+    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：CLH同步队列.md",
     "工具/git/ssh/使用 SSH 连接 GitHub.md",
+    "后端/java/04.util.concurrent/03.死磕Java并发",
+    "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "工具/git/ssh",
     "工具/git",
     "conflict-files-obsidian-git.md",
@@ -239,15 +242,12 @@
     "后端/java/04.util.concurrent/01.并发编程视频/9 锁.md",
     "后端/java/04.util.concurrent/01.并发编程视频/8.2 concurrent.util常用类.md",
     "后端/java/04.util.concurrent/01.并发编程视频/8.1 concurrent.util常用类.md",
-    "后端/java/04.util.concurrent/01.并发编程视频/7.1 Executor框架.md",
-    "后端/java/04.util.concurrent/01.并发编程视频/6.4 生产者-消费者.md",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念",
     "后端/java/04.util.concurrent/01.并发编程视频/assets",
     "后端/java/04.util.concurrent/01.并发编程视频",
-    "后端/java/04.util.concurrent",
     "后端/java/03.socket网络编程/assets/2.1 NIO编程介绍（一）/file-20251128174340085.png",
     "后端/java/03.socket网络编程/assets/1.3 传统的BIO编程(com.bjsxt.bio)/file-20251128174259578.png",
     "后端/java/02.代码优化&重构等/assets/老司机实战教你写出优雅的JAVA代码，一次学习，终身受益。/file-20251128173533016.png",
