@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "外语/英语/duolinguo/多邻国会员.md",
+                "file": "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多邻国会员"
+              "title": "聊聊并发（一）深入分析Volatile的实现原理"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "外语/英语/duolinguo/多邻国会员.md",
+                "file": "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "多邻国会员 的反向链接列表"
+              "title": "聊聊并发（一）深入分析Volatile的实现原理 的反向链接列表"
             }
           },
           {
@@ -207,14 +207,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（五）原子操作的实现原理.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（四）深入分析ConcurrentHashMap.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（十）生产者消费者模式.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（三）Java线程池的分析和使用.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（七）——Java中的阻塞队列.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/Java 并发工具包 java.util.concurrent 用户指南.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（六）ConcurrentLinkedQueue的实现原理分析.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（九）Java中的CopyOnWrite容器.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（二）Java SE1.6中的Synchronized.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（八）——Fork Join框架介绍.md",
+    "后端/java/04.util.concurrent/04.聊聊并发/Java中的Atomic包使用指南.md",
+    "外语/英语/duolinguo/多邻国会员.md",
+    "后端/java/04.util.concurrent/04.聊聊并发",
     "外语/英语/duolinguo/assets/多邻国会员",
     "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
     "外语/英语/duolingguo/assets/未命名",
     "外语/英语/duolinguo/assets",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析volatile的实现原理.md",
-    "外语/英语/duolinguo/多邻国会员.md",
     "外语/英语/duolinguo",
     "外语/英语",
     "外语",
@@ -230,23 +243,10 @@
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之读写锁：ReentrantReadWriteLock.md",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之并发工具类：Semaphore.md",
     "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之并发工具类：CyclicBarrier.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之并发工具类：CountDownLatch.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之Java并发容器：ConcurrentSkipListMap.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之Java并发容器：ConcurrentHashMap.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之Condition.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：阻塞和唤醒线程.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：同步状态的获取与释放.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之AQS：CLH同步队列.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—-深入分析CAS.md",
-    "工具/git/ssh/使用 SSH 连接 GitHub.md",
     "后端/java/04.util.concurrent/03.死磕Java并发",
-    "工具/markdown/markdown教程/01.什么是 Markdown.md",
     "工具/git/ssh",
     "工具/git",
-    "conflict-files-obsidian-git.md",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
-    "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识",
-    "后端/java/04.util.concurrent/02.Java Concurrency/assets",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
     "后端/java/03.socket网络编程/assets/2.1 NIO编程介绍（一）/file-20251128174340085.png",
