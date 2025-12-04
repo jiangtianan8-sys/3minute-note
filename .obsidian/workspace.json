@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
-                "mode": "source",
+                "file": "后端/java/04.util.concurrent/06.基础相关/【Java 并发】详解 ThreadLocal.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "聊聊并发（一）深入分析Volatile的实现原理"
+              "title": "【Java 并发】详解 ThreadLocal"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
+                "file": "后端/java/04.util.concurrent/06.基础相关/【Java 并发】详解 ThreadLocal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "聊聊并发（一）深入分析Volatile的实现原理 的反向链接列表"
+              "title": "【Java 并发】详解 ThreadLocal 的反向链接列表"
             }
           },
           {
@@ -209,8 +209,23 @@
   },
   "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
-    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（五）原子操作的实现原理.md",
+    "后端/java/04.util.concurrent/06.基础相关/正确使用 Volatile 变量.md",
+    "后端/java/04.util.concurrent/06.基础相关/【Java 并发】详解 ThreadLocal.md",
+    "后端/java/04.util.concurrent/06.基础相关/正确理解ThreadLocal.md",
+    "后端/java/04.util.concurrent/06.基础相关/证明32位java对long和double的写操作不是原子性的.md",
+    "后端/java/04.util.concurrent/06.基础相关/线程里面使用注解(线程里面spring使用注解无法注入值的解决办法).md",
+    "后端/java/04.util.concurrent/06.基础相关/spring(基础20) threadLocal在spring框架中的运用.md",
+    "后端/java/04.util.concurrent/06.基础相关/什么时候使用CountDownLatch.md",
+    "后端/java/04.util.concurrent/06.基础相关/你真的理解CountDownLatch与CyclicBarrier使用场景吗？.md",
+    "后端/java/04.util.concurrent/06.基础相关/java并发容器总结.md",
+    "后端/java/04.util.concurrent/06.基础相关/java wait()和sleep()方法之经验谈.md",
+    "后端/java/04.util.concurrent/06.基础相关/Spring事务处理-ThreadLocal的使用.md",
+    "后端/java/04.util.concurrent/06.基础相关/Java并发包中CyclicBarrier的工作原理、使用示例.md",
+    "后端/java/04.util.concurrent/06.基础相关/JAVA并发实现五(生产者和消费者模式wait和notify方式实现).md",
+    "后端/java/04.util.concurrent/06.基础相关/CyclicBarrier和CountDownLatch的区别.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（一）深入分析Volatile的实现原理.md",
+    "后端/java/04.util.concurrent/06.基础相关",
+    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（五）原子操作的实现原理.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（四）深入分析ConcurrentHashMap.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（十）生产者消费者模式.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（三）Java线程池的分析和使用.md",
@@ -221,31 +236,16 @@
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（二）Java SE1.6中的Synchronized.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（八）——Fork Join框架介绍.md",
     "后端/java/04.util.concurrent/04.聊聊并发/Java中的Atomic包使用指南.md",
-    "外语/英语/duolinguo/多邻国会员.md",
     "后端/java/04.util.concurrent/04.聊聊并发",
     "外语/英语/duolinguo/assets/多邻国会员",
     "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
     "外语/英语/duolingguo/assets/未命名",
     "外语/英语/duolinguo/assets",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析volatile的实现原理.md",
     "外语/英语/duolinguo",
     "外语/英语",
     "外语",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析synchronized的实现原理.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–深入分析ThreadLocal.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之重排序.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之happens-before.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之分析volatile无标题笔记.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–Java内存模型之从JMM角度分析DCL.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之阻塞队列：ArrayBlockingQueue.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之重入锁：ReentrantLock.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之线程池：ThreadPoolExecutor.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之读写锁：ReentrantReadWriteLock.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之并发工具类：Semaphore.md",
-    "后端/java/04.util.concurrent/03.死磕Java并发/【死磕Java并发】—–J.U.C之并发工具类：CyclicBarrier.md",
     "后端/java/04.util.concurrent/03.死磕Java并发",
     "工具/git/ssh",
-    "工具/git",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
