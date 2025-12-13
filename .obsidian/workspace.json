@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,8 +171,8 @@
             "state": {
               "type": "github-copilot-chat-view",
               "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
             }
           },
           {
@@ -208,7 +207,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8ac0e04e16c4b8d",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
     "后端/java/04.util.concurrent/06.基础相关/【Java 并发】详解 ThreadLocal.md",
     "后端/java/50.java版本/01.jdk21/JDK 21新特性全面解析.md",
