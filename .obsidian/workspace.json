@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/ai/01.prompt/背单词项目.md",
+                "file": "后端/java/50.java版本/02.java8/Java 8 Time Api 使用指南-珍藏限量版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "背单词项目"
+              "title": "Java 8 Time Api 使用指南-珍藏限量版"
             }
           }
         ]
@@ -207,12 +207,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3751d82968cb69f3",
+  "active": "b8ac0e04e16c4b8d",
   "lastOpenFiles": [
+    "后端/java/50.java版本/01.java7/Java 7中的Try-with-resources.md",
+    "后端/java/50.java版本/02.java8/Java 8 Time Api 使用指南-珍藏限量版.md",
+    "后端/java/50.java版本/01.java7/Java 7 的7个新特性.md",
+    "后端/ai/01.prompt/背单词项目.md",
     "后端/java/50.java版本/02.java8",
     "后端/java/50.java版本/01.java7",
     "后端/ai/01.prompt/提问技巧.md",
-    "后端/ai/01.prompt/背单词项目.md",
     "后端/java/50.java版本/03.jdk21/JDK 21新特性全面解析.md",
     "后端/ai/01.prompt",
     "后端/ai",
@@ -240,12 +243,9 @@
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（十）生产者消费者模式.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（三）Java线程池的分析和使用.md",
     "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（七）——Java中的阻塞队列.md",
-    "后端/java/04.util.concurrent/04.聊聊并发/Java 并发工具包 java.util.concurrent 用户指南.md",
-    "后端/java/04.util.concurrent/04.聊聊并发/聊聊并发（六）ConcurrentLinkedQueue的实现原理分析.md",
     "后端/java/04.util.concurrent/04.聊聊并发",
     "外语/英语/duolinguo/assets/多邻国会员",
     "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
-    "外语/英语/duolingguo/assets/未命名",
     "后端/java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
     "后端/java/04.util.concurrent/01.并发编程视频/assets/1.7 volatile关键字概念/file-20251201213416071.png",
