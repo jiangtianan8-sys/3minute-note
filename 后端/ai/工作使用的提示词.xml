@@ -1,0 +1,668 @@
+在此项目下 帮我创建一个DDD模式的空模版
+包含下面4个模块
+chatbot-api-application 应用层
+chatbot-api-domain 领域层
+chatbot-api-infrastructure 基础层
+chatbot-api-interface 接口层
+
+
+-Dapollo.meta=http://u-apollo.yundasys.com:31088    -Dspring.profiles.active=dev  -Denv=dev -Dapp.id=direct-customer-bills    -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=1024m -Xms6144m -Xmx6144m -Xmn4g -Xss512k -XX:SurvivorRatio=8 -XX:+UseConcMarkSweepGC  -Dapollo.bootstrap.namespaces=application,Z07.more-cache-redis -Ddirect-basic.url=10.171.149.243:48914 -Ddirect-account-water.url=10.171.149.243:40017
+
+
+ssh-keygen -t rsa -b 4096 -C "jiangtianan8@gmail.com"
+
+ssh-keygen -t rsa -C "jiangtianan8@gmail.com"
+
+
+参照DirectSziRetainedProfitController的功能 新写DirectSzlNonMarketingBillController
+表结构为：CREATE TABLE `direct_szl_non_marketing_bill` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `bill_date` date NOT NULL COMMENT '账单日期 (yyyy-mm-dd)',
+  `branch_name` varchar(200) DEFAULT NULL COMMENT '网点名称',
+  `branch_code` varchar(10) NOT NULL COMMENT '网点编码*',
+  `settlement_customer_name` varchar(200) DEFAULT NULL COMMENT '结算客户名称',
+  `settlement_customer_code` varchar(20) NOT NULL COMMENT '结算客户编码*',
+  `vip_customer_code` varchar(20) NOT NULL COMMENT 'VIP客户编码*',
+  `sap_customer_code` varchar(20) NOT NULL COMMENT 'SAP客户编码*',
+  `sap_customer_name` varchar(200) NOT NULL COMMENT 'SAP客户名称*',
+  `warehouse_name` varchar(100) NOT NULL COMMENT '所属仓*',
+  `ticket_quantity` int(11) NOT NULL DEFAULT '0' COMMENT '票件量*',
+  `income_amount` decimal(12,2) NOT NULL DEFAULT '0.00' COMMENT '收入金额(含税)*',
+  `created_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `updated_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `created_by` varchar(50) DEFAULT NULL COMMENT '创建人',
+  `updated_by` varchar(50) DEFAULT NULL COMMENT '更新人',
+  PRIMARY KEY (`id`),
+  KEY `idx_bill_date` (`bill_date`),
+  KEY `idx_branch_code` (`branch_code`),
+  KEY `idx_settlement_customer_code_name` (`settlement_customer_code`,`settlement_customer_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='收支利日报-非营销账单表';
+
+导入的列参照给的图片
+需要满足如下逻辑：
+非营销客户：网点编码、客户编码、vip客户编码、
+sap客户名称、sap客户编码、所在仓进行客户唯一
+判定，同一账单日期重复导入更新数据；
+票件及收入必填；
+
+
+10.171.8.90
+8118
+*yundasys.com*,*jxnq.net*,10.*,192.168.*,10.172.*
+
+data_epsOutlets
+
+结算异常补发表-查询
+
+curl 'http://10.171.149.243:40045/cod/actions/settleAccount/supplyReport/searchData.do?actionId=cod_settle_check_except_supply_report_searchData&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: SESSION=ODQzYzZlMTMtODcyYi00YWI4LWE1MTItMWM1MDc5MzAzNDJm; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=bc639735-5348-44b6-a88e-a49881dd6efd-1765162746976' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/settleNew/CodSettleCheckExceptSupplyReportList.html' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw 'search_condition=%7B%22setlDateStr%22%3A%222022-04-01%22%2C%22setlDateEnd%22%3A%222022-04-30%22%2C%22setlOrgCd%22%3A%22321300%22%2C%22sendStatus%22%3A%22%22%2C%22actSetlDateStr%22%3A%22%22%2C%22actSetlDateEnd%22%3A%22%22%2C%22actOrgCd%22%3A%22%22%7D&page=1&rows=15' \
+  --compressed \
+  --insecure
+
+  返回：
+  {
+  "current_page":0,
+  "errorCode":0,
+  "footer":[
+    {
+      "advanceGoodAmt":0.00,
+      "dailyColChargeAmt":0.00,
+      "dailyColServeAmt":-5.50,
+      "dailyDpaGoodAmt":0.00,
+      "dailyDpaServeAmt":0.00,
+      "interColServeAmt":-1.00,
+      "interDpaGoodAmt":0.00,
+      "interDpaServeAmt":0.00,
+      "returnColServeAmt":4.00,
+      "returnDpaGoodAmt":0.00,
+      "returnDpaServeAmt":0.00,
+      "status":"合计",
+      "subTotalChargeAmt":0.00,
+      "subTotalGoodAmt":0.00,
+      "subTotalServeAmt":-2.50
+    }
+  ],
+  "msg":"操作成功",
+  "page_count":0,
+  "rows":[
+    {
+      "actSetlDate":"2022-04-22",
+      "actSetlOrgCd":"321300",
+      "actSetlOrgNm":"浙江永康市公司(321300)",
+      "actSetlProvCd":"330002",
+      "advanceGoodAmt":0.00,
+      "dailyColChargeAmt":0.00,
+      "dailyColServeAmt":-5.50,
+      "dailyDpaGoodAmt":0.00,
+      "dailyDpaServeAmt":0.00,
+      "interColServeAmt":-1.00,
+      "interDpaGoodAmt":0.00,
+      "interDpaServeAmt":0.00,
+      "lastOrgNm":"",
+      "operTime":"2022-04-22 09:00:01.0",
+      "returnColServeAmt":4.00,
+      "returnDpaGoodAmt":0.00,
+      "returnDpaServeAmt":0.00,
+      "sendStatus":"2",
+      "sendUser":"??",
+      "setlDate":"2022-04-13",
+      "setlOrgCd":"321300",
+      "setlOrgNm":"浙江永康市公司(321300)",
+      "setlProvCd":"330002",
+      "setlProvNm":"浙江浙南区",
+      "status":"补发成功",
+      "subTotalChargeAmt":0.00,
+      "subTotalGoodAmt":0.00,
+      "subTotalServeAmt":-2.50,
+      "updateTime":"2022-04-22 09:00:01.0"
+    }
+  ],
+  "total":1,
+  "total_pages":0
+}
+
+入参和出参的 字段名注释参考给的图片
+新写CodSettleCheckExceptSupplyReportController来完成上面的curl请求 需要引入Retrofit
+
+用
+curl 'http://10.171.149.243:40045/cod/actions/settleAccount/supplyReport/searchData.do?actionId=cod_settle_check_except_supply_report_searchData&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: SESSION=MDJmYTVkYTktY2U5NC00NDgwLTgwMjgtMTVkN2NlMWM0MzBi; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=bc639735-5348-44b6-a88e-a49881dd6efd-1765162746976' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/settleNew/CodSettleCheckExceptSupplyReportList.html' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw 'search_condition=%7B%22setlDateStr%22%3A%222022-04-01%22%2C%22setlDateEnd%22%3A%222022-04-30%22%2C%22setlOrgCd%22%3A%22321300%22%2C%22sendStatus%22%3A%22%22%2C%22actSetlDateStr%22%3A%22%22%2C%22actSetlDateEnd%22%3A%22%22%2C%22actOrgCd%22%3A%22%22%7D&page=1&rows=15' \
+  --compressed \
+  --insecure
+  来写CodSettleCheckExceptSupplyReportClient 的真实测试junit代码
+
+http://10.172.49.176:10809/authApp/delIdaasAccountAuth?appId=yundatestplugin_cas_apereo760&userId=321300001
+
+
+新写CodRefundCustomerController来完成下面的curl请求
+curl 'http://10.171.149.243:40045/cod/customer/cod-refund-customer/searchData.do?actionId=cod_report_custacountsum_searchData&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: SESSION=YzhiYWQwYTgtZTk2Ni00MDk0LWJlNTUtMjUxOWNhNWQ2MzAz; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=bc639735-5348-44b6-a88e-a49881dd6efd-1765162746976' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/report/cod_report_custacountsum_list.html' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw 'search_condition=%7B%22start_date%22%3A%222025-11-01%22%2C%22end_date%22%3A%222025-11-30%22%2C%22pay_start_date%22%3A%22%22%2C%22pay_end_date%22%3A%22%22%2C%22setl_cycl_data%22%3A%22%22%2C%22provinceId%22%3A%22%22%2C%22cityId%22%3A%22%22%2C%22orgCode%22%3A%22321300%22%2C%22order_src_type%22%3A%22%22%2C%22cust_no%22%3A%22%22%7D&page=1&rows=15' \
+  --compressed \
+  --insecure
+
+  出参：{
+  "current_page":0,
+  "errorCode":0,
+  "footer":[
+    {
+      "cust_type":"",
+      "order_quan":0,
+      "p_id":0,
+      "prov":"合计"
+    }
+  ],
+  "msg":"操作成功",
+  "page_count":0,
+  "rows":[
+    {
+      "belong_site":"浙江永康市公司(321300)",
+      "city":"金华市",
+      "custName":"王二",
+      "cust_name":"王二(2100489905)",
+      "cust_no":"2100489905",
+      "cust_type":"",
+      "fee_amt_a":"9000.00",
+      "fee_amt_b":"180.00",
+      "fee_amt_c":"-30.00",
+      "fee_amt_d":"8760.00",
+      "maxdate":"2025-11-30",
+      "mindate":"2025-11-30 15:00:00.0",
+      "order_quan":9,
+      "p_id":2515266,
+      "pay_time":"2025-11-30 15:00:00.0",
+      "prov":"浙江浙南区",
+      "service_fee":"90.00",
+      "setl_cycl_data":"T+2"
+    }
+  ],
+  "total":30,
+  "total_pages":0
+}
+按照 controller -> service -> clientWrapper -> client 的调用方式，并将 controller 和 client 的入参、出参类分开。
+字段名称注释参照截图
+参照CodSettleCustTotalController
+
+
+
+表cod_settle_intercept 结构如下
+CREATE TABLE `cod_settle_intercept` (
+  `ticket_id` bigint(20) NOT NULL COMMENT '运单号',
+  `order_id` varchar(32) DEFAULT NULL COMMENT '订单号',
+  `order_src_type` char(1) DEFAULT NULL COMMENT '订单来源',
+  `cust_name` varchar(64) DEFAULT NULL COMMENT '客户名称',
+  `cust_id` bigint(15) DEFAULT NULL,
+  `goods_amt` decimal(10,3) DEFAULT NULL COMMENT '货款金额',
+  `goods_proxy_amt` decimal(10,3) DEFAULT '0.000' COMMENT '代收金额',
+  `order_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '下单时间',
+  `in_org_id` int(11) DEFAULT NULL COMMENT '揽件站点',
+  `in_sjdw` int(11) DEFAULT '0' COMMENT '揽件网点上级公司',
+  `in_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '揽件时间',
+  `at_site` int(11) DEFAULT NULL COMMENT '当前所在站点',
+  `at_sjdw` int(11) DEFAULT '0' COMMENT '派件网点上级公司',
+  `at_scan_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '当前站点扫描时间',
+  `deil_status` char(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT '0' COMMENT '处理状态（0：未处理 1:已处理）',
+  `deil_answer` char(1) DEFAULT '0' COMMENT '处理结果（1:强制签收 2：强制退回  3:拦截货款）',
+  `deil_person` varchar(32) DEFAULT NULL COMMENT '处理人',
+  `deil_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '处理时间',
+  `create_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '创建时间',
+  `poundage_rate` decimal(6,2) DEFAULT '0.00' COMMENT '手续费率',
+  `poundage` decimal(6,2) DEFAULT '0.00' COMMENT '手续费',
+  `create_person` varchar(32) DEFAULT NULL COMMENT '创建人',
+  `transfer_email` varchar(2) DEFAULT '0' COMMENT '转邮件 0:未判断  1:是 2:否',
+  PRIMARY KEY (`ticket_id`) USING BTREE,
+  KEY `ind01_cod_settle_intercept` (`deil_person`) USING BTREE,
+  KEY `idx_create_time` (`create_time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='结算管理/货款拦截';
+
+1.订单来源
+{
+      "code_name":"全部",
+      "code_type":""
+    },
+    {
+      "code_name":"淘宝",
+      "code_type":"1"
+    },
+    {
+      "code_name":"网点",
+      "code_type":"3"
+    },
+    {
+      "code_name":"快递鸟",
+      "code_type":"4"
+    },
+    {
+      "code_name":"那美网",
+      "code_type":"5"
+    },
+    {
+      "code_name":"散单",
+      "code_type":"6"
+    },
+    {
+      "code_name":"传美",
+      "code_type":"7"
+    }
+2.揽件站点 揽件网点上级公司 当前所在站点 派件网点上级公司 都设置为 321300
+3.表中的时间字段 设置为2025年11月
+造30条测试数据覆盖所有的条件
+
+
+
+curl 'http://10.171.149.243:40045/cod/outinf/actions/report_settle_amt_detail/searchData.do?actionId=cod_report_settle_amt_detail_searchData&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/report/cod_report_settle_adjust_serverAmt_detail_list.html?actionId=cod_report_settle_adjust_serverAmt_detail_list&org_id=%E6%B5%99%E6%B1%9F%E6%B0%B8%E5%BA%B7%E5%B8%82%E5%85%AC%E5%8F%B8(321300)&setl_date=2025-11-01%E8%87%B32025-11-30&fee_flag=adjust_other_amt&adjustFlag=1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw 'search_condition=%7B%22provinceId%22%3A%22%22%2C%22cityId%22%3A%22%22%2C%22orgCode%22%3A%22321300%22%2C%22setl_date1%22%3A%222025-11-01%22%2C%22setl_date2%22%3A%222025-11-01%22%2C%22fleg_data%22%3A%22adjust_other_amt%22%7D&page=1&rows=15' \
+  --compressed \
+  --insecure
+
+  出参：{
+  "current_page":0,
+  "errorCode":0,
+  "footer":{
+    "fee":0.00,
+    "old_fee":100.00
+  },
+  "msg":"操作成功",
+  "page_count":0,
+  "rows":[
+    {
+      "cust_id":"3213000001",
+      "cust_name":"",
+      "fee":0.00,
+      "in_org":"浙江永康市公司(321300)",
+      "in_org_bm":"321300",
+      "in_org_bm_new":"321300",
+      "in_org_mc":"浙江永康市公司(321300)",
+      "in_person_id":"8888",
+      "in_person_name":"到达永康",
+      "old_fee":100.00,
+      "order_id":"ORD_01",
+      "out_org":"浙江永康市公司(321300)",
+      "out_org_bm":"321300",
+      "out_org_bm_new":"321300",
+      "out_org_mc":"浙江永康市公司(321300)",
+      "out_org_mc_new":"浙江永康市公司(321300)",
+      "out_org_new":"浙江永康市公司(321300)",
+      "out_person_id":"9999",
+      "out_person_id_new":"0",
+      "out_person_name":"",
+      "out_person_name_new":"",
+      "setl_date":"2025-11-01",
+      "setl_date_old":"2025-11-01",
+      "ticket_id":"4600000000001",
+      "xiaoji":100.00
+    }
+  ],
+  "total":1,
+  "total_pages":0
+}
+
+新建CodReportSettleAmtDetailController来完成上面的curl请求，满足如下要求
+1.代码放在包org.springblade.modules.wdgj.adjustsummary 
+2.按照 controller -> service -> clientWrapper -> client 的调用方式，并将 controller 和 client 的入参、出参类分开。
+3.controller中的入参和出参字段不要使用注解@JsonProperty，使用标准的java命名格式
+3.字段名称注释参照pic目录下的文件 iShot_2025-12-24_13.49.38.png  iShot_2025-12-24_13.49.51.png
+4.controller的入参要继承PageRequest  出参要使用PageResponse<XXXDataResponse, XXXFooterResponse>>
+
+
+CodRefundCustomerFooterClientResponse包含以下字段
+"cust_type":"",
+    "fee_amt_a":"311000.00", //货款金额
+    "fee_amt_b":"6220.00", //服务费 
+    "fee_amt_c":"450.00", //调整金额
+    "fee_amt_d":"303020.00",//返款金额
+    "order_quan":311,//票数
+    "p_id":0,
+    "service_fee":"3110.00"//手续费
+请修改CodRefundCustomerFooterClientResponse
+
+
+curl 'http://10.171.149.243:40045/cod/customer/cod-refund-customer/searchFooter.do?actionId=cod_report_custacountsum_searchFooter&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: SESSION=Zjc1YjY3YjgtZmQ5OS00M2Y2LTg5OGMtMWI4OTUyMmJkNDU3; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=4f2f57ac-7109-4686-9805-e7372a2a318a-1765766024336' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/report/cod_report_custacountsum_list.html' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw '{"rows":"1","page":"100","search_condition":"{\"start_date\":\"2025-11-01\",\"end_date\":\"2025-11-30\",\"pay_start_date\":\"\",\"pay_end_date\":\"\",\"setl_cycl_data\":\"\",\"provinceId\":\"\",\"cityId\":\"\",\"orgCode\":\"321300\",\"order_src_type\":\"\",\"cust_no\":\"\"}"}' \
+  --compressed \
+  --insecure
+
+  CodRefundCustomerClient 中的searchFooter 请求如上，请修改响应的代码
+
+
+CodReportSettleBranchAdjustSummaryController中增加导出功能，需要满足以下
+1.导出的数据来源detailDataService.searchDetailData
+2.导出的是csv格式
+3.excel导出用共通util ExcelExportUtil.exportCsv
+4.导出的excel列名和格式 参照api目录下的 导出_2025-12-22.csv
+
+CodReportSettleBranchAdjustSummaryController中增加导出功能，需要满足以下
+1.导出的数据来源detailDataService.searchDetailData
+2.excel导出用共通util ExcelExportUtil.export
+3.导出的excel列名和格式 参照api目录下的 导出网点调整明细_2025-12-24.xls
+
+
+CodOutRefundController和CodOutRefundTicketInfoController 等都有导出功能 能不能抽成共通代码 简化开发
+
+CodSettleInterceptController 生成后端api接口文档，满足以下要求
+1.入参中登录网点(loginGsId)登录人(loginUserId)不用记录到入参列表中，来源（source）要记录到入参列表中
+2.入参和出参的字段中含有注解@JsonProperty("xx_xx"),入参和出参字段应该是注解中的xx_xx
+3.生成一份api文档
+
+
+4311100000002\n9000000031
+
+
+curl 'http://10.171.149.243:40045/cod/actions/report_settle_amt_detail/searchData.do?actionId=cod_report_settle_amt_detail_searchData&ssid=null' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: SESSION=YTQwNTA2ZDgtYzBlZC00ZmM1LThkNWUtYTI5Mjg4YjlhYWY4; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=4f2f57ac-7109-4686-9805-e7372a2a318a-1765766024336' \
+  -H 'Origin: http://10.171.149.243:40045' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/report/cod_report_settle_adjust_serverAmt_detail_list.html?actionId=cod_report_settle_adjust_serverAmt_detail_list&org_id=%E6%B5%99%E6%B1%9F%E6%B0%B8%E5%BA%B7%E5%B8%82%E5%85%AC%E5%8F%B8(321300)&setl_date=2025-11-01%E8%87%B32025-11-30&fee_flag=adjust_other_amt&adjustFlag=1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw 'search_condition=%7B%22provinceId%22%3A%22%22%2C%22cityId%22%3A%22%22%2C%22orgCode%22%3A%22321300%22%2C%22setl_date1%22%3A%222025-11-01%22%2C%22setl_date2%22%3A%222025-11-01%22%2C%22fleg_data%22%3A%22adjust_other_amt%22%7D&page=1&rows=15' \
+  --compressed \
+  --insecure
+  出参：{
+  "current_page":0,
+  "errorCode":0,
+  "footer":{
+    "fee":0.00,
+    "old_fee":100.00
+  },
+  "msg":"操作成功",
+  "page_count":0,
+  "rows":[
+    {
+      "cust_id":"3213000001",
+      "cust_name":"",
+      "fee":0.00,
+      "in_org":"浙江永康市公司(321300)",
+      "in_org_bm":"321300",
+      "in_org_bm_new":"321300",
+      "in_org_mc":"浙江永康市公司(321300)",
+      "in_person_id":"8888",
+      "in_person_name":"到达永康",
+      "old_fee":100.00,
+      "order_id":"ORD_01",
+      "out_org":"浙江永康市公司(321300)",
+      "out_org_bm":"321300",
+      "out_org_bm_new":"321300",
+      "out_org_mc":"浙江永康市公司(321300)",
+      "out_org_mc_new":"浙江永康市公司(321300)",
+      "out_org_new":"浙江永康市公司(321300)",
+      "out_person_id":"9999",
+      "out_person_id_new":"0",
+      "out_person_name":"",
+      "out_person_name_new":"",
+      "setl_date":"2025-11-01",
+      "setl_date_old":"2025-11-01",
+      "ticket_id":"4600000000001",
+      "xiaoji":100.00
+    }
+  ],
+  "total":1,
+  "total_pages":0
+}
+再根据pic目录下的iShot_2025-12-18_11.35.28.png 和 iShot_2025-12-18_11.35.39.png 的页面显示 给CodSettleInterceptSearchClientRequest 和CodSettleInterceptSearchClientResponse 的字段加上注释
+
+
+CodBusiOrderReturnSignController中的接口/searchData 需要进行改造 你要先理解其中的逻辑
+1.新增加接口/searchData_ex
+2.改造成标准的controller-> service -> mapper(xml) service层 mapper层代码都要重写（使用mybatisplus） sql语句要放在xml文件中
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.分页查询使用mybatisplus的PaginationInnerInterceptor
+6.mapper接口入参大于2个的使用DTO来传递
+7.涉及的表结构在sql目录下
+
+
+CodSettleInterceptController中的接口/interceptData 你要先理解其中的逻辑,并给出能拦截货款 成功和失败 各种关联的sql
+
+
+cod_settle_total
+cod_settle_total_except_reissue
+cod_base_gs_addr_business
+CREATE TABLE `cod_base_gs_addr_business` (
+  `bm` int(8) unsigned NOT NULL DEFAULT '0',
+  `mc` varchar(40) CHARACTER SET gbk DEFAULT NULL,
+  `sjdw` int(8) unsigned NOT NULL DEFAULT '0',
+  `lb` tinyint(2) unsigned NOT NULL DEFAULT '0',
+  `ProvinceID` char(6) CHARACTER SET gbk DEFAULT NULL COMMENT '省ID',
+  `ProvinceName` varchar(100) CHARACTER SET gbk DEFAULT NULL COMMENT '省名称',
+  `CityID` char(6) CHARACTER SET gbk DEFAULT NULL COMMENT '市ID',
+  `CityName` varchar(100) CHARACTER SET gbk DEFAULT NULL COMMENT '市名称',
+  `CountyID` char(6) CHARACTER SET gbk DEFAULT NULL COMMENT '县区（区域）ID',
+  `CountyName` varchar(200) CHARACTER SET gbk DEFAULT NULL COMMENT '县区（区域）名称',
+  `bigarea` varchar(200) DEFAULT '' COMMENT '大区',
+  `ProvinceID_b` char(6) NOT NULL COMMENT '业务省ID',
+  `ProvinceName_b` varchar(100) DEFAULT NULL COMMENT '业务省名称',
+  PRIMARY KEY (`bm`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+INSERT INTO `ydcod`.`cod_base_gs_addr_business` (`bm`, `mc`, `sjdw`, `lb`, `ProvinceID`, `ProvinceName`, `CityID`, `CityName`, `CountyID`, `CountyName`, `bigarea`, `ProvinceID_b`, `ProvinceName_b`) VALUES (321300, '浙江永康市公司', 321300, 2, '330000', '浙江省', '330700', '金华市', '330784', '永康市', '2华东大区', '330002', '浙江浙南区');
+CREATE TABLE `cod_settle_total_except_reissue` (
+  `org_id` int(11) NOT NULL DEFAULT '0' COMMENT '结算公司',
+  `setl_date` date NOT NULL COMMENT '结算日期',
+  `fee_type` int(11) NOT NULL DEFAULT '0' COMMENT '费用类型',
+  `serial_no` varchar(20) NOT NULL COMMENT '业务流水号',
+  `setl_amt` decimal(12,2) DEFAULT '0.00' COMMENT '结算金额',
+  `deil_time` date DEFAULT '2000-01-01' COMMENT '处理时间',
+  `deli_adjust_org_id` int(11) DEFAULT '0' COMMENT '调整新结算网点',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`org_id`,`setl_date`,`fee_type`,`serial_no`) USING BTREE,
+  KEY `idx_setl_date` (`setl_date`) USING BTREE,
+  KEY `idx_deil_time` (`deil_time`) USING BTREE,
+  KEY `idx_adjust_id` (`deli_adjust_org_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='结算异常补发表';
+CREATE TABLE `cod_settle_total` (
+  `org_id` int(11) NOT NULL DEFAULT '0' COMMENT '结算公司',
+  `org_op_type` int(11) DEFAULT '0' COMMENT '公司操作方式',
+  `setl_date` date NOT NULL COMMENT '结算日期',
+  `order_quan` int(11) DEFAULT '0' COMMENT '结算单号量',
+  `fee_type` int(11) NOT NULL DEFAULT '0' COMMENT '费用类型',
+  `setl_amt` decimal(12,2) DEFAULT '0.00' COMMENT '结算金额',
+  `hd_org_id` int(11) DEFAULT '0' COMMENT '管理机构',
+  `create_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '创建时间',
+  `serial_no` varchar(20) NOT NULL COMMENT '业务流水号',
+  `sum_serial_no` bigint(20) DEFAULT '0' COMMENT '汇总流水号',
+  `send_flag` int(11) DEFAULT '0' COMMENT '发送标识',
+  `send_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '发送时间',
+  `error_msg_code` varchar(30) DEFAULT NULL COMMENT '错误信息编码',
+  `ref_serial_no` varchar(20) DEFAULT NULL COMMENT '对账流水号',
+  `send_seq` int(11) DEFAULT '0' COMMENT '发送预付款次数',
+  `ref_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '对账时间',
+  `update_time` datetime DEFAULT '2000-01-01 00:00:00' COMMENT '更新时间',
+  PRIMARY KEY (`org_id`,`setl_date`,`fee_type`,`serial_no`) USING BTREE,
+  KEY `idx_serial_flag_seq` (`serial_no`,`send_flag`,`send_seq`) USING BTREE,
+  KEY `idx_date_flag` (`setl_date`,`send_flag`) USING BTREE,
+  KEY `index_createtime` (`create_time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='结算管理/COD分润汇总'
+/*!50100 PARTITION BY RANGE (TO_DAYS(setl_date))
+(PARTITION p201907 VALUES LESS THAN (737637) ENGINE = InnoDB,
+ PARTITION p201908 VALUES LESS THAN (737668) ENGINE = InnoDB,
+ PARTITION p201909 VALUES LESS THAN (737698) ENGINE = InnoDB,
+ PARTITION p201910 VALUES LESS THAN (737729) ENGINE = InnoDB,
+ PARTITION p201911 VALUES LESS THAN (737759) ENGINE = InnoDB,
+ PARTITION p201912 VALUES LESS THAN (737790) ENGINE = InnoDB,
+ PARTITION p202001 VALUES LESS THAN (737821) ENGINE = InnoDB,
+ PARTITION p202002 VALUES LESS THAN (737850) ENGINE = InnoDB,
+ PARTITION p202003 VALUES LESS THAN (737881) ENGINE = InnoDB,
+ PARTITION p202004 VALUES LESS THAN (737911) ENGINE = InnoDB,
+ PARTITION p202005 VALUES LESS THAN (737942) ENGINE = InnoDB,
+ PARTITION p202006 VALUES LESS THAN (737972) ENGINE = InnoDB,
+ PARTITION p202007 VALUES LESS THAN (738003) ENGINE = InnoDB,
+ PARTITION p202008 VALUES LESS THAN (738034) ENGINE = InnoDB,
+ PARTITION p202009 VALUES LESS THAN (738064) ENGINE = InnoDB,
+ PARTITION p202010 VALUES LESS THAN (738095) ENGINE = InnoDB,
+ PARTITION p202011 VALUES LESS THAN (738125) ENGINE = InnoDB,
+ PARTITION p202012 VALUES LESS THAN (738156) ENGINE = InnoDB,
+ PARTITION p202101 VALUES LESS THAN (738187) ENGINE = InnoDB,
+ PARTITION p202102 VALUES LESS THAN (738215) ENGINE = InnoDB,
+ PARTITION p202103 VALUES LESS THAN (738246) ENGINE = InnoDB,
+ PARTITION p202104 VALUES LESS THAN (738276) ENGINE = InnoDB,
+ PARTITION p202105 VALUES LESS THAN (738307) ENGINE = InnoDB,
+ PARTITION p202106 VALUES LESS THAN (738337) ENGINE = InnoDB,
+ PARTITION p202107 VALUES LESS THAN (738368) ENGINE = InnoDB,
+ PARTITION p202108 VALUES LESS THAN (738399) ENGINE = InnoDB,
+ PARTITION p202109 VALUES LESS THAN (738429) ENGINE = InnoDB,
+ PARTITION p202110 VALUES LESS THAN (738460) ENGINE = InnoDB,
+ PARTITION p202111 VALUES LESS THAN (738490) ENGINE = InnoDB,
+ PARTITION p202112 VALUES LESS THAN (738521) ENGINE = InnoDB,
+ PARTITION p202201 VALUES LESS THAN (738552) ENGINE = InnoDB,
+ PARTITION p202202 VALUES LESS THAN (738580) ENGINE = InnoDB,
+ PARTITION p202203 VALUES LESS THAN (738611) ENGINE = InnoDB,
+ PARTITION p202204 VALUES LESS THAN (738641) ENGINE = InnoDB,
+ PARTITION p202205 VALUES LESS THAN (738672) ENGINE = InnoDB,
+ PARTITION p202206 VALUES LESS THAN (738702) ENGINE = InnoDB,
+ PARTITION p202207 VALUES LESS THAN (738733) ENGINE = InnoDB,
+ PARTITION p202208 VALUES LESS THAN (738764) ENGINE = InnoDB,
+ PARTITION p202209 VALUES LESS THAN (738794) ENGINE = InnoDB,
+ PARTITION p202210 VALUES LESS THAN (738825) ENGINE = InnoDB,
+ PARTITION p202211 VALUES LESS THAN (738855) ENGINE = InnoDB,
+ PARTITION p202212 VALUES LESS THAN (738886) ENGINE = InnoDB,
+ PARTITION p202301 VALUES LESS THAN (738917) ENGINE = InnoDB,
+ PARTITION p202302 VALUES LESS THAN (738945) ENGINE = InnoDB,
+ PARTITION p202303 VALUES LESS THAN (738976) ENGINE = InnoDB,
+ PARTITION p202304 VALUES LESS THAN (739006) ENGINE = InnoDB,
+ PARTITION p202305 VALUES LESS THAN (739037) ENGINE = InnoDB,
+ PARTITION p202306 VALUES LESS THAN (739067) ENGINE = InnoDB,
+ PARTITION p202307 VALUES LESS THAN (739098) ENGINE = InnoDB,
+ PARTITION p202308 VALUES LESS THAN (739129) ENGINE = InnoDB,
+ PARTITION p202309 VALUES LESS THAN (739159) ENGINE = InnoDB,
+ PARTITION p202310 VALUES LESS THAN (739190) ENGINE = InnoDB,
+ PARTITION p202311 VALUES LESS THAN (739220) ENGINE = InnoDB,
+ PARTITION p202312 VALUES LESS THAN (739251) ENGINE = InnoDB,
+ PARTITION p202401 VALUES LESS THAN (739282) ENGINE = InnoDB,
+ PARTITION p202402 VALUES LESS THAN (739311) ENGINE = InnoDB,
+ PARTITION p202403 VALUES LESS THAN (739342) ENGINE = InnoDB,
+ PARTITION p202404 VALUES LESS THAN (739372) ENGINE = InnoDB,
+ PARTITION p202405 VALUES LESS THAN (739403) ENGINE = InnoDB,
+ PARTITION p202406 VALUES LESS THAN (739433) ENGINE = InnoDB,
+ PARTITION p202407 VALUES LESS THAN (739464) ENGINE = InnoDB,
+ PARTITION p202408 VALUES LESS THAN (739495) ENGINE = InnoDB,
+ PARTITION p202409 VALUES LESS THAN (739525) ENGINE = InnoDB,
+ PARTITION p202410 VALUES LESS THAN (739556) ENGINE = InnoDB,
+ PARTITION p202411 VALUES LESS THAN (739586) ENGINE = InnoDB,
+ PARTITION p202412 VALUES LESS THAN (739617) ENGINE = InnoDB,
+ PARTITION p202501 VALUES LESS THAN (739648) ENGINE = InnoDB,
+ PARTITION p202502 VALUES LESS THAN (739676) ENGINE = InnoDB,
+ PARTITION p202503 VALUES LESS THAN (739707) ENGINE = InnoDB,
+ PARTITION p202504 VALUES LESS THAN (739737) ENGINE = InnoDB,
+ PARTITION p202505 VALUES LESS THAN (739768) ENGINE = InnoDB,
+ PARTITION p202506 VALUES LESS THAN (739798) ENGINE = InnoDB,
+ PARTITION p202507 VALUES LESS THAN (739829) ENGINE = InnoDB,
+ PARTITION p202508 VALUES LESS THAN (739860) ENGINE = InnoDB,
+ PARTITION p202509 VALUES LESS THAN (739890) ENGINE = InnoDB,
+ PARTITION p202510 VALUES LESS THAN (739921) ENGINE = InnoDB,
+ PARTITION p202511 VALUES LESS THAN (739951) ENGINE = InnoDB,
+ PARTITION p202512 VALUES LESS THAN (739982) ENGINE = InnoDB,
+ PARTITION PMAX VALUES LESS THAN MAXVALUE ENGINE = InnoDB) */;
+ 上面是涉及的表结构
+ 根据CodReportSettleBranchAdjustSummaryDaoImpl中的generateQuerySql1 的sql逻辑 造30条测试数据覆盖所有的条件
+ 1.网点 都设置为 321300
+2.表中的时间字段 设置为2025年11月
+
+
+表结构在sql目录下
+根据CodReportSettleBranchAdjustSummaryDaoImpl中的generateQuerySqlOrgDetail 的sql逻辑 造30条测试数据覆盖所有的条件
+如果涉及的表结构不存在请问下我
+ 1.网点 都设置为 321300
+2.表中的时间字段 设置为2025年11月
+
+
+
+SELECT
+  * 
+FROM
+  (
+  SELECT
+    pro.order_id order_id,
+    pro.ticket_id ticket_id,
+    DATE_FORMAT( pro.create_time, '%Y-%m-%d' ) setl_date,
+    pro.old_in_org_id in_org_bm,
+    pro.old_out_org_id out_org_bm,
+    pro.in_org_id in_org_bm_new,
+    pro.out_org_id out_org_bm_new,
+    bu.in_person in_person_id,
+    bu.out_person out_person_id,
+    pro.cust_id cust_id,
+    pro.profit_date setl_date_old,
+    '0' AS out_person_id_new,
+    SUM(
+    IF
+    ( fe.fee_type = 21 AND fe.fee_obj = 1, fe.just_fee_amt, 0 )) old_fee,
+    SUM(
+    IF
+    ( fe.fee_type = 121 AND fe.fee_obj = 1, fe.just_fee_amt, 0 )) fee,
+    SUM(
+    IF
+      ( fe.fee_type = 21 AND fe.fee_obj = 1, fe.just_fee_amt, 0 ))- SUM(
+    IF
+    ( fe.fee_type = 121 AND fe.fee_obj = 1, fe.just_fee_amt, 0 )) xiaoji 
+  FROM
+    cod_settle_profit_just pro
+    LEFT JOIN cod_settle_goods_fee_just s ON pro.ticket_id = s.ticket_id
+    LEFT JOIN cod_busi_ticket bu ON pro.ticket_id = bu.ticket_id
+    LEFT JOIN cod_settle_fee_just fe ON pro.ticket_id = fe.ticket_id 
+  WHERE
+    pro.out_org_id = ? 
+    AND DATE_FORMAT( pro.create_time, '%Y-%m-%d' ) >= ? 
+    AND DATE_FORMAT( pro.create_time, '%Y-%m-%d' ) <= ? 
+  GROUP BY
+  pro.out_org_id 
+  ) a
+
+表结构在sql目录下
+根据上面的sql逻辑 造30条测试数据覆盖所有的条件
+如果涉及的表结构不存在请问下我
+1.网点 都设置为 321300，org_id 及sjdw 都设置为321300
+2.表中的时间字段 设置为2025年11月
+3.需要重复测试 应该生成删除语句
+5.ticket_id使用韵达的单号
+6.客户id设置为321300加上4位数字
+3.客户信息为 （红薯（3213006688)
+23(3213008006)
+宏发(321300909920)
+3.
+
+
+
