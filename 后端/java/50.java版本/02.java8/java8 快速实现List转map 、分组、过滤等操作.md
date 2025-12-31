@@ -61,31 +61,28 @@ Map<Integer, Apple> appleMap = appleList.stream().collect(Collectors.toMap(Apple
 3、过滤Filter
 从集合中过滤出来符合条件的元素：
 
-
+```java
 //过滤出符合条件的数据
 List<Apple> filterList = appleList.stream().filter(a -> a.getName().equals("香蕉")).collect(Collectors.toList());
  
 System.err.println("filterList:"+filterList);
 [Apple{id=2, name='香蕉', money=2.89, num=30}]
-运行项目并下载源码
-java
-运行
+```
 
 4.求和
 将集合中的数据按照某个属性求和:
 
+```java
 //计算 总金额
 BigDecimal totalMoney = appleList.stream().map(Apple::getMoney).reduce(BigDecimal.ZERO, BigDecimal::add);
 System.err.println("totalMoney:"+totalMoney);  //totalMoney:17.48
-运行项目并下载源码
-java
-运行
+```
 
 
 5.查找流中最大 最小值
 Collectors.maxBy 和 Collectors.minBy 来计算流中的最大或最小值。
 
-
+```java
 Optional<Dish> maxDish = Dish.menu.stream().
       collect(Collectors.maxBy(Comparator.comparing(Dish::getCalories)));
 maxDish.ifPresent(System.out::println);
@@ -93,12 +90,11 @@ maxDish.ifPresent(System.out::println);
 Optional<Dish> minDish = Dish.menu.stream().
       collect(Collectors.minBy(Comparator.comparing(Dish::getCalories)));
 minDish.ifPresent(System.out::println);
-运行项目并下载源码
-java
-运行
-
+```
 
 6.去重
+
+```java
 import static java.util.Comparator.comparingLong;
 import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.toCollection;
@@ -108,9 +104,7 @@ import static java.util.stream.Collectors.toCollection;
                 collectingAndThen(
                         toCollection(() -> new TreeSet<>(comparingLong(Apple::getId))), ArrayList::new)
         );
-运行项目并下载源码
-java
-运行
+```
 
 
 
