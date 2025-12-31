@@ -58,6 +58,7 @@ List<String> uniqueCharacters =
 你可以使用两个map来迭代这两个列表，并生成数对。但这样会返回一个Stream-<Stream<Integer[]>>。你需要让生成的流扁平化，以得到一个Stream<Integer[]>。这
 正是flatMap所做的：
 
+```java
 List<Integer> numbers1 = Arrays.asList(1, 2, 3); 
 List<Integer> numbers2 = Arrays.asList(3, 4); 
 List<int[]> pairs = numbers1.stream() 
@@ -65,6 +66,7 @@ List<int[]> pairs = numbers1.stream()
 							.map(j -> new int[]{i, j}) 
 						) 
  					.collect(toList());
-————————————————
+```
+
 版权声明：本文为CSDN博主「杨幂等」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/Xumuyang_/article/details/120951979
