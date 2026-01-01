@@ -1,0 +1,10 @@
+
+yt-dlp -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" "https://www.instagram.com/reel/DQJtmLYD600/?igsh=MWttMTZrMjRnNnlzeQ==" --merge-output-format mp4
+
+yt-dlp -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]" --cookies-from-browser chrome --merge-output-format mp4 "https://www.youtube.com/watch?v=0yJrqGpBUv4"
+
+yt-dlp -F "https://www.youtube.com/watch?v=sJtLOuEVwKo"
+
+yt-dlp -S "proto,ext:mp4:m4a,res,br" https://www.instagram.com/reel/DQJtmLYD600/?igsh=MWttMTZrMjRnNnlzeQ==
+
+yt-dlp "https://www.instagram.com/reel/DKBCiiTzrtA/?igsh=dnFueWs2OHczdWZ0" --no-playlist
