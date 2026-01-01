@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +207,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b8ac0e04e16c4b8d",
+  "active": "3751d82968cb69f3",
   "lastOpenFiles": [
     "工具/ytdlp/yt-dlp使用命令.txt",
     "工具/ytdlp",
