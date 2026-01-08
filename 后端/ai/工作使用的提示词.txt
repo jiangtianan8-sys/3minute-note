@@ -337,21 +337,21 @@ curl 'http://10.171.149.243:40045/cod/customer/cod-refund-customer/searchFooter.
   CodRefundCustomerClient 中的searchFooter 请求如上，请修改响应的代码
 
 
-CodReportSettleBranchAdjustSummaryController中增加导出功能，需要满足以下
-1.导出的数据来源detailDataService.searchDetailData
+CodReportSettleBranchAdjustSummaryDetailController中增加导出功能，需要满足以下
+1.导出的数据来源summaryDetailExService.querySettleBranchAdjustSummaryDetail
 2.导出的是csv格式
 3.excel导出用共通util ExcelExportUtil.exportCsv
-4.导出的excel列名和格式 参照api目录下的 导出_2025-12-22.csv
+4.导出的excel列名和格式 参照api目录下的 导出网点日期明细_2026-01-07.csv
 
-CodReportSettleBranchAdjustSummaryController中增加导出功能，需要满足以下
-1.导出的数据来源detailDataService.searchDetailData
+CodReportSettleBranchAdjustSummaryDetailController中增加导出功能，需要满足以下
+1.导出的数据来源summaryDetailExService.querySettleBranchAdjustSummaryDetail
 2.excel导出用共通util ExcelExportUtil.export
-3.导出的excel列名和格式 参照api目录下的 导出网点调整明细_2025-12-24.xls
+3.导出的excel列名和格式 参照api目录下的 导出网点日期明细_2026-01-07.csv
 
 
 CodOutRefundController和CodOutRefundTicketInfoController 等都有导出功能 能不能抽成共通代码 简化开发
 
-CodSettleInterceptController 生成后端api接口文档，满足以下要求
+CodReportSettleBranchAdjustSummaryController,CodReportSettleAmtDetailController,CodReportSettleBranchAdjustSummaryDetailController 生成后端api接口文档，满足以下要求
 1.入参中登录网点(loginGsId)登录人(loginUserId)不用记录到入参列表中，来源（source）要记录到入参列表中
 2.入参和出参的字段中含有注解@JsonProperty("xx_xx"),入参和出参字段应该是注解中的xx_xx
 3.生成一份api文档
@@ -824,9 +824,56 @@ CREATE TABLE `ywy` (
 8.mapper接口入参大于2个的使用DTO来传递
 
 
-1.新增加接口/verifyOperator_ex
-2.改造成标准的controller-> service -> mapper(xml) service层 mapper层代码都要重写（使用mybatisplus） sql语句要放在xml文件中
-3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
-4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
-5.分页查询使用mybatisplus的PaginationInnerInterceptor
-6.mapper接口入参大于2个的使用DTO来传递
+SELECT
+  a.ticket_id,
+  b.order_src_type,
+  b.order_id,
+  b.cust_id,
+  b.order_branch,
+  b.goods_amt,
+  b.order_time,
+  a.first_scan_time,
+  a.first_problem_desc,
+  a.first_problem_org,
+  a.scan_time,
+  a.problem_desc,
+  a.handle_status,
+  b.order_status,
+  CONCAT( b.rece_addinfo, b.rece_addr ) AS rece_addr,
+  b.receiver,
+CASE
+    
+    WHEN ISNULL( b.rece_mobile ) || LENGTH(
+      trim( b.rece_mobile ))< 1 THEN
+      b.rece_tel ELSE b.rece_mobile 
+    END AS rece_tel,
+    a.call_status,
+    cu.cust_vip_type,
+    a.feedback_type,
+    a.create_time 
+  FROM
+    cod_busi_ticket_question a
+    INNER JOIN cod_busi_order b ON a.ticket_id = b.ticket_id
+    LEFT JOIN cod_base_gs_addr c ON c.bm = b.order_branch
+    LEFT JOIN cod_base_gs_addr e ON e.bm = a.first_problem_org
+    LEFT JOIN cod_base_cust cu ON b.cust_id = cu.cust_id
+    LEFT JOIN cod_busi_ticket_question_call_log d ON a.ticket_id = d.mailNumber 
+  WHERE
+    b.cust_id = ? 
+    AND b.order_time <= ? AND cu.cust_vip_type = ? AND problem_desc = ? AND a.first_scan_time >= ? 
+    AND a.ticket_id = ? 
+    AND b.order_status = ? 
+    AND a.scan_time >= ? 
+    AND a.scan_time <= ? 
+    AND a.call_status = ? 
+    AND a.first_scan_time <= ? AND b.order_time >= ? 
+    AND a.handle_status = ? 
+    AND b.order_id = ? 
+    AND a.feedback_type = ? 
+    AND ((
+        c.sjdw = ? 
+        AND c.lb <> 22 
+        ) 
+    OR ( e.sjdw = 321300 AND e.lb <> 22 )) 
+  ORDER BY
+    b.order_time 
