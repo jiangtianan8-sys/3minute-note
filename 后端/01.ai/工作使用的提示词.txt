@@ -276,32 +276,24 @@ CREATE TABLE `cod_settle_intercept` (
 
 
 
-curl 'http://10.171.149.243:40045/cod/actions/busi_order_return_sign/batchUpdateData.do?actionId=cod_busi_order_return_sign_batchUpdateData&ssid=null' \
+curl 'http://10.171.149.243:40045/cod/actions/busi_ticket_question_new/changeAddr.do?actionId=cod_busi_ticket_question_new_changeAddr&ssid=null' \
   -H 'Accept: application/json, text/javascript, */*; q=0.01' \
   -H 'Accept-Language: zh-CN,zh;q=0.9' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/json' \
-  -H 'Cookie: SESSION=NDJkMjYzZWQtODViMC00MGQzLWE4ZjUtZmM2OTU5NmJhZmUy; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=4f2f57ac-7109-4686-9805-e7372a2a318a-1765766024336' \
+  -H 'Cookie: SESSION=MzIxMzI2ZWYtMzk0OS00YjQzLWFkYWItYzUyOWMxNmJlYTRl; SETTING={%22theme%22:%22#1890ff%22%2C%22sideTheme%22:%22light%22%2C%22showSettings%22:false%2C%22tagsView%22:true%2C%22fixedHeader%22:true%2C%22sidebarLogo%22:true%2C%22menuDrag%22:true%2C%22menuWidth%22:%22220%22}; ydcod_cip_sessionid=26c989e2-cab7-4e14-b155-74f681a3cf83-1768284302206' \
   -H 'Origin: http://10.171.149.243:40045' \
-  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/busi/cod_busi_order_return_sign_update_form.html?actionId=cod_busi_order_return_sign_update_form&ticket_id=4600000000001&order_branch=%E6%B5%99%E6%B1%9F%E6%B0%B8%E5%BA%B7%E5%B8%82%E5%85%AC%E5%8F%B8(321300)&tableId=cod_busi_order_return_sign_list&refActionId=cod_busi_order_return_sign_batchSignUrl' \
+  -H 'Referer: http://10.171.149.243:40045/cod/ui/view/busi/cod_busi_ticket_question_changeAddr_from.html?actionId=cod_busi_ticket_question_changeAddr_from&orderId=ORD202512000001&ticketId=4320000000000001&custId=3213006688&goodsAmt=100.00&tableId=cod_busi_ticket_question_new_list' \
   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
   -H 'X-Requested-With: XMLHttpRequest' \
-  --data-raw '{"ticket_id":"4600000000001","order_branch":"浙江永康市公司(321300)","return_sign_id":"浙江永康市公司(321300)","return_sign_salesman":"1004","return_sign_type":"20"}' \
+  --data-raw '{"ticket_id":"4320000000000001","after_name":"姓名1","after_telephone":"13823237865","after_area":"上海市(沪)市辖区青浦区","after_address":"香花桥街道盈港东路6679号韵达总部"}' \
   --compressed \
   --insecure
 
-  出参：{
-  "data":{
-    "get":1,
-    "ticketLength":1,
-    "send":1
-  },
-  "errorCode":0,
-  "msg":"操作成功"
-}
 
-在CodBusiOrderReturnSignController来完成上面的curl请求，满足如下要求
-1.代码放在包org.springblade.modules.wdgj.returnsign
+
+在CodBusiTicketQuestionNewController来完成上面的curl请求，满足如下要求
+1.代码放在包org.springblade.modules.wdgj.ticketquestion
 2.按照 controller -> service -> clientWrapper -> client 的调用方式，并将 controller 和 client 的入参、出参类分开。
 3.controller中的入参和出参字段不要使用注解@JsonProperty，使用标准的java命名格式
 3.字段名称注释参照pic目录下的文件 iShot_2025-12-25_15.57.35.png
@@ -337,21 +329,21 @@ curl 'http://10.171.149.243:40045/cod/customer/cod-refund-customer/searchFooter.
   CodRefundCustomerClient 中的searchFooter 请求如上，请修改响应的代码
 
 
-CodReportSettleBranchAdjustSummaryDetailController中增加导出功能，需要满足以下
-1.导出的数据来源summaryDetailExService.querySettleBranchAdjustSummaryDetail
+CodBusiOrderReturnSignController中增加导出功能，需要满足以下
+1.导出的数据来源orderReturnSignService.searchData
 2.导出的是csv格式
 3.excel导出用共通util ExcelExportUtil.exportCsv
-4.导出的excel列名和格式 参照api目录下的 导出网点日期明细_2026-01-07.csv
+4.导出的excel列名和格式 参照doc/api目录下的 导出退回件一键签收报表_2026-01-12.csv
 
-CodReportSettleBranchAdjustSummaryDetailController中增加导出功能，需要满足以下
-1.导出的数据来源summaryDetailExService.querySettleBranchAdjustSummaryDetail
+CodBusiOrderReturnSignController中增加导出功能，需要满足以下
+1.导出的数据来源orderReturnSignService.searchData
 2.excel导出用共通util ExcelExportUtil.export
 3.导出的excel列名和格式 参照api目录下的 导出网点日期明细_2026-01-07.csv
 
 
 CodOutRefundController和CodOutRefundTicketInfoController 等都有导出功能 能不能抽成共通代码 简化开发
 
-CodReportSettleBranchAdjustSummaryController,CodReportSettleAmtDetailController,CodReportSettleBranchAdjustSummaryDetailController 生成后端api接口文档，满足以下要求
+CodBusiOrderReturnSignController 生成后端api接口文档，满足以下要求
 1.入参中登录网点(loginGsId)登录人(loginUserId)不用记录到入参列表中，来源（source）要记录到入参列表中
 2.入参和出参的字段中含有注解@JsonProperty("xx_xx"),入参和出参字段应该是注解中的xx_xx
 3.生成一份api文档
@@ -608,6 +600,16 @@ CREATE TABLE `cod_settle_total` (
  1.网点 都设置为 321300
 2.表中的时间字段 设置为2025年11月
 
+表结构在sql目录下
+根据表cod_busi_ticket_all结构 造满足下面的数据
+如果涉及的表结构不存在请问下我
+1.揽件站点设置为 浙江永康市公司(321300)
+  派件站点设置为 广东东莞虎门公司(511734)
+2.表中的时间字段 设置为2025年12月
+3.运单号 为4320000000000001 到 4320000000000050
+
+
+查找下 所有CodBusiTicketQuestionNewController的接口的调用中是否有 CIPRuntime.getOperateSubject() 这个代码 并找出具体的类和行数
 
 
 SELECT a.ticket_id,b.order_id,b.cust_id,b.order_branch,b.order_time,a.out_time,a.out_org,a.dist_employee,a.dist_time,a.dist_org,a.sign_employee,a.sign_time,a.sign_org,a.r9_dist_org,a.r9_sign_org,a.r9_sign_type,a.send_status,b.order_status,d.cust_vip_type,a.deal_time from cod_busi_order_return_sign a INNER JOIN cod_busi_order b on a.ticket_id = b.ticket_id LEFT JOIN ydserver.gs c on a.out_org = c.bm  LEFT JOIN cod_base_cust d on d.cust_id=b.cust_id  where  c.sjdw = ? and b.order_time >= ? and b.order_time <= ? and send_status = ?  ORDER BY order_time 
@@ -874,6 +876,396 @@ CASE
         c.sjdw = ? 
         AND c.lb <> 22 
         ) 
-    OR ( e.sjdw = 321300 AND e.lb <> 22 )) 
+    OR ( e.sjdw = ? AND e.lb <> 22 )) 
   ORDER BY
     b.order_time 
+表结构在sql目录下
+根据上面的sql逻辑 造50条测试数据覆盖所有的条件
+如果涉及的表结构不存在请问下我
+1.cod_busi_order中的order_branch 设置为 321300(浙江永康市公司)，511734(广东东莞虎门公司)
+  cod_busi_ticket_question表中的first_problem_org设置为 321300(浙江永康市公司)，511734(广东东莞虎门公司)
+2.表中的时间字段 设置为2025年12月
+3.需要重复测试 应该生成删除语句
+4.ticket_id使用韵达的单号
+5.如果有客户信息的话使用 客户信息为 
+红薯（3213006688)
+23(3213008006)
+宏发(321300909920)
+6.需要重复测试 请写上删除语句
+7.表cod_base_gs_addr cod_base_cust数据已经有了 不用创建
+8.cod_busi_order表中的order_status为
+  滞留件 9
+  运输中 3
+  已签收 4
+  退回中 5
+  退回签收 8
+  运输中 H
+  已结算待返款 J
+9.cod_busi_ticket_question表中的handle_status为
+  已处理 1
+  未处理 0
+10.cod_busi_ticket_question表中的problem_desc为
+  客户拒收
+  退回件
+  送去无人，客户手机联系不上
+  错发件
+  超区
+  地址不详
+  扫描件未到
+  异常到付
+  其他
+
+
+在org.springblade.modules.wdgj.ticketquestion.consts包下 创建enmu  FeedBackTypeEnmu
+  反馈状态：0.未反馈 1.网点已反馈 2.总部通过 3.总部驳回
+
+
+新建CodBusiTicketQuestionNewController 增加 /wdgj//busi_ticket_question_new/searchData 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.分页查询使用mybatisplus的PaginationInnerInterceptor
+6.mapper接口入参大于2个的使用DTO来传递
+7.查询的sql为：
+SELECT
+  a.ticket_id,
+  b.order_src_type,
+  b.order_id,
+  b.cust_id,
+  b.order_branch,
+  b.goods_amt,
+  b.order_time,
+  a.first_scan_time,
+  a.first_problem_desc,
+  a.first_problem_org,
+  a.scan_time,
+  a.problem_desc,
+  a.handle_status,
+  b.order_status,
+  CONCAT( b.rece_addinfo, b.rece_addr ) AS rece_addr,
+  b.receiver,
+CASE
+    
+    WHEN ISNULL( b.rece_mobile ) || LENGTH(
+      trim( b.rece_mobile ))< 1 THEN
+      b.rece_tel ELSE b.rece_mobile 
+    END AS rece_tel,
+    a.call_status,
+    cu.cust_vip_type,
+    a.feedback_type,
+    a.create_time 
+  FROM
+    cod_busi_ticket_question a
+    INNER JOIN cod_busi_order b ON a.ticket_id = b.ticket_id
+    LEFT JOIN cod_base_gs_addr c ON c.bm = b.order_branch
+    LEFT JOIN cod_base_gs_addr e ON e.bm = a.first_problem_org
+    LEFT JOIN cod_base_cust cu ON b.cust_id = cu.cust_id
+    LEFT JOIN cod_busi_ticket_question_call_log d ON a.ticket_id = d.mailNumber 
+  WHERE
+    b.cust_id = ? 
+    AND b.order_time <= ? AND cu.cust_vip_type = ? AND problem_desc = ? AND a.first_scan_time >= ? 
+    AND a.ticket_id = ? 
+    AND b.order_status = ? 
+    AND a.scan_time >= ? 
+    AND a.scan_time <= ? 
+    AND a.call_status = ? 
+    AND a.first_scan_time <= ? AND b.order_time >= ? 
+    AND a.handle_status = ? 
+    AND b.order_id = ? 
+    AND a.feedback_type = ? 
+    AND ((
+        c.sjdw = ? 
+        AND c.lb <> 22 
+        ) 
+    OR ( e.sjdw = ? AND e.lb <> 22 )) 
+  ORDER BY
+    b.order_time 
+8. controller的入参为
+   {"cust_id":"","scan_strDate":"2025-12-01 00:00:00","scan_endDate":"2025-12-31 23:59:59","order_status":"","handle_status":"","ticket_id":"","strDate":"2025-12-01 00:00:00","endDate":"2025-12-31 00:00:00","order_id":"","problem_desc":"","frist_scan_strDate":"","frist_scan_endDate":"","call_status":"","cust_vip_type":"","feedback_type":""}
+   controller的出参为
+  {
+      "call_status":"未拨打(短信未发送)",
+      "create_time":"2025-12-01 10:00:00.0",
+      "cust_id":"3213006688",
+      "cust_vip_type":"普通客户",
+      "feedback_type":"未反馈",
+      "first_problem_desc":"客户拒收",
+      "first_problem_org":"浙江永康市公司(321300)",
+      "first_scan_time":"2025-12-01 09:30:00.0",
+      "goods_amt":"100.00",
+      "handle_status":"未处理",
+      "order_branch":"321300",
+      "order_id":"ORD202512000001",
+      "order_src_type":"1",
+      "order_status":"滞留件",
+      "order_time":"2025-12-01 09:00:00.0",
+      "problem_desc":"客户拒收",
+      "rece_addr":"浙江省金华市永康市永康市某街道1号",
+      "rece_tel":"13800000001",
+      "receiver":"张三",
+      "scan_time":"2025-12-01 10:00:00.0",
+      "ticket_id":"4320000000000001"
+    }
+    字段名称参照图片 pic目录下的iShot_2026-01-07_14.19.53.png
+  9. 入参和出参的 字段都要标准的驼峰命名方式
+
+
+SELECT abnormal_operation_type,operator,create_time,result FROM cod_busi_ticket_question_log where ticket_id = ?
+表结构在sql目录下
+根据上面的sql逻辑 测试数据覆盖所有的条件
+如果涉及的表结构不存在请问下我
+1.运单号为 4320000000000001 至 4320000000000050
+2.时间设置为2025-12
+3.4320000000000001的条数需要30条 
+4.需要重复测试 请写上删除语句
+
+
+在CodBusiTicketQuestionNewController 增加 /wdgj/busi_ticket_question_new/changeInfo 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.分页查询参照SettleBranchAdjustSummaryDetailMapper.querySettleBranchAdjustSummaryDetailPage
+6.mapper接口入参大于2个的使用DTO来传递
+9.表结构在sql目录下，一个表对应一个mapper
+
+10. controller的入参为
+  {
+  "ticket_id": "4320000000000001",
+  "after_name": "姓名1",
+  "after_telephone": "13823237865"
+}
+   controller的出参为
+  {
+      "changeCount":1
+    }
+11. 入参和出参的 字段都要标准的驼峰命名方式
+12. 主要的逻辑为
+    1)修改的运单号下单网点是否是登录网点
+      orderMapper.selectByTicketId 来获取订单信息
+      a）登录网点和订单信息中的下单地址不一致
+        抛出异常 BizException("非本公司发出单号，无权限操作!")
+    2)获取订单数据
+      SELECT receiver,rece_tel,rece_mobile,rece_addinfo,rece_addr FROM cod_busi_order where ticket_id = ?
+     
+    3）获取发送站点协同部分信息
+    SELECT ticket_id as order_no,
+    case when ISNULL(in_org_id) || in_org_id=0 then order_branch else in_org_id end AS registration_site,
+    case when ISNULL(in_org_id) || in_org_id=0 then order_branch else in_org_id end AS registration_gh FROM cod_busi_ticket_all where ticket_id = ? 
+    4）获取问题件派件站点
+       a）SELECT scan_site as deal_site FROM cod_scan_info where doc_id = ? and scan_type in ('13','24') order by create_time desc limit 1 
+         获取的件数= 1 就返回数据
+       b)SELECT scan_site as deal_site FROM cod_scan_info where doc_id = ? and scan_type ='10' order by create_time desc limit 1 
+         获取的件数= 1 就返回数据
+       c）返回null
+    5）拼接数据 http post请求调用
+      “Content-Type”："application/json;charset=utf-8"
+      “UTF-8”
+      入参：{
+         "deal_site": "321300" //接收站点(派件站点)
+         "Order_type": ""
+      }
+
+
+在CodBusiTicketQuestionNewController 增加 /wdgj/busi_ticket_question_new/changePrice 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.分页查询参照SettleBranchAdjustSummaryDetailMapper.querySettleBranchAdjustSummaryDetailPage
+6.mapper接口入参大于2个的使用DTO来传递
+9.表结构在sql目录下，一个表对应一个mapper
+
+10. controller的入参为
+{
+  "ticket_id": "4320000000000009",
+  "before_amt": "250.00",
+  "after_amt": "249.00"
+}
+   controller的出参为
+  {
+      "changeCount":1
+    }
+11. 入参和出参的 字段都要标准的驼峰命名方式
+12. 主要的逻辑为
+    1)修改的运单号下单网点是否是登录网点
+      orderMapper.selectByTicketId 来获取订单信息
+      a）登录网点和订单信息中的下单地址不一致
+        抛出异常 BizException("非本公司发出单号，无权限操作!")
+    2)查询单号是否已经支付
+      select business_no as ticketId from cod_busi_order_wechat_pay where pay_status='P' and business_no=? union all 
+      select bill_no as ticketId from cod_busi_order_alipay where pay_status='P' and bill_no=?
+      a)已支付 抛出异常 BizException("该订单已被线上支付，无法改价!")
+    3)获取发送站点协同部分信息
+      SELECT ticket_id as order_no,
+      case when ISNULL(in_org_id) || in_org_id=0 then order_branch else in_org_id end AS registration_site,
+      case when ISNULL(in_org_id) || in_org_id=0 then order_branch else in_org_id end AS registration_gh FROM cod_busi_ticket_all where ticket_id = ? 
+      a)查询的件数 >= 1 返回第一条数据
+      b）查询的件数 =0 返回null
+    4）拼接数据 http post请求调用（使用Retrofit）
+       请求地址：cod.question.zdxt.url（配置项）
+       service -> clientWrapper -> client 的调用方式，并将 service 和 client 的入参、出参类分开。
+      “Content-Type”："application/json;charset=utf-8"
+      “UTF-8”
+      入参：{
+         "deal_site": "321300" //接收站点(派件站点)
+         "order_type": "230" //配置项：zdxt.price.revision.code
+         "registration_user":  //3)中获取的registration_gh
+         “order_state” //"贵司你好，此件代收金额由" + before_amt + "元改为" + after_amt + "元，请你司按照修改后金额进行收取";
+      } 
+      出参：{
+         "code": //返回码 , 0表示成功
+         "msg": //返回信息
+         "data": //返回值
+      }
+
+
+
+    
+
+在CodBusiTicketQuestionNewController 增加 /wdgj/busi_ticket_question_new/getLog 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.不用分页查询，查询出所有结果
+6.mapper接口入参大于2个的使用DTO来传递
+7.查询的sql为：
+SELECT abnormal_operation_type,operator,create_time,result FROM cod_busi_ticket_question_log where ticket_id = ?
+8.表结构在sql目录下，一个表对应一个mapper
+
+9. controller的入参为
+   ticketId 
+   controller的出参为
+  {
+      "abnormal_operation_type":"MODIFY_RECEIPT_ADDRESS",
+      "abnormal_operation_type_name":"修改收件地址",
+      "create_time":"2025-12-01 10:00:00.0",
+      "operator":"张三",
+      "result":"修改成功"
+    }
+11. 入参和出参的 字段都要标准的驼峰命名方式
+12. 出参的abnormal_operation_type 是如下枚举
+    ALL("ALL", "全部"),
+    BACK("BACK", "退回"),
+    MODIFY_RECEIPT_ADDRESS("MODIFY_RECEIPT_ADDRESS", "修改收件地址"),
+    MODIFY_RECEIPT_INFORMATION("MODIFY_RECEIPT_INFORMATION", "修改收件信息"),
+    PRICE_REVISION("PRICE_REVISION", "改价"),
+    SEND_AGAIN("SEND_AGAIN","再派");
+
+
+CacheDataDao和CacheDataDaoImpl改造成mybatisplus，之前的代码不动，新写代码
+1.放在包org.springblade.modules.wdgj.common.cache下
+2.标准的mybatisplus，一张表对应一个mapper，xml
+3.xml文件和mapper文件放在同一个mapper包下，对应的entity放在mapper.entity包下
+4.多张表关联的查询新开一个mapper，xml
+5.分页查询参照SettleBranchAdjustSummaryDetailMapper.querySettleBranchAdjustSummaryDetailPage
+6.mapper接口入参大于2个的使用DTO来传递
+
+
+在CodBusiTicketQuestionNewController 增加 /wdgj/busi_ticket_question_new/addData 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下 service要新建类
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.mapper接口入参大于2个的使用DTO来传递
+6.表结构在sql目录下，一个表对应一个mapper，entity放在mapper.entity包下，要满足mybatisplus的规范 列出所有的表字段
+  多表查询的话 sql语句放在主表的mapper下
+7. controller的入参为
+   ticketId 
+8. 入参和出参的 字段都要标准的驼峰命名方式
+9. 主要的逻辑为
+   1）判断问题件是否存在
+     select ticket_id, scan_time, problem_desc from cod_busi_ticket_question where ticket_id = ?
+     a) 存在 返回 运单已在问题件报表
+   2）判断订单是否存在
+     select ticket_id as ticketId, order_branch as orderBranch, cust_id as custId, order_status as orderStatus from cod_busi_order where ticket_id = ?
+     a）不存在 返回 运单不存在，不能添加问题件
+   3）从步骤2）中返回的 下单网点和登录网点是否一致
+     a）不一致 返回 非本网点运单，不能添加问题件
+   4）从步骤2）中返回的custId 在表cod_base_cust是否存在
+     select * from cod_base_cust
+   5）判断运单对应客户是否属于本网点
+      从步骤2）中返回的下单网点 和4）中返回的客户信息中的所属站点（cust_site）是否一致
+     a）不一致 返回 运单对应客户不属于本网点，不能添加问题件
+   6）订单状态判断 
+      从2）中返回的orderStatus不满足如下 返回 运单已签收，不能添加问题件
+      ALREADY_SIGNED("4", "已签收")
+      SETTLED_TO_BE_RETURNED("6", "已结算待返款")
+      SETTLEMENT("7", "结算中")
+      RETURNED_MONEY("B", "已返款")
+    7）增加问题件
+      表cod_busi_ticket_question 增加一条记录
+      ticket_id 设置为入参的ticket_id
+      scan_type 设置为 “000”
+      scan_time,create_time,update_time 设置为当前时间
+      problem_desc 设置为 添加问题件
+      handle_status 设置为 HandleStatusEnum.UNHANDLED
+
+新建Controller 增加 /wdgj/common/queryGsInfo 接口
+1.放在包org.springblade.modules.wdgj.ydserver下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.分页查询参照SettleBranchAdjustSummaryDetailMapper.querySettleBranchAdjustSummaryDetailPage
+6.mapper接口入参大于2个的使用DTO来传递
+7.表结构在sql目录下，一个表对应一个mapper
+  涉及的表 gs county city province
+8. controller的入参为
+    orgCode
+   controller的出参为
+{
+    "address":"东莞市东莞市虎门镇永业楼19号",
+    "area":"3华南大区",
+    "city":"东莞市",
+    "contactway":"",
+    "county":"市辖区",
+    "orgCode":511734,
+    "orgName":"广东东莞虎门公司",
+    "orgState":1,
+    "orgType":2,
+    "owner":"",
+    "province":"广东省",
+    "responser":"",
+    "runType":1,
+    "superOrgCode":511734
+  }
+9. 入参和出参的 字段都要标准的驼峰命名方式
+10. 主要逻辑 根据网点编码获取网点的信息
+   SELECT t.bm as orgCode,t.mc as orgName,t.dz as orgAddress,t.lxdh as orgTel,t.frdb as orgOwner,t.fzr as orgResponser,t.lb as orgType,t.sjgs as orgStatus,t.jyfs as runType,t.sjdw as orgSuperCode,p.bigarea,p.ProvinceName,c.CityName,u.CountyName 
+            FROM ydserver.gs t 
+            LEFT JOIN ydserver.county u ON t.szd=u.CountyID 
+            LEFT JOIN ydserver.city c on u.CityID=c.CityID 
+            LEFT JOIN ydserver.province p ON c.ProvinceID=p.ProvinceID 
+            WHERE t.bm=?
+
+
+在CodBusiTicketQuestionNewController 增加 /wdgj/busi_ticket_question_new/questionExceptionTicketZb 接口
+1.放在包org.springblade.modules.wdgj.ticketquestion下
+2.标准的controller-> service -> mapper(xml) mapper层要使用mybatisplus sql语句要放在xml文件中 xml文件和mapper文件放在同一个mapper包下 service要新建类
+3.controller的入参命名规则XXXRequest,入参命名规则XXXResponse 放在包的子包request和response下面
+4.controller和service共用入参和出参 要和mapper层中入参和出参 要分离 方便维护
+5.mapper接口入参大于2个的使用DTO来传递
+6.表结构在sql目录下，一个表对应一个mapper，entity放在mapper.entity包下，要满足mybatisplus的规范 列出所有的表字段
+  多表查询的话 sql语句放在主表的mapper下
+7. controller的入参为
+   {
+  "ticketId": "4320000000000001",//运单号
+  "remark": "反馈详情",//反馈详情
+  "operateType": 0 //反馈类型 
+}
+8. 入参和出参的 字段都要标准的驼峰命名方式
+9. 主要的逻辑为
+   1)入参判断
+     operateType 和 ticketId 不能为空
+     operateType ==1 时，remark不能为空
+  2） 更新数据
+    a）入参operateType == 1
+     feedback_type 设置为FeedbackTypeEnum.REJECT.getCode()
+    b）其他
+     feedback_type 设置为FeedbackTypeEnum.HEAD_FEEDBACK.getCode()
+    UPDATE cod_busi_ticket_question SET feedback_type = ？ where ticket_id = ？
+  3）增加反馈记录
+     role设置为 "产品运营组(63001872)"
+    INSERT INTO cod_busi_ticket_question_feedback(ticket_id,role,content,feedback_type,create_time,feedback_time) value (?,?,?,?,?,?)
