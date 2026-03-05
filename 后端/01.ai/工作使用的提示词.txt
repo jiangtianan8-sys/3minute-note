@@ -1301,11 +1301,75 @@ DhbController的saveDhbForEntryIsland接口 现在需要跑通进岛费录入的
 }
 3.分析相关的逻辑造出跑通的相关表的数据
 
-OrderJobController增加接口 /updateDhbProvCityCountyTown
+OrderJobController增加接口 /updateDetailJdfReceiverAddress
 1.入参：{
   "jssjStart": "2025-12-01", //结算开始日期
   "jssjEnd": "2025-12-02",   //结算结束日期
 }
 2.根据入参的结算日期查询 detail_jdf表 的数据
-3. 2.查询的数据 列recorddz_province_city_district_town 中值为空的话
-   调用 OrderCenterReorganizeClientWrapper.queryOrder(XXX,true) 获取到收件省名称+ 收件市名称+收件县名称+ 收件镇名称 更新 列recorddz_province_city_district_town
+3.更新ReceiverAddress
+   2.查询的数据 
+   调用 OrderCenterReorganizeClientWrapper.queryOrder(XXX,true) 获取到收件省名称+ 收件市名称+收件县名称+ 收件镇名称+ 详细地址 
+   调用CommonUtil.toUnicode 更新 列receiver_address
+
+detailJdfMapper.queryDetailJdfByJssjRange 请修改成分页查询 避免OOM
+detailJdfMapper.updateById 修改成 在mapper中写 具体的更新语句
+
+
+CodBusiTicketQuestionNewController中 修改货款金额 修改收件人信息 修改地址  重新派送 退回 接口需要增加以下的校验
+1.修改货款金额
+  if (selectRows[0].order_src_type=='1') {
+        $$.showJcdfMessager('提示消息', "淘系单号不可改价", 'warning');
+      } else if(selectRows[0].order_status=='已签收' || selectRows[0].order_status=='已结算待返款' || selectRows[0].order_status=='结算中'
+          || selectRows[0].order_status=='退回签收'|| selectRows[0].order_status=='已返款'){
+        $$.showJcdfMessager('提示消息', "已签收单号不能进行操作", 'warning');
+      }else if(selectRows[0].order_status=='取消代收件' ){
+                $$.showJcdfMessager('提示消息', "取消代收件单号不能再进行操作", 'warning');
+      }
+
+      4 6 7 8 B
+2.修改收件人信息
+  if(selectRows[0].order_status=='已签收' || selectRows[0].order_status=='已结算待返款' || selectRows[0].order_status=='结算中'
+          || selectRows[0].order_status=='退回签收'|| selectRows[0].order_status=='已返款'){
+        $$.showJcdfMessager('提示消息', "已签收单号不能进行操作", 'warning');
+      }else if(selectRows[0].order_status=='取消代收件' ){
+                $$.showJcdfMessager('提示消息', "取消代收件单号不能再进行操作", 'warning');
+            }
+3.修改地址
+  if(selectRows[0].order_status=='已签收' || selectRows[0].order_status=='已结算待返款' || selectRows[0].order_status=='结算中'
+          || selectRows[0].order_status=='退回签收'|| selectRows[0].order_status=='已返款'){
+        $$.showJcdfMessager('提示消息', "已签收单号不能进行操作", 'warning');
+      }else if(selectRows[0].order_status=='取消代收件' ){
+                $$.showJcdfMessager('提示消息', "取消代收件单号不能再进行操作", 'warning');
+            }
+4.重新派送
+  if(selectRows[0].order_status=='已签收' || selectRows[0].order_status=='已结算待返款' || selectRows[0].order_status=='结算中'
+          || selectRows[0].order_status=='退回签收'|| selectRows[0].order_status=='已返款'){
+        $$.showJcdfMessager('提示消息', "已签收单号不能进行操作", 'warning');
+      }else if(selectRows[0].order_status=='取消代收件' ){
+                $$.showJcdfMessager('提示消息', "取消代收件单号不能再进行操作", 'warning');
+            }
+5.退回
+  if(selectRows[0].order_status=='已签收' || selectRows[0].order_status=='已结算待返款' || selectRows[0].order_status=='结算中'
+          || selectRows[0].order_status=='退回签收'|| selectRows[0].order_status=='已返款'){
+        $$.showJcdfMessager('提示消息', "已签收单号不能进行操作", 'warning');
+      }else if(selectRows[0].order_status=='取消代收件' ){
+                $$.showJcdfMessager('提示消息', "取消代收件单号不能再进行操作", 'warning');
+            }
+
+
+
+参照 接口文档 /doc/电商管理后台 API 接口文档.md 对接下 登录功能
+
+
+我现在有一段 Java Spring Boot 的 Controller 代码。请分析其中的 @RequestMapping, @GetMapping, @PostMapping 等注解，以及方法参数（如 @RequestBody, @RequestParam, @PathVariable）。
+请根据这些代码，直接生成一个符合 Postman Collection v2.1 格式的 JSON 文件内容。
+要求：
+所有的接口路径要完整。
+如果有 RequestBody，请根据 DTO 类名（或字段推断）生成一个示例 JSON。
+设置基础路径变量为 {{baseUrl}}。
+返回格式必须是纯 JSON，以便我直接保存为 .json 文件并导入 Postman。
+JOSN文件放到doc/postman目录下
+
+
+费用录入限额维护-新增接口 生成postman 可以导入的json
