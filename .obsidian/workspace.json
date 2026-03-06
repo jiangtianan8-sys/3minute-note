@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/20.python/02.python基础/课件/day03/11_运算符.md",
+                "file": "后端/20.python/02.python基础/课件/day05/高级变量类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11_运算符"
+              "title": "高级变量类型"
             }
           }
         ]
@@ -209,6 +209,9 @@
   },
   "active": "5f7172ca17dc7a27",
   "lastOpenFiles": [
+    "后端/20.python/02.python基础/课件/day04/函数基础.md",
+    "后端/20.python/02.python基础/课件/day03/12_循环.md",
+    "后端/20.python/02.python基础/课件/day03/11_运算符.md",
     "后端/20.python/02.python基础/课件/day03/10_判断（if）语句.md",
     "后端/20.python/02.python基础/课件/day03/09_变量的命名.md",
     "git/git commit之后，想撤销commit.md",
@@ -244,9 +247,6 @@
     "后端/02.java/04.util.concurrent/06.基础相关/正确理解ThreadLocal.md",
     "后端/02.java/04.util.concurrent/06.基础相关/证明32位java对long和double的写操作不是原子性的.md",
     "后端/02.java/04.util.concurrent/06.基础相关/线程里面使用注解(线程里面spring使用注解无法注入值的解决办法).md",
-    "后端/02.java/04.util.concurrent/06.基础相关/spring(基础20) threadLocal在spring框架中的运用.md",
-    "后端/02.java/04.util.concurrent/06.基础相关/什么时候使用CountDownLatch.md",
-    "后端/02.java/04.util.concurrent/06.基础相关/你真的理解CountDownLatch与CyclicBarrier使用场景吗？.md",
     "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
     "后端/02.java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/02.java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
