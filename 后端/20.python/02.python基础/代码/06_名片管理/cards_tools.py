@@ -88,10 +88,14 @@ def search_card():
 修改和删除名片
 """
 def deal_card(find_dict):
-    print("*" * 50)
-    print("")
-    print("1. 修改名片")
-    print("2. 删除名片")
-    print("")
-    print("0. 返回上级菜单")
-    print("*" * 50)
+    print(find_dict)
+    action_str = input("请选择要执行的操作：1. 修改 2. 删除 0. 返回上级菜单")
+    if action_str == "1":
+        find_dict["name"] = input_card_info(find_dict["name"], "请输入姓名：")
+        find_dict["phone"] = input_card_info(find_dict["phone"], "请输入电话：")
+        find_dict["qq"] = input_card_info(find_dict["qq"], "请输入QQ：")
+        find_dict["email"] = input_card_info(find_dict["email"], "请输入邮箱：")
+        print("修改名片成功！")
+    elif action_str == "2":
+        card_list.remove(find_dict)
+        print("删除名片成功！") 
