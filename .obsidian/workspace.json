@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/20.python/02.python基础/课件/day06/综合应用 —— 名片管理系统.md",
+                "file": "后端/20.python/02.python基础/课件/day07/变量进阶（理解）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "综合应用 —— 名片管理系统"
+              "title": "变量进阶（理解）"
             }
           }
         ]
@@ -209,6 +209,9 @@
   },
   "active": "5f7172ca17dc7a27",
   "lastOpenFiles": [
+    "后端/20.python/02.python基础/课件/day07/函数进阶.md",
+    "后端/20.python/02.python基础/课件/day07/变量进阶（理解）.md",
+    "后端/20.python/02.python基础/课件/day06/综合应用 —— 名片管理系统.md",
     "后端/20.python/02.python基础/代码/06_名片管理/__pycache__/cards_tools.cpython-314.pyc",
     "后端/20.python/02.python基础/代码/06_名片管理/__pycache__",
     "后端/20.python/02.python基础/代码/06_名片管理/cards_tools.py",
@@ -233,7 +236,6 @@
     "后端/02.java/50.java版本/03.jdk21/JDK 21新特性全面解析.md",
     "外语/英语/duolinguo/多邻国会员.md",
     "工具/ytdlp/yt-dlp使用命令.txt",
-    "工具/ytdlp",
     "后端/01.ai/01.prompt/背单词项目.md",
     "后端/01.ai/01.prompt/提问技巧.md",
     "后端/02.java/50.java版本/02.java8/java8 快速实现List转map 、分组、过滤等操作.md",
@@ -245,8 +247,6 @@
     "后端/02.java/50.java版本/02.java8/Java 8 Time Api 使用指南-珍藏限量版.md",
     "后端/02.java/50.java版本/01.java7/Java 7中的Try-with-resources.md",
     "后端/02.java/50.java版本/01.java7/Java 7 的7个新特性.md",
-    "后端/02.java/04.util.concurrent/06.基础相关/【Java 并发】详解 ThreadLocal.md",
-    "后端/02.java/04.util.concurrent/06.基础相关/正确使用 Volatile 变量.md",
     "外语/英语/duolinguo/assets/多邻国会员/file-20251203155841159.png",
     "后端/02.java/04.util.concurrent/02.Java Concurrency/assets/深入浅出 Java Concurrency (1)  J.U.C的整体认识/file-20251202193242543.png",
     "后端/02.java/04.util.concurrent/01.并发编程视频/assets/5.1 并发Queue/file-20251202100210183.png",
