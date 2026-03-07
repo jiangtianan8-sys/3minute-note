@@ -16,16 +16,19 @@ def show_menu():
 创建名片
 """
 def create_card():
+    print("-" * 50)
     print("创建名片")
 
 """
 显示全部名片
 """
 def show_all():
+    print("-" * 50)
     print("显示全部名片")
 
 """
 查询名片
 """
 def search_card():
+    print("-" * 50)
     print("查询名片")
