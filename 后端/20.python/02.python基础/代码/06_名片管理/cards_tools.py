@@ -89,7 +89,8 @@ def search_card():
 """
 def deal_card(find_dict):
     print(find_dict)
-    action_str = input("请选择要执行的操作：1. 修改 2. 删除 0. 返回上级菜单")
+    action_str = input("请选择要执行的操作：" \
+    "1. 修改 2. 删除 0. 返回上级菜单")
     if action_str == "1":
         find_dict["name"] = input_card_info(find_dict["name"], "请输入姓名：")
         find_dict["phone"] = input_card_info(find_dict["phone"], "请输入电话：")
