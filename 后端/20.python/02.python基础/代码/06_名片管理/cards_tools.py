@@ -83,4 +83,15 @@ def search_card():
             break
     else:
         print("抱歉没有找到 %s 的名片！" % find_name)
-      
+
+"""
+修改和删除名片
+"""
+def deal_card(find_dict):
+    print("*" * 50)
+    print("")
+    print("1. 修改名片")
+    print("2. 删除名片")
+    print("")
+    print("0. 返回上级菜单")
+    print("*" * 50)
