@@ -43,6 +43,21 @@ def create_card():
 def show_all():
     print("-" * 50)
     print("显示全部名片")
+    #1. 判断是否存在名片记录，如果没有，提示用户并且返回
+    if len(card_list) == 0:
+        print("当前没有任何名片记录，请使用创建功能添加名片！")
+        return
+    #2. 打印表头
+    for name in ["姓名", "电话", "QQ", "邮箱"]:
+        print(name, end="\t\t")
+    print("")
+    print("=" * 50)
+    #3. 遍历名片列表依次输出字典信息
+    for card_dict in card_list:
+        print("%s\t\t%s\t\t%s\t\t%s" % (card_dict["name"],
+                                        card_dict["phone"],
+                                        card_dict["qq"],
+                                        card_dict["email"]))  
 
 """
 查询名片
