@@ -4,7 +4,7 @@ while True:
   # TODO 显示功能菜单
   cards_tools.show_menu()
 
-  action_str = input("请选择希望执行的操作：")
+  action_str = input("请选择1希望执行的操作：")
 
   #1,2,3 针对名片的操作
   if action_str in ["1", "2", "3"]:
