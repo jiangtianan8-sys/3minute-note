@@ -57,7 +57,8 @@ def show_all():
         print("%s\t\t%s\t\t%s\t\t%s" % (card_dict["name"],
                                         card_dict["phone"],
                                         card_dict["qq"],
-                                        card_dict["email"]))  
+                                        card_dict["email"]))
+        
 
 """
 查询名片
