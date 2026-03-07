@@ -66,3 +66,19 @@ def show_all():
 def search_card():
     print("-" * 50)
     print("查询名片")
+
+    #1. 提示用户输入要查询的姓名
+    find_name = input("请输入要查询的姓名：")
+    #2. 遍历名片列表，查询要查找的姓名，如果没有找到，需要提示用户
+    for card_dict in card_list:
+        if card_dict["name"] == find_name:
+            print("姓名\t\t电话\t\tQQ\t\t邮箱")
+            print("=" * 50)
+            print("%s\t\t%s\t\t%s\t\t%s" % (card_dict["name"],
+                                            card_dict["phone"],
+                                            card_dict["qq"],
+                                            card_dict["email"]))
+            break
+    else:
+        print("抱歉没有找到 %s 的名片！" % find_name)
+      
