@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/20.python/02.python基础/课件/day07/函数进阶.md",
+                "file": "后端/20.python/99.个人总结/@staticmethod @classmethod.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "函数进阶"
+              "title": "@staticmethod @classmethod"
             }
           }
         ]
@@ -209,29 +209,31 @@
   },
   "active": "5f7172ca17dc7a27",
   "lastOpenFiles": [
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006092456994/004_Cat类2.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/硬盘.jpg",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/内存条.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/CPU.jpg",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/015_多继承II.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/014_多继承.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/013_父类的私有属性和私有方法.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/012_继承方法的重写.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/011_继承对比图示.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15016413216376/023_单例流程.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15016413216376/022_对象分配空间和初始化.png",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15016413216376",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15019810951755",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15016413521006",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15016413127744",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15012536156932",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006305884400",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006304901683",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006177106970",
-    "后端/20.python/03python核心编程阶段-面向对象/课件/面向对象_html/media/15006092456994",
-    "后端/20.python/02.python基础/课件/day07/变量进阶（理解）.md",
+    "后端/20.python/99.个人总结/python类的特殊方法（魔法方法）.md",
+    "后端/20.python/99.个人总结/@staticmethod @classmethod.md",
+    "后端/20.python/99.个人总结/python中的类.md",
     "后端/20.python/02.python基础/课件/day07/函数进阶.md",
+    "后端/20.python/99.个人总结",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006092456994/004_Cat类2.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/硬盘.jpg",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/内存条.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/14951694921910/CPU.jpg",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/015_多继承II.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/014_多继承.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/013_父类的私有属性和私有方法.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/012_继承方法的重写.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794/011_继承对比图示.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15016413216376/023_单例流程.png",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15016413216376",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15019810951755",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15016413521006",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15016413127744",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15012536156932",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006307099794",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006305884400",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006304901683",
+    "后端/20.python/03.python核心编程阶段-面向对象/课件/面向对象_html/media/15006177106970",
+    "后端/20.python/02.python基础/课件/day07/变量进阶（理解）.md",
     "后端/20.python/02.python基础/课件/day06/综合应用 —— 名片管理系统.md",
     "后端/20.python/02.python基础/课件/day06/高级变量类型.md",
     "后端/20.python/02.python基础/课件/day05/高级变量类型.md",
@@ -252,8 +254,6 @@
     "后端/02.java/50.java版本/02.java8/java8 快速实现List转map 、分组、过滤等操作.md",
     "后端/02.java/50.java版本/02.java8/Java一句代码求出List中的最大值对象.md",
     "后端/02.java/50.java版本/02.java8/Java8根据LocalDateTime获取周一.md",
-    "后端/02.java/50.java版本/02.java8/Java8 FlatMap的使用.md",
-    "后端/02.java/50.java版本/02.java8/Java 8 Time Api 使用指南-珍藏限量版.md",
-    "后端/02.java/50.java版本/01.java7/Java 7中的Try-with-resources.md"
+    "后端/02.java/50.java版本/02.java8/Java8 FlatMap的使用.md"
   ]
 }
